@@ -1,0 +1,56 @@
+name: Scrape & Deploy
+
+on:
+  schedule:
+    # Every hour at minute 15
+    - cron: "15 * * * *"
+  workflow_dispatch:   # manual trigger from GitHub UI
+  push:
+    branches: [main]   # also run on push to main
+
+permissions:
+  contents: write      # needed to push to gh-pages
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Restore previous data so we keep article history
+      - name: Restore previous data
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: _prev
+        continue-on-error: true   # first run won't have gh-pages yet
+
+      - name: Merge previous data
+        run: |
+          if [ -d _prev/data ]; then
+            cp -r _prev/data/* site/data/ 2>/dev/null || true
+          fi
+          if [ -d _prev/logo_cache ]; then
+            cp -r _prev/logo_cache/* site/logo_cache/ 2>/dev/null || true
+          fi
+
+      - name: Run build script
+        run: python scripts/build.py
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          force_orphan: true
