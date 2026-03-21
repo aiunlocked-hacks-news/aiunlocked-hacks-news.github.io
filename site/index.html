@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Unlocked — Daily AI News &amp; Updates</title>
+    <meta name="description" content="Stay up to date with the latest AI news, research papers, model releases, and industry deals — curated and summarised daily." />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+    <!-- ═══════════════════  HEADER  ═══════════════════ -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="./" class="logo">
+                <img class="logo-icon" src="assets/favicon.svg" alt="AI Unlocked" width="36" height="36" />
+                <span class="logo-text">AI <span class="accent">Unlocked</span></span>
+            </a>
+
+            <p class="tagline">Your daily AI news — curated &amp; summarised</p>
+
+            <div class="header-actions">
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="Search AI news…" autocomplete="off" />
+                </div>
+                <button id="themeToggle" class="btn btn-icon" title="Toggle dark / light mode">
+                    🌙
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ═══════════════════  STATS BAR  ═══════════════════ -->
+    <section class="stats-bar">
+        <div class="container stats-inner">
+            <div class="stat">
+                <span class="stat-value" id="statTotal">—</span>
+                <span class="stat-label">Total Articles</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="statToday">—</span>
+                <span class="stat-label">Today</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="statCategories">—</span>
+                <span class="stat-label">Categories</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="lastUpdated">—</span>
+                <span class="stat-label">Last Updated</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  MAIN CONTENT  ═══════════════════ -->
+    <main class="container main-grid">
+
+        <!-- Sidebar: Categories -->
+        <aside class="sidebar">
+            <h3 class="sidebar-title">Categories</h3>
+            <ul id="categoryList" class="category-list">
+                <li><button class="cat-btn active" data-category="">All</button></li>
+                <!-- filled by JS -->
+            </ul>
+        </aside>
+
+        <!-- Articles -->
+        <section class="articles-section">
+            <div class="articles-header">
+                <h2 id="sectionTitle">Latest AI News</h2>
+                <span class="article-count" id="articleCount"></span>
+            </div>
+
+            <div id="articlesGrid" class="articles-grid">
+                <!-- Loading skeleton -->
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+
+            <div id="emptyState" class="empty-state" style="display:none">
+                <span class="empty-icon">📡</span>
+                <h3>No articles found</h3>
+                <p>Try a different search or category.</p>
+            </div>
+
+            <!-- Pagination -->
+            <div id="pagination" class="pagination"></div>
+        </section>
+    </main>
+
+    <!-- ═══════════════════  FOOTER  ═══════════════════ -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <img src="assets/favicon.svg" alt="AI Unlocked" width="32" height="32" style="margin: 0 auto 10px; display: block; opacity: 0.6;" />
+            <p>
+                <strong>AI Unlocked</strong> — your daily dose of AI news, curated and summarised.<br/>
+                Built with ❤️ for the AI community.
+            </p>
+            <p class="footer-small">Updated every hour&ensp;·&ensp;Powered by AI Unlocked</p>
+        </div>
+    </footer>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>
