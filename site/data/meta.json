@@ -1,0 +1,36 @@
+{
+  "total_articles": 50,
+  "today": 2,
+  "categories": 5,
+  "category_list": [
+    {
+      "category": "Industry",
+      "cnt": 19
+    },
+    {
+      "category": "Research",
+      "cnt": 15
+    },
+    {
+      "category": "Company Updates",
+      "cnt": 8
+    },
+    {
+      "category": "Tutorials",
+      "cnt": 7
+    },
+    {
+      "category": "Open Source",
+      "cnt": 1
+    }
+  ],
+  "colours": {
+    "Research": "#6C5CE7",
+    "Industry": "#00B894",
+    "Company Updates": "#0984E3",
+    "Open Source": "#E17055",
+    "Research Papers": "#A29BFE",
+    "Tutorials": "#FDCB6E"
+  },
+  "built_at": "2026-03-21T06:35:53.813223"
+}

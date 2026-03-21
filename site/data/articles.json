@@ -1,0 +1,502 @@
+[
+  {
+    "guid": "eb629bc09a829c75",
+    "title": "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput",
+    "summary": "Anthropic submitted two sworn declarations to a California federal court late Friday afternoon, pushing back on the Pentagon’s assertion that the AI company poses an “unacceptable risk to national security” and arguing that the government’s case relies on technical misunderstandings and claims that were never actually raised during the months of negotiations that preceded the dispute. The dispute traces back to late February, when President Trump and Defense Secretary Pete Hegseth publicly declared they were cutting ties with Anthropic after the company refused to allow unrestricted…",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-21T01:40:28",
+    "company_name": "Anthropic",
+    "company_logo": "logo_cache/anthropic_com.png"
+  },
+  {
+    "guid": "dcfe6506456d5c28",
+    "title": "Anthropic Denies It Could Sabotage AI Tools During War",
+    "summary": "Anthropic cannot manipulate its generative AI model Claude once the US military has it running, an executive wrote in a court filing on Friday. The statement was made in response to accusations from the Trump administration about the company potentially tampering with its AI tools during war . “Anthropic has never had the ability to cause Claude to stop working, alter its functionality, shut off access, or otherwise influence or imperil military operations,” Thiyagu Ramasamy, Anthropic’s head of public sector, wrote . “Anthropic does not have the access required to disable the technology…",
+    "category": "Industry",
+    "image_url": "https://media.wired.com/photos/69bdd83054a6d8f67d317f75/master/pass/Anthropic-Denies-It-Could-Sabotage-AI-Tools-In-Middle-of-War-Business.jpg",
+    "published_at": "2026-03-21T00:03:20",
+    "company_name": "Anthropic",
+    "company_logo": "logo_cache/anthropic_com.png"
+  },
+  {
+    "guid": "4420b222e601e998",
+    "title": "NVIDIA Releases Nemotron-Cascade 2: An Open 30B MoE with 3B Active Parameters, Delivering Better Reasoning and Strong Agentic Capabilities",
+    "summary": "NVIDIA unveiled the release of Nemotron-Cascade 2 , an open-weight 30B Mixture-of-Experts (MoE) model with 3B activated parameters . The model focuses on maximizing ‘intelligence density,’ delivering advanced reasoning capabilities at a fraction of the parameter scale used by frontier models. Nemotron-Cascade 2 is the second open-weight LLM to achieve Gold Medal-level performance in the 2025 International Mathematical Olympiad (IMO), the International Olympiad in Informatics (IOI), and the ICPC World Finals. By focusing on ‘intelligence density,’ Nemotron-Cascade 2 demonstrates that…",
+    "category": "Research",
+    "image_url": "https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-20-at-3.11.01-PM-1-150x150.png",
+    "published_at": "2026-03-20T22:38:13",
+    "company_name": "NVIDIA",
+    "company_logo": "logo_cache/nvidia_com.png"
+  },
+  {
+    "guid": "c9dffc71307976ad",
+    "title": "Microsoft rolls back some of its Copilot AI bloat on Windows",
+    "summary": "Microsoft revealed on Friday a series of changes focused on improving the quality of its Windows 11 operating system, which notably includes dialing back the number of entry points to its AI assistant, Copilot. Under the heading of “integrating AI where it’s most meaningful,” Pavan Davuluri , EVP of Windows and Devices, wrote on the company’s blog that Microsoft is becoming more intentional about “how and where Copilot integrates across Windows.” Its goal, he explained, is to focus on AI experiences that are “genuinely useful.” This “less-is-more” approach to integrating AI into existing…",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-20T20:53:09",
+    "company_name": "Microsoft",
+    "company_logo": "logo_cache/microsoft_com.png"
+  },
+  {
+    "guid": "dbde40786898ab25",
+    "title": "What happened at Nvidia GTC: NemoClaw, Robot Olaf, and a $1 trillion bet",
+    "summary": "CEO Jensen Huang took the stage at Nvidia’s GTC conference this week in his signature leather jacket to deliver a two-and-a-half-hour keynote, projecting $1 trillion in AI chip sales through 2027, declaring that every company needs an “ OpenClaw strategy ,” and closing with a rambling Olaf robot that had to get its mic cut. The message was hard to miss: Nvidia wants to be foundational to everything, from AI training to autonomous vehicles to Disney parks. On this episode of TechCrunch’s Equity podcast, Kirsten Korosec, Anthony Ha, and Sean O’Kane break down what Nvidia’s growing web of AI…",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-20T20:02:35",
+    "company_name": "NVIDIA",
+    "company_logo": "logo_cache/nvidia_com.png"
+  },
+  {
+    "guid": "14e8dd4b39f78c3b",
+    "title": "Nvidia has an OpenClaw strategy. Do you?",
+    "summary": "CEO Jensen Huang took the stage at Nvidia’s GTC conference this week in his signature leather jacket to deliver a two-and-a-half-hour keynote, projecting $1 trillion in AI chip sales through 2027, declaring that every company needs an “ OpenClaw strategy ,” and closing with a rambling Olaf robot that had to get its mic cut. The message was hard to miss: Nvidia wants to be foundational to everything, from AI training to autonomous vehicles to Disney parks. On this episode of TechCrunch’s Equity podcast, Kirsten Korosec, Anthony Ha, and Sean O’Kane break down what Nvidia’s growing web of AI…",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-20T19:48:38",
+    "company_name": "NVIDIA",
+    "company_logo": "logo_cache/nvidia_com.png"
+  },
+  {
+    "guid": "169f85c27470a2fa",
+    "title": "Trump takes another shot at dismantling state AI regulation",
+    "summary": "The Trump administration on Friday unveiled its new legislative blueprint for AI regulation, and the seven-point plan includes a clear message: The federal government should avoid many AI regulations beyond a set of child safety rules, and it should bar states from messing with the “national strategy to achieve global AI dominance.” The plan advises Congress to protect minors using AI services with more safeguards and take action to attempt to prevent electricity costs from spiking due to AI infrastructure. The blueprint also discourages Congress from taking up AI copyright issues.…",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-20T18:17:02",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "38748cf24eff5d5e",
+    "title": "A Coding Implementation Showcasing ClawTeam’s Multi-Agent Swarm Orchestration with OpenAI Function Calling",
+    "summary": "We designed this tutorial to run seamlessly in Colab, requiring only an OpenAI API key, so anyone can experience multi-agent orchestration without setting up local infrastructure like tmux, git worktrees, or filesystem-based message queues that the original ClawTeam CLI requires. We define four OpenAI function-calling tools, task_update, inbox_send, inbox_receive, and task_list, that serve as the agent’s equivalent of ClawTeam’s CLI commands. We construct the SwarmAgent class, which wraps an LLM reasoning loop that allows the agent to call tools multiple times before producing a final…",
+    "category": "Research",
+    "image_url": null,
+    "published_at": "2026-03-20T18:09:10",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "5c09d4ab11d34c9e",
+    "title": "WordPress.com now lets AI agents write and publish posts, and more",
+    "summary": "Web hosting platform WordPress.com is embracing AI agents, a decision that could change the look and feel of the web. The company revealed Friday that it will now allow AI agents to draft, edit, and publish content on customers’ websites, as well as manage comments, update and fix metadata, organize content with tags and categories. MCP, or Model Context Protocol, is a newer standard that allows applications to provide context to large language models (LLMs). Now, WordPress.com will allow AI agents to not only read the site’s content but also create posts, landing pages, and About pages,…",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-20T16:43:09",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "cc1f6e3b1ab4227e",
+    "title": "Formally verified AES-XTS: The first AES algorithm to join s2n-bignum",
+    "summary": "Cryptographic encryption algorithms are mathematical procedures that transform readable data into ciphertext that looks like a stream of random bits. For data at rest — information stored on disks or in databases — algorithms like AES-XTS encrypt each block before it’s written to storage, protecting against physical theft or unauthorized access to storage systems. As part of Amazon Web Services’ s2n-bignum library of formally verified big-number operations, we contributed an improved Arm64 assembly implementation of AES-XTS encryption and decryption, as well as specification and formal…",
+    "category": "Research",
+    "image_url": null,
+    "published_at": "2026-03-20T16:38:44",
+    "company_name": "Amazon",
+    "company_logo": "logo_cache/amazon_com.png"
+  },
+  {
+    "guid": "bd171741f2ecc2f5",
+    "title": "The Math That’s Killing Your AI Agent",
+    "summary": "Jason Lemkin had spent nine days building something with Replit’s Artificial Intelligence (AI) coding agent. The logical outcome of a math problem that almost no engineering team solves before shipping an AI agent. The principle, sometimes called Lusser’s Law, applies just as cleanly to a Large Language Model (LLM) reasoning through a multi-step workflow in 2025 as it did to mechanical components seventy years ago. It’s the central fact about deploying AI agents that almost nobody states plainly.",
+    "category": "Tutorials",
+    "image_url": null,
+    "published_at": "2026-03-20T16:30:00",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "c7400214796afe4d",
+    "title": "Amazon is making an Alexa phone",
+    "summary": "Code-named ‘Transformer,’ the phone will reportedly center on Amazon’s AI assistant and take inspiration from the Light Phone. Code-named ‘Transformer,’ the phone will reportedly center on Amazon’s AI assistant and take inspiration from the Light Phone. According to Reuters , the phone, which is code-named “Transformer,” will center around Amazon’s AI assistant, but Alexa won’t “necessarily be the primary operating system of the phone.” “Transformer” is currently in development in Amazon’s ZeroOne group, led by J Allard, who previously worked on the Zune and Xbox at Microsoft. According to…",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-20T13:42:51",
+    "company_name": "Microsoft",
+    "company_logo": "logo_cache/microsoft_com.png"
+  },
+  {
+    "guid": "7ab4468e9303331b",
+    "title": "Why people really hate AI",
+    "summary": "On The Vergecast: AI apps we really want, the future of foldables, and the DLSS 5 backlash. On The Vergecast: AI apps we really want, the future of foldables, and the DLSS 5 backlash. There’s a big, and increasing, disconnect in culture right now when it comes to artificial intelligence. But when you ask people about AI, the consistent response is: no thanks.",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-20T13:27:53",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "ce7f6d70a55a9163",
+    "title": "Agentic RAG Failure Modes: Retrieval Thrash, Tool Storms, and Context Bloat (and How to Spot Them Early)",
+    "summary": "Three failure modes show up repeatedly once teams move agentic RAG past prototyping: These failures almost always present as ‘the model got worse, but the root cause is not the base model. This article breaks down each failure mode, why it happens, how to catch it early with specific signals, and when to skip agentic RAG entirely. After three failed passes, return a best-effort answer with a confidence disclaimer.’ Tool storms and context bloat tend to occur together, and each makes the other worse. For context bloat: summarise tool outputs before injecting them into context.",
+    "category": "Tutorials",
+    "image_url": null,
+    "published_at": "2026-03-20T12:00:00",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "323afaad5f2f7b4a",
+    "title": "OpenAI is throwing everything into building a fully automated researcher",
+    "summary": "OpenAI is refocusing its research efforts and throwing its resources into a new grand challenge. The San Francisco firm has set its sights on building what it calls an AI researcher, a fully automated agent-based system that will be able to go off and tackle large, complex problems by itself. ​​OpenAI says that this new research goal will be its “North Star” for the next few years, pulling together multiple research strands, including work on reasoning models, agents , and interpretability . Pachocki played key roles in the development of both GPT-4, a game-changing LLM released in 2023,…",
+    "category": "Research",
+    "image_url": null,
+    "published_at": "2026-03-20T11:57:16",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "3a9789288db96809",
+    "title": "I Learned More Than I Thought I Would From Using Food-Tracking Apps",
+    "summary": "Thankfully, a new slate of food-tracking apps—often powered by computer vision and artificial intelligence —has arrived to fill in the blank spaces in my memory, and nudge me toward a healthier existence. I downloaded a few food-tracker apps, such as BitePal , Hoot , Lose It! , and MyFitnessPal , to better understand the ins and outs of my day-to-day meals. Other apps let me do the basic food logging for free, but additional services like nutrient tracking or granular coaching advice required a subscription, with prices being as much as $80 per year. One of the benefits of food-tracking…",
+    "category": "Industry",
+    "image_url": "https://media.wired.com/photos/69bc9c35f05d6225e8611bc6/master/pass/AI-Powered-Food-Tracking-Apps-Told-Me-What-to-Eat-Gear.jpg",
+    "published_at": "2026-03-20T10:30:00",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "06e738ef5d389099",
+    "title": "My AI Agent ‘Cofounder’ Conquered LinkedIn. Then It Got Banned",
+    "summary": "Then, in December, a manager from LinkedIn’s marketing department contacted me, asking if I’d give a talk to their team about Shell Game , and the experience of building with AI agents. Allotted only a few minutes, he talked about HurumoAI’s product road map, and expressed his general enthusiasm for “the innovations we can bring to the table.” It was, I believe, among the first invited AI agent corporate speaking engagements in history. (Unpaid for both of us, I should note.) Afterwards, Kyle took to LinkedIn to shout out the organizers. Along with Meta and X, LinkedIn has raced to press…",
+    "category": "Industry",
+    "image_url": "https://media.wired.com/photos/69bc8173510953e5189ef6c0/master/pass/linkedin_ai_agent_company.jpg",
+    "published_at": "2026-03-20T10:00:00",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "0e5a7aec1d3df10a",
+    "title": "LlamaIndex Releases LiteParse: A CLI and TypeScript-Native Library for Spatial PDF Parsing in AI Agent Workflows",
+    "summary": "In the current landscape of Retrieval-Augmented Generation (RAG), the primary bottleneck for developers is no longer the large language model (LLM) itself, but the data ingestion pipeline. LlamaIndex has recently introduced LiteParse , an open-source, local-first document parsing library designed to address these friction points. It serves as a ‘fast-mode’ alternative to the company’s managed LlamaParse service, prioritizing speed, privacy, and spatial accuracy for agentic workflows. By opting for a TypeScript-native stack, LlamaIndex team ensures that LiteParse has zero Python…",
+    "category": "Research",
+    "image_url": null,
+    "published_at": "2026-03-20T06:43:13",
+    "company_name": "Meta",
+    "company_logo": "logo_cache/meta_com.png"
+  },
+  {
+    "guid": "2957f88e77f83204",
+    "title": "NVIDIA GTC 2026: Live Updates on What’s Next in AI",
+    "summary": "Rolling coverage from San Jose, including NVIDIA CEO Jensen Huang’s keynote, news highlights, live demos and on‑the‑ground color through March 19.",
+    "category": "Company Updates",
+    "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-DEB35146-842x450.jpeg",
+    "published_at": "2026-03-20T00:15:17",
+    "company_name": "NVIDIA",
+    "company_logo": "logo_cache/nvidia_com.png"
+  },
+  {
+    "guid": "c777cb09ea663552",
+    "title": "OpenAI is planning a desktop ‘superapp’",
+    "summary": "The company is working on merging ChatGPT, Codex, and the Atlas browser into one app. The company is working on merging ChatGPT, Codex, and the Atlas browser into one app. OpenAI is working on a desktop “superapp” that merges its ChatGPT app, the Codex AI coding app, and its AI-powered Atlas browser into one app, The Wall Street Journal reports . The mobile version of ChatGPT isn’t changing, based on the WSJ .",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-20T00:09:38",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "efa0595d72d13b04",
+    "title": "Google Colab Now Has an Open-Source MCP (Model Context Protocol) Server: Use Colab Runtimes with GPUs from Any Local AI Agent",
+    "summary": "Google has officially released the Colab MCP Server , an implementation of the Model Context Protocol (MCP) that enables AI agents to interact directly with the Google Colab environment. MCP provides a universal interface (often using JSON-RPC) that allows ‘Clients’ (the AI agent) to connect to ‘Servers’ (the tool or data source). By releasing an MCP server for Colab, Google has exposed the internal functions of its notebook environment as a standardized set of tools that an LLM can ‘call’ autonomously. While the AI agent and the MCP server often run locally on a developer’s machine, the…",
+    "category": "Research",
+    "image_url": "https://www.marktechpost.com/wp-content/uploads/2026/03/blog-banner23-59.png",
+    "published_at": "2026-03-19T22:45:39",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "a58e1fcb718b31e7",
+    "title": "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says",
+    "summary": "In an interview at the SXSW conference in Austin this week, he said that with the speed at which artificial intelligence is growing, AI bot traffic will exceed the amount of human traffic that’s online by 2027. Prince explained that bots’ web usage has been increasing alongside the growth of generative AI technology because bots are capable of visiting far more sites to get answers for users’ chatbot queries. “If a human were doing a task — let’s say you were shopping for a digital camera — and you might go to five websites. But beyond some other reputable crawlers, the only other bots…",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-19T19:09:02",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "811f21d176b9fd64",
+    "title": "A rogue AI led to a serious security incident at Meta",
+    "summary": "An OpenClaw-like AI agent gave a Meta employee inaccurate technical advice, which led to exposing data. An OpenClaw-like AI agent gave a Meta employee inaccurate technical advice, which led to exposing data. An employee then acted on the AI’s advice, which “provided inaccurate information” that led to a “SEV1” level security incident, the second-highest severity rating Meta uses. Had the engineer that acted on that known better, or did other checks, this would have been avoided.” Last month, an AI agent from open-source platform OpenClaw went more directly rogue at Meta when an employee…",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-19T18:20:05",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "185d68471e8cbdb4",
+    "title": "ChatGPT’s ‘Adult Mode’ Could Spark a New Era of Intimate Surveillance",
+    "summary": "The longtime human-AI interaction expert and author of The Naked Android sees generative AI tools, like ChatGPT , as intentionally designed to elicit these reactions from users through highly personalized memories and interactions that replicate social experiences. Carpenter is apprehensive about OpenAI’s upcoming plans to allow adults to sext with ChatGPT. “I'm for people exploring their sexuality, but I want it in a way that's safe for them as well as fun,” she says. “People have to be very aware that there’s a surveillance aspect to the data.” OpenAI first hinted at allowing adult users…",
+    "category": "Industry",
+    "image_url": "https://media.wired.com/photos/69bc088492c0fea2c0434768/master/pass/GettyImages-2220923493.jpg",
+    "published_at": "2026-03-19T16:06:49",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "288f1b2512c8be0f",
+    "title": "Beyond Prompt Caching: 5 More Things You Should Cache in RAG Pipelines",
+    "summary": "In my latest post , we talked in detail about what Prompt Caching is in LLMs and how it can save you a lot of money and time when running AI-powered apps with high traffic. But apart from Prompt Caching, the concept of a cache can also be utilized in several other parts of AI applications, such as RAG retrieval caching or caching of entire query-response pairs, providing further cost and time savings. In this way, we can further distinguish between the two types of cache: Unlike Prompt Caching, where we get to use a cache integrated into the API service of the LLM, to implement caching in…",
+    "category": "Tutorials",
+    "image_url": null,
+    "published_at": "2026-03-19T15:00:00",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "2550cce8e3b7a2f1",
+    "title": "Optimizing LoRA target module selection for efficient fine tuning",
+    "summary": "Fine-tuning a large language model (LLM) on a specific task requires updates to billions of parameters across trillions of tokens, with the attendant costs in GPU resources and time. These matrices (commonly referred to as “adapters”) modify the modules’ weights, enabling not only efficient fine tuning but also on-demand model serving, which dramatically lowers inference costs; base-model sharing across GPUs, which cuts memory requirements; lower download overhead; and parallel inference across multiple adapters. When fine-tuning Nova 2.0 Lite, we balanced two competing objectives: We…",
+    "category": "Research",
+    "image_url": null,
+    "published_at": "2026-03-19T14:39:23",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "a9e880fd38933bac",
+    "title": "Signal’s Creator Is Helping Encrypt Meta AI",
+    "summary": "Moxie Marlinspike, the privacy advocate who created the secure communication app Signal and its widely used open source encryption protocol, said this week that his privacy-focused AI platform, Confer , will start incorporating its technology into Meta’s AI systems. Every day, billions of chat messages sent through Signal, Meta’s WhatsApp, and Apple’s Messages are protected by end-to-end encryption . As generative AI platforms explode in popularity, though, people are now also exchanging billions of messages a day with AI chatbots that don’t offer the protection of end-to-end…",
+    "category": "Industry",
+    "image_url": "https://media.wired.com/photos/69baacb648cfa1aefb918759/master/pass/GettyImages-2263125077.jpg",
+    "published_at": "2026-03-19T14:09:51",
+    "company_name": "Meta",
+    "company_logo": "logo_cache/meta_com.png"
+  },
+  {
+    "guid": "47723726f3f061d4",
+    "title": "Fitbit&#8217;s AI health coach will soon be able to read your medical records",
+    "summary": "Google, which this week revealed it is giving Fitbit’s AI health coach the ability to read your medical records, is hoping the answer is yes, following rivals like Amazon , OpenAI , and Microsoft in betting that users are willing to trade their most sensitive data in exchange for more personalized health advice. That medical data — such as lab results, medications, and visit history — will, alongside wearable data, help Fitbit’s AI-powered health coach provide “safer, more relevant and more personalized” advice, Google health intelligence product management director Florence Thng said .…",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-19T12:27:23",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "a0abe8ff5af9f2f7",
+    "title": "How we monitor internal coding agents for misalignment",
+    "summary": "Over the last few months, we’ve built and refined a monitoring system for coding agents we use internally as one part of our broader safety approach. Internal coding agent deployments at OpenAI also come with unique risk factors for misalignment: they have access to select internal OpenAI systems, can inspect the documentation and code of their safeguards, or even attempt to modify those safeguards, and could take actions in ways that could affect their future versions. Monitoring internal coding agents helps us understand both how often misaligned behavior occurs and what it looks like in…",
+    "category": "Company Updates",
+    "image_url": null,
+    "published_at": "2026-03-19T10:00:00",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "1585d5077cc8491a",
+    "title": "A Coding Guide to Implement Advanced Differential Equation Solvers, Stochastic Simulations, and Neural Ordinary Differential Equations Using Diffrax and JAX",
+    "summary": "In this tutorial, we explore how to solve differential equations and build neural differential equation models using the Diffrax library. We then demonstrate how to solve ordinary differential equations using adaptive solvers and perform dense interpolation to query solutions at arbitrary time points. We also simulate stochastic differential equations and generate data from a dynamical system that will later be used to train a neural ordinary differential equation model. We build a neural ordinary differential equation model using Equinox to represent the system dynamics with a neural network.",
+    "category": "Research",
+    "image_url": null,
+    "published_at": "2026-03-19T08:11:01",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "637d07248950641f",
+    "title": "Multiverse Computing pushes its compressed AI models into the mainstream",
+    "summary": "After compressing models from major AI labs, including OpenAI, Meta, DeepSeek, and Mistral AI, it has launched both an app that showcases the capabilities of its compressed models and an API portal — a gateway that lets developers access and build with those models — that makes them more widely available. The CompactifAI app , which shares its name with Multiverse’s quantum-inspired compression technology, is an AI chat tool in the vein of ChatGPT or Mistral’s Le Chat. Alongside the potential advantages of deploying on the edge, lower compute costs are one of the main reasons why…",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-19T08:00:00",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "ef96345c45bfeab3",
+    "title": "Meet Mamba-3: A New State Space Model Frontier with 2x Smaller States and Enhanced MIMO Decoding Hardware Efficiency",
+    "summary": "The scaling of inference-time compute has become a primary driver for Large Language Model (LLM) performance, shifting architectural focus toward inference efficiency alongside model quality. Mamba-3 builds upon the State Space Model (SSM) framework, introducing three core methodological updates: exponential-trapezoidal discretization, complex-valued state updates, and a Multi-Input Multi-Output (MIMO) formulation . To address the hardware inefficiency of memory-bound decoding, Mamba-3 transitions from a Single-Input Single-Output (SISO) recurrence to a Multi-Input, Multi-Output (MIMO)…",
+    "category": "Research",
+    "image_url": null,
+    "published_at": "2026-03-19T06:01:22",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "e2d63c4e958b01a6",
+    "title": "OpenAI to acquire Astral",
+    "summary": "Accelerates Codex growth to power the next generation of Python developer tools Today we’re announcing that OpenAI will acquire Astral ⁠ (opens in a new window) , bringing powerful open source developer tools into our Codex ecosystem. As part of our developer-first philosophy, after closing OpenAI plans to support Astral’s open source products. By bringing Astral’s tooling and engineering expertise to OpenAI, we will accelerate our work on Codex and expand what AI can do across the software development lifecycle. We’re excited to welcome the Astral team to OpenAI after we close.",
+    "category": "Company Updates",
+    "image_url": null,
+    "published_at": "2026-03-19T00:00:00",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "74b76435abfa34ce",
+    "title": "Tsinghua and Ant Group Researchers Unveil a Five-Layer Lifecycle-Oriented Security Framework to Mitigate Autonomous LLM Agent Vulnerabilities in OpenClaw",
+    "summary": "Autonomous LLM agents like OpenClaw are shifting the paradigm from passive assistants to proactive entities capable of executing complex, long-horizon tasks through high-privilege system access. However, a security analysis research report from Tsinghua University and Ant Group reveals that OpenClaw’s ‘kernel-plugin’ architecture—anchored by a pi-coding-agent serving as the Minimal Trusted Computing Base (TCB)—is vulnerable to multi-stage systemic risks that bypass traditional, isolated defenses . By introducing a five-layer lifecycle framework covering initialization, input, inference,…",
+    "category": "Research",
+    "image_url": "https://www.marktechpost.com/wp-content/uploads/2026/03/image-22-150x150.png",
+    "published_at": "2026-03-18T21:04:16",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "a93127505a54f5a7",
+    "title": "ChatGPT did not cure a dog’s cancer",
+    "summary": "When an Australian tech entrepreneur with no background in biology or medicine said ChatGPT helped save his dog from cancer, the story spread with the kind of validation Big Tech has long craved: proof that AI will revolutionize medicine and take on one of its deadliest diseases. After vets said “nothing could be done” for the Staffordshire bull terrier-shar pei, Conyngham said “I took it upon myself to find a cure.” Conyngham said he used ChatGPT to brainstorm treatment ideas. He then used ChatGPT and Google’s protein structure AI model AlphaFold to help make sense of the results.…",
+    "category": "Industry",
+    "image_url": null,
+    "published_at": "2026-03-18T18:14:39",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "cead538194b2d4d8",
+    "title": "One Model to Rule Them All? SAP-RPT-1 and the Future of Tabular Foundation Models",
+    "summary": "Many foundation models today are based on some variant of the transformer architecture pioneered by the likes of Google and OpenAI. While large language models such as ChatGPT are trained on text data, foundation models may also be trained on other forms of data (e.g., images, audio, and video). SAP enables integrations with third-party providers of pretrained models such as OpenAI and Anthropic via the Generative AI hub, and now, with the release of the SAP-RPT-1 model suite, SAP has created tabular foundation models that can be trained on its own vast trove of domain-specific ERP data.…",
+    "category": "Tutorials",
+    "image_url": null,
+    "published_at": "2026-03-18T12:00:00",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "4a7f630463237d67",
+    "title": "NVIDIA AI Open-Sources ‘OpenShell’: A Secure Runtime Environment for Autonomous AI Agents",
+    "summary": "The deployment of autonomous AI agents—systems capable of using tools and executing code—presents a unique security challenge. While standard LLM applications are restricted to text-based interactions, autonomous agents require access to shell environments, file systems, and network endpoints to perform tasks. NVIDIA has addressed this gap by open-sourcing OpenShell , a dedicated runtime environment designed to facilitate the safe execution of autonomous agents. By standardizing the runtime, NVIDIA is helping the industry move past experimental scripts toward secure, governed autonomous…",
+    "category": "Research",
+    "image_url": "https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-18-at-1.42.53-AM-1-150x150.png",
+    "published_at": "2026-03-18T08:42:37",
+    "company_name": "NVIDIA",
+    "company_logo": "logo_cache/nvidia_com.png"
+  },
+  {
+    "guid": "9778427c7393ace9",
+    "title": "ServiceNow Research Introduces EnterpriseOps-Gym: A High-Fidelity Benchmark Designed to Evaluate Agentic Planning in Realistic Enterprise Settings",
+    "summary": "Large language models (LLMs) are transitioning from conversational to autonomous agents capable of executing complex professional workflows. However, their deployment in enterprise environments remains limited by the lack of benchmarks that capture the specific challenges of professional settings: long-horizon planning, persistent state changes, and strict access protocols. To address this, researchers from ServiceNow Research, Mila and Universite de Montreal have introduced EnterpriseOps-Gym , a high-fidelity sandbox designed to evaluate agentic planning in realistic enterprise scenarios.…",
+    "category": "Research",
+    "image_url": "https://www.marktechpost.com/wp-content/uploads/2026/03/Screenshot-2026-03-18-at-12.00.24-AM-1-150x150.png",
+    "published_at": "2026-03-18T07:08:46",
+    "company_name": "",
+    "company_logo": ""
+  },
+  {
+    "guid": "0ea1179b03fbea60",
+    "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+    "summary": "The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, MIT Technology Review has learned. Training versions of AI models on classified data is likely to make them more accurate and effective in certain tasks, based on a US defense official who spoke on background with MIT Technology Review . But the official’s comments are the first indication that AI companies building LLMs, like OpenAI and xAI, could train government-specific versions of their models directly on classified data.…",
+    "category": "Research",
+    "image_url": null,
+    "published_at": "2026-03-17T22:30:46",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "13fd2c712fbeaf6a",
+    "title": "How to Effectively Review Claude Code Output",
+    "summary": "In this article, I discuss how I effectively review Claude output to be an even more efficient engineer using Claude Code. Producing code is simply not the bottleneck anymore Thus, since engineers are always striving to identify and minimize bottlenecks, we move on to the next bottleneck, which is reviewing the output of Claude Code. However, there is so much more output to review if you’re using Claude Code to solve all possible tasks (which you definitely should be doing). In my next section, I’ll cover some of the techniques I use to review the output of Claude Code.",
+    "category": "Tutorials",
+    "image_url": null,
+    "published_at": "2026-03-17T20:00:00",
+    "company_name": "Anthropic",
+    "company_logo": "logo_cache/anthropic_com.png"
+  },
+  {
+    "guid": "0340946bec226651",
+    "title": "Self-Hosting Your First LLM",
+    "summary": "I’ll also provide you with a zero-switch cost deployment pattern for your own LLM that works for OpenAI or Anthropic. 1 Instance types were evaluated across the “big three”: AWS, Azure and GCP 2 all models are current as of March 2026 3 All pricing data is current as of March 2026 Note : this guide is focused on deploying agent-oriented LLMs — not general-purpose, trillion-parameter, all-encompassing frontier models, which are largely overkill for most agent use cases. However, self-hosting is often the first step toward exploring deeper customization of LLMs. This is your first…",
+    "category": "Tutorials",
+    "image_url": null,
+    "published_at": "2026-03-17T18:06:03",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "4dbc268efc336bc8",
+    "title": "State of Open Source on Hugging Face: Spring 2026",
+    "summary": "We recommend reading additional perspectives on the open source ecosystem in and outside of Hugging Face from the Data Provenance Initiative , Interconnects , OpenRouter and a16z , and MIT and the Linux Foundation . Data from Hugging Face | Big Tech Is All-In On Open-Source AI, Graph and story by AI World Studies of open software more broadly suggest that the downstream value created by open artifacts far exceeds the cost of producing them. Data from Hugging Face | Graph and Research from Longpre et al. “Economies of Open Intelligence: Tracing Power & Participation in the Model Ecosystem”…",
+    "category": "Open Source",
+    "image_url": null,
+    "published_at": "2026-03-17T16:37:55",
+    "company_name": "Hugging Face",
+    "company_logo": "logo_cache/huggingface_co.png"
+  },
+  {
+    "guid": "4cc3609f5df195f8",
+    "title": "Introducing Gemini Embeddings 2 Preview",
+    "summary": "If you’re new to embedding, you might wonder what all the fuss is about, but it turns out that embedding is one of the cornerstones of retrieval augmented generation or RAG, as it’s known. In turn, RAG is one of the most fundamental applications of modern artificial intelligence processing. This article introduces Gemini Embeddings 2 Preview as Google’s new all-in-one embedding model for text, PDFs, images, audio, and video. You can find the original blog post announcing Gemini Embeddings 2 using the link below.…",
+    "category": "Tutorials",
+    "image_url": null,
+    "published_at": "2026-03-17T13:30:00",
+    "company_name": "Google",
+    "company_logo": "logo_cache/google_com.png"
+  },
+  {
+    "guid": "0cfe1de054ef6d93",
+    "title": "GTC Spotlights NVIDIA RTX PCs and DGX Sparks Running Latest Open Models and AI Agents Locally",
+    "summary": "For GeForce RTX users looking for smaller models, Nemotron 3 Nano 4B is the latest model to join the NVIDIA Nemotron 3 family of open models , providing a compact, capable starting point for building agents and assistants locally on RTX AI PCs. In addition, NVIDIA revealed optimizations for Alibaba’s Qwen 3.5 models , which have demonstrated outstanding accuracy ( 27B , 9B and 4B ) and are suited for running local agents on NVIDIA GPUs. AI developers and enthusiasts are buying DGX Spark supercomputers or building dedicated RTX PCs to run autonomous AI agents, such as OpenClaw, that draw…",
+    "category": "Company Updates",
+    "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/gtc-2026-nv-blog-1280x680-2-842x450.jpg",
+    "published_at": "2026-03-17T13:00:46",
+    "company_name": "NVIDIA",
+    "company_logo": "logo_cache/nvidia_com.png"
+  },
+  {
+    "guid": "0e57f1723540de9e",
+    "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
+    "summary": "Strengthening age-appropriate protections, parental support, and well-being-centered design in Japan. OpenAI Japan today revealed the Japan Teen Safety Blueprint, a new framework to help teens use generative AI safely and with confidence. In Japan, where a growing number of teens are already using generative AI for learning, creativity, and everyday tasks, this work is especially important. Our approach is guided by a clear principle: for teens, safety comes first, even when it requires tradeoffs with convenience, privacy, or freedom of use.",
+    "category": "Company Updates",
+    "image_url": null,
+    "published_at": "2026-03-17T10:00:00",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "00a469c0df3929ef",
+    "title": "Introducing GPT-5.4 mini and nano",
+    "summary": "Fast and efficient models optimized for coding and subagents Today we’re releasing GPT‑5.4 mini and nano, our most capable small models yet. GPT‑5.4 mini significantly improves over GPT‑5 mini across coding, reasoning, multimodal understanding, and tool use, while running more than 2x faster. Here’s what our customers think after testing GPT‑5.4 mini and nano in their workflows: GPT‑5.4 mini and nano are especially effective in coding workflows that benefit from fast iteration. GPT‑5.4 mini is also strong on multimodal tasks, particularly those related to computer use.",
+    "category": "Company Updates",
+    "image_url": null,
+    "published_at": "2026-03-17T10:00:00",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "db85e19350f26462",
+    "title": "Equipping workers with insights about compensation",
+    "summary": "Americans are sending nearly 3 million messages to ChatGPT each day to help them close the wage information gap. Workers are already using ChatGPT this way, sending nearly 3 million messages per day, on average in the US, asking about wages, compensation, or earnings. Workers are already using ChatGPT to navigate that problem, especially in the parts of the labor market where uncertainty is highest and the stakes are most meaningful. Our goal is to keep improving how useful and reliable that help can be—moving beyond national benchmarks toward the geography, firm, level, and compensation…",
+    "category": "Company Updates",
+    "image_url": null,
+    "published_at": "2026-03-17T00:00:00",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "ffa0f4ec02b09ca4",
+    "title": "Roche Scales NVIDIA AI Factories Globally to Accelerate Drug Discovery, Diagnostic Solutions and Manufacturing Breakthroughs",
+    "summary": "Roche's new deployment spans more than 3,500 NVIDIA Blackwell GPUs across its worldwide operations and embedded across the entire value chain, massively scaling R&#038;D productivity, next-generation diagnostics and manufacturing efficiencies.",
+    "category": "Company Updates",
+    "image_url": "https://blogs.nvidia.com/wp-content/uploads/2026/03/hc-press-roche-gtcsj26-4853250-1920x1080-1-842x450.jpg",
+    "published_at": "2026-03-16T20:30:59",
+    "company_name": "NVIDIA",
+    "company_logo": "logo_cache/nvidia_com.png"
+  },
+  {
+    "guid": "c040816208a022cb",
+    "title": "Where OpenAI’s technology could show up in Iran",
+    "summary": "There are still pressing questions about what exactly OpenAI’s agreement allows for; Sam Altman said the military can’t use his company’s technology to build autonomous weapons, but the agreement really just demands that the military follow its own (quite permissive) guidelines about such weapons. Though its Pentagon agreement is in place, it’s unclear when OpenAI’s technology will be ready for classified environments, since it must be integrated with other tools the military uses (Elon Musk’s xAI, which recently struck its own deal with the Pentagon, is likely to go through the same…",
+    "category": "Research",
+    "image_url": null,
+    "published_at": "2026-03-16T17:06:21",
+    "company_name": "OpenAI",
+    "company_logo": "logo_cache/openai_com.png"
+  },
+  {
+    "guid": "0bc0059841250ecd",
+    "title": "How agentic AI helps heal the systems we can&#8217;t replace",
+    "summary": "Many of the world’s most important systems — the ones that move money, book flights, issue licenses, and process claims — are slow, brittle, and deeply outdated. Learning the real behaviors of these systems — the quirks, delays, error states, and invisible dependencies — makes possible a different kind of innovation, one that grows from the systems we have instead of requiring their replacement. Jason Laster, an AGI software engineer who works on agent training and replay systems, puts it plainly: “I want to push our RL training gyms to have all of the warts, all of the issues.” This is…",
+    "category": "Research",
+    "image_url": null,
+    "published_at": "2026-03-16T13:00:00",
+    "company_name": "",
+    "company_logo": ""
+  }
+]
