@@ -468,19 +468,113 @@ def main():
     # Write data files
     articles_file.write_text(json.dumps(articles, indent=2, ensure_ascii=False))
 
+    # ── Trending topics (keyword frequency from today's articles) ──
+    trending = _extract_trending(articles, today)
+
     meta = {
         "total_articles": len(articles),
         "today": today_count,
         "categories": len(cat_counts),
         "category_list": [{"category": c, "cnt": n} for c, n in categories],
         "colours": CATEGORY_COLOURS,
+        "trending": trending,
         "built_at": datetime.datetime.utcnow().isoformat(),
     }
     (DATA_DIR / "meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False))
 
+    # ── Generate RSS feed ──
+    _generate_rss(articles[:50])
+
     elapsed = round(time.time() - start, 1)
     log.info("Build done in %ss — %d total articles, %d new, %d errors",
              elapsed, len(articles), len(all_new), errors)
+
+
+# ═══════════════════════════════════════════════════════════════════════
+#  TRENDING TOPICS
+# ═══════════════════════════════════════════════════════════════════════
+
+# Keywords to surface as trending (multi-word first for greedy matching)
+_TRENDING_KEYWORDS = [
+    "large language model", "generative ai", "computer vision",
+    "reinforcement learning", "natural language", "ai safety",
+    "ai regulation", "ai agent", "foundation model", "fine-tuning",
+    "stable diffusion", "self-driving", "retrieval augmented",
+    "neural network", "deep learning", "machine learning",
+    "open source", "multimodal", "robotics", "autonomous",
+    "OpenAI", "Anthropic", "Google", "Meta", "NVIDIA", "Microsoft",
+    "Mistral", "Hugging Face", "Apple", "xAI", "DeepMind",
+    "GPT", "Claude", "Gemini", "Llama", "Copilot", "ChatGPT",
+    "transformer", "diffusion", "LLM", "MLOps", "RAG",
+    "AI chip", "GPU", "TPU", "AI startup", "AI funding",
+]
+
+
+def _extract_trending(articles, today_str, max_items=12):
+    """Count keyword mentions in recent articles, return top trending."""
+    recent = [a for a in articles if a["published_at"][:10] >= today_str]
+    if len(recent) < 3:
+        cutoff_2d = (datetime.datetime.utcnow() - datetime.timedelta(days=2)).isoformat()[:10]
+        recent = [a for a in articles if a["published_at"][:10] >= cutoff_2d]
+
+    counts = {}
+    for a in recent:
+        text = f"{a['title']} {a.get('summary', '')}".lower()
+        seen = set()
+        for kw in _TRENDING_KEYWORDS:
+            kw_lower = kw.lower()
+            if kw_lower in text and kw_lower not in seen:
+                counts[kw] = counts.get(kw, 0) + 1
+                seen.add(kw_lower)
+
+    sorted_kw = sorted(counts.items(), key=lambda x: x[1], reverse=True)
+    return [{"keyword": kw, "count": n} for kw, n in sorted_kw[:max_items] if n >= 2]
+
+
+# ═══════════════════════════════════════════════════════════════════════
+#  RSS FEED GENERATOR
+# ═══════════════════════════════════════════════════════════════════════
+
+def _generate_rss(articles):
+    """Write a static RSS 2.0 feed to site/rss.xml."""
+    now = datetime.datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
+
+    items = []
+    for a in articles:
+        pub = ""
+        try:
+            d = datetime.datetime.fromisoformat(a["published_at"])
+            pub = d.strftime("%a, %d %b %Y %H:%M:%S +0000")
+        except Exception:
+            pub = now
+
+        items.append(f"""    <item>
+      <title><![CDATA[{a['title']}]]></title>
+      <description><![CDATA[{a.get('summary', '')}]]></description>
+      <category>{_xml_escape(a.get('category', ''))}</category>
+      <pubDate>{pub}</pubDate>
+      <guid isPermaLink="false">{a['guid']}</guid>
+    </item>""")
+
+    rss = f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Unlocked — Daily AI News</title>
+    <link>https://aiunlocked.info</link>
+    <description>Your daily AI news — curated and summarised. Research, industry, open source, and more.</description>
+    <language>en-us</language>
+    <lastBuildDate>{now}</lastBuildDate>
+    <atom:link href="https://aiunlocked.info/rss.xml" rel="self" type="application/rss+xml"/>
+{chr(10).join(items)}
+  </channel>
+</rss>
+"""
+    (SITE_DIR / "rss.xml").write_text(rss.strip(), encoding="utf-8")
+    log.info("  ✓ RSS feed written (%d items)", len(items))
+
+
+def _xml_escape(text):
+    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 
 if __name__ == "__main__":

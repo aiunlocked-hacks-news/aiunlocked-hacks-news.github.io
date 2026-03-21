@@ -16,6 +16,18 @@
     <title>AI Unlocked — Daily AI News &amp; Updates</title>
     <meta name="description" content="Stay up to date with the latest AI news, research papers, model releases, and industry deals — curated and summarised daily." />
 
+    <!-- Open Graph / Social sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AI Unlocked — Daily AI News & Updates" />
+    <meta property="og:description" content="Stay up to date with the latest AI news, research papers, model releases, and industry deals — curated and summarised daily." />
+    <meta property="og:url" content="https://aiunlocked.info" />
+    <meta property="og:image" content="https://aiunlocked.info/assets/og-image.png" />
+    <meta property="og:site_name" content="AI Unlocked" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI Unlocked — Daily AI News & Updates" />
+    <meta name="twitter:description" content="Your daily AI news — curated & summarised. Research, industry, open source, and more." />
+    <meta name="twitter:image" content="https://aiunlocked.info/assets/og-image.png" />
+
     <!-- Favicon -->
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
 
@@ -75,6 +87,14 @@
         </div>
     </section>
 
+    <!-- ═══════════════════  TRENDING TICKER  ═══════════════════ -->
+    <section class="trending-bar" id="trendingBar" style="display:none">
+        <div class="container trending-inner">
+            <span class="trending-label">🔥 Trending</span>
+            <div class="trending-scroll" id="trendingScroll"></div>
+        </div>
+    </section>
+
     <!-- ═══════════════════  MAIN CONTENT  ═══════════════════ -->
     <main class="container main-grid">
 
@@ -123,7 +143,7 @@
                 <strong>AI Unlocked</strong> — your daily dose of AI news, curated and summarised.<br/>
                 Built with ❤️ for the AI community.
             </p>
-            <p class="footer-small">Updated every day&ensp;·&ensp;Powered by AI Unlocked</p>
+            <p class="footer-small">Updated daily&ensp;·&ensp;Powered by AI Unlocked&ensp;·&ensp;<a href="rss.xml" style="color:var(--accent)">RSS Feed</a></p>
         </div>
     </footer>
 
