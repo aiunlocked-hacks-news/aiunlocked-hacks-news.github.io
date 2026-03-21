@@ -3,7 +3,7 @@ name: Scrape & Deploy
 on:
   schedule:
     # Every hour at minute 15
-    - cron: "15 * * * *"
+    - cron: "0 8 * * *"
   workflow_dispatch:   # manual trigger from GitHub UI
   push:
     branches: [main]   # also run on push to main
