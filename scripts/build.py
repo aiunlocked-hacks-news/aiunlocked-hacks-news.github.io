@@ -173,7 +173,7 @@ _FETCH_HEADERS = {
 }
 
 
-def _fetch_article_text(url: str, timeout: int = 8) -> str:
+def _fetch_article_text(url: str, timeout: int = 12) -> str:
     try:
         req = urllib.request.Request(url, headers=_FETCH_HEADERS)
         with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -207,7 +207,7 @@ def _fetch_article_text(url: str, timeout: int = 8) -> str:
         ]):
             continue
         lines.append(t)
-    return " ".join(lines)[:10000]
+    return " ".join(lines)[:20000]
 
 
 def _clean(text: str) -> str:
@@ -217,8 +217,11 @@ def _clean(text: str) -> str:
 
 
 def _split_sentences(text: str) -> list[str]:
-    text = re.sub(r'\b(Mr|Mrs|Ms|Dr|Prof|Inc|Ltd|Corp|vs|etc|e\.g|i\.e)\.',
+    # Protect abbreviations, decimals, URLs from false splits
+    text = re.sub(r'\b(Mr|Mrs|Ms|Dr|Prof|Inc|Ltd|Corp|vs|etc|e\.g|i\.e|U\.S|U\.K|U\.N)\.',
                   r'\1<P>', text)
+    text = re.sub(r'(\d)\.(\d)', r'\1<P>\2', text)          # decimals like 3.5
+    text = re.sub(r'(https?://\S+)', lambda m: m.group().replace('.', '<P>'), text)  # URLs
     parts = re.split(r'(?<=[.!?])\s+(?=[A-Z"\'])', text.strip())
     parts = [s.replace('<P>', '.').strip() for s in parts]
     return [s for s in parts if len(s.strip()) > 25]
@@ -264,19 +267,33 @@ def _rewrite(sentences, title):
     return " ".join(result)
 
 
-def summarise(title, raw_desc, url="", max_sentences=4):
+def summarise(title, raw_desc, url="", max_sentences=6):
     full = _fetch_article_text(url) if url else ""
     source = full if len(full) > 200 else _clean(raw_desc)
     if not source:
         return ""
     if len(source) < 80:
         return source
+
     sentences = _split_sentences(source)
+
+    # ── Fallback for short / un-parseable text ──────────────────────
     if not sentences:
-        snip = source[:400]
-        if len(source) > 400:
-            snip = snip.rsplit(" ", 1)[0] + "."
+        snip = source[:600]
+        if len(source) > 600:
+            snip = snip.rsplit(" ", 1)[0] + "…"
         return snip
+
+    # If source text is too short for meaningful extraction (e.g. RSS
+    # teaser with only 1-3 sentences), return it cleaned-up directly
+    # instead of trying to cherry-pick from a tiny pool.
+    if len(sentences) <= 3:
+        combined = _rewrite(sentences, title)
+        if len(combined) > 1000:
+            combined = _truncate_on_sentence(combined, 1000)
+        return combined
+
+    # ── Keyword-driven extractive summarisation ─────────────────────
     stopwords = {"the", "and", "for", "are", "that", "this", "with", "from",
                  "will", "have", "has", "been", "its", "was", "were", "can",
                  "could", "would", "should", "into", "about", "than", "more",
@@ -292,9 +309,24 @@ def summarise(title, raw_desc, url="", max_sentences=4):
     top = sorted(scored[:max_sentences], key=lambda x: x[0])
     chosen = [s for _, s, sc in top if sc > 0] or sentences[:max_sentences]
     summary = _rewrite(chosen, title)
-    if len(summary) > 600:
-        summary = summary[:597].rsplit(" ", 1)[0] + "…"
+
+    # Truncate on a sentence boundary (not mid-word)
+    if len(summary) > 1000:
+        summary = _truncate_on_sentence(summary, 1000)
     return summary
+
+
+def _truncate_on_sentence(text: str, limit: int) -> str:
+    """Truncate *text* to at most *limit* chars, cutting at a sentence boundary."""
+    if len(text) <= limit:
+        return text
+    truncated = text[:limit]
+    # Try to cut at the last sentence-ending punctuation
+    last_end = max(truncated.rfind('. '), truncated.rfind('! '), truncated.rfind('? '))
+    if last_end > limit * 0.4:           # only if we keep a reasonable chunk
+        return truncated[:last_end + 1]
+    # Fallback: cut at last space
+    return truncated.rsplit(" ", 1)[0] + "…"
 
 
 def generate_guid(url, title):
