@@ -95,6 +95,19 @@
         </div>
     </section>
 
+    <!-- ═══════════════════  FUN FACTS STRIP  ═══════════════════ -->
+    <section class="fun-facts-strip">
+        <div class="container">
+            <div class="fun-facts-strip-header">
+                <span class="fun-facts-strip-title">💡 Fun AI Facts</span>
+                <button class="shuffle-btn-sm" id="shuffleFactsBtn" title="Shuffle facts">🔀 Shuffle</button>
+            </div>
+            <div id="funFactsGrid" class="fun-facts-strip-grid">
+                <!-- Facts rendered by JS -->
+            </div>
+        </div>
+    </section>
+
     <!-- ═══════════════════  MAIN CONTENT  ═══════════════════ -->
     <main class="container main-grid">
 
@@ -134,6 +147,27 @@
             <div id="pagination" class="pagination"></div>
         </section>
     </main>
+
+    <!-- ═══════════════════  AI QUIZ  ═══════════════════ -->
+    <section class="quiz-section" id="quizSection">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">🧠</span>
+                <h2 class="section-heading">Test Your AI Knowledge</h2>
+                <p class="section-subtitle">Think you know AI? Take this quick 5-question quiz and find out!</p>
+            </div>
+            <div class="quiz-card">
+                <div id="quizContainer" class="quiz-container">
+                    <!-- Quiz rendered by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Quiz CTA -->
+    <button class="floating-quiz-btn" id="floatingQuizBtn" title="Take the AI Quiz!">
+        🧠 <span>Take Quiz</span>
+    </button>
 
     <!-- ═══════════════════  FOOTER  ═══════════════════ -->
     <footer class="site-footer">

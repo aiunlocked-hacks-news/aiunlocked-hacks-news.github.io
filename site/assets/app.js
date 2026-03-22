@@ -6,7 +6,7 @@
 (() => {
     "use strict";
 
-    const PER_PAGE = 30;
+    const PER_PAGE = 12;
 
     // ── State ───────────────────────────────────────────────────
     let allArticles     = [];   // full dataset loaded once
@@ -221,6 +221,10 @@
                     <button class="listen-btn" data-listen="${escapeAttr(a.title + '. ' + a.summary)}" title="Listen to summary">
                         🔊 Listen
                     </button>
+                    <button class="clap-btn" data-article-id="${escapeAttr(a.guid || a.title)}" title="Like this article">
+                        <span class="clap-emoji">👏</span>
+                        <span class="clap-count">${getClapCount(a.guid || a.title)}</span>
+                    </button>
                     <span class="share-copied">Copied!</span>
                 </div>
                 <div class="card-footer">
@@ -300,6 +304,21 @@
                 utter.onend = () => { btn.classList.remove("playing"); btn.innerHTML = "🔊 Listen"; };
                 utter.onerror = () => { btn.classList.remove("playing"); btn.innerHTML = "🔊 Listen"; };
                 speechSynthesis.speak(utter);
+            });
+        });
+
+        // Clap / Like buttons
+        $grid.querySelectorAll(".clap-btn").forEach(btn => {
+            btn.addEventListener("click", (e) => {
+                e.stopPropagation();
+                const id = btn.dataset.articleId;
+                const claps = JSON.parse(localStorage.getItem("aiunlocked-claps") || "{}");
+                claps[id] = (claps[id] || 0) + 1;
+                localStorage.setItem("aiunlocked-claps", JSON.stringify(claps));
+                const countEl = btn.querySelector(".clap-count");
+                countEl.textContent = claps[id];
+                btn.classList.add("clap-animate");
+                setTimeout(() => btn.classList.remove("clap-animate"), 600);
             });
         });
     }
@@ -393,8 +412,198 @@
         }
     }
 
-    // ── Bootstrap ───────────────────────────────────────────────
+    // ── Clap helper ─────────────────────────────────────────────
+    function getClapCount(id) {
+        const claps = JSON.parse(localStorage.getItem("aiunlocked-claps") || "{}");
+        return claps[id] || 0;
+    }
+
+    // ══════════════════════════════════════════════════════════════
+    //   AI QUIZ
+    // ══════════════════════════════════════════════════════════════
+    const quizQuestions = [
+        {
+            question: "What does GPT stand for?",
+            options: ["General Purpose Technology", "Generative Pre-trained Transformer", "Global Processing Tool", "Graphical Pattern Tracker"],
+            answer: 1
+        },
+        {
+            question: "Which company created the transformer architecture used in most modern LLMs?",
+            options: ["OpenAI", "Meta", "Google", "Microsoft"],
+            answer: 2
+        },
+        {
+            question: "What is 'hallucination' in the context of AI?",
+            options: ["When an AI gains consciousness", "When an AI generates confident but incorrect information", "When an AI runs out of memory", "When an AI dreams during training"],
+            answer: 1
+        },
+        {
+            question: "What year was the original Transformer paper 'Attention Is All You Need' published?",
+            options: ["2015", "2017", "2019", "2020"],
+            answer: 1
+        },
+        {
+            question: "Which technique allows LLMs to learn new tasks from just a few examples in the prompt?",
+            options: ["Transfer Learning", "Backpropagation", "Few-Shot Prompting", "Gradient Descent"],
+            answer: 2
+        }
+    ];
+
+    let quizCurrent = 0;
+    let quizScore = 0;
+    let quizAnswered = false;
+
+    function initQuiz() {
+        const $quizContainer = document.getElementById("quizContainer");
+        if (!$quizContainer) return;
+
+        quizCurrent = 0;
+        quizScore = 0;
+        quizAnswered = false;
+        renderQuizQuestion();
+    }
+
+    function renderQuizQuestion() {
+        const $quizContainer = document.getElementById("quizContainer");
+        if (quizCurrent >= quizQuestions.length) {
+            showQuizResult();
+            return;
+        }
+        const q = quizQuestions[quizCurrent];
+        quizAnswered = false;
+        $quizContainer.innerHTML = `
+            <div class="quiz-progress">Question ${quizCurrent + 1} of ${quizQuestions.length}</div>
+            <div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:${((quizCurrent) / quizQuestions.length) * 100}%"></div></div>
+            <h3 class="quiz-question">${escapeHTML(q.question)}</h3>
+            <div class="quiz-options">
+                ${q.options.map((opt, i) => `<button class="quiz-option" data-index="${i}">${escapeHTML(opt)}</button>`).join("")}
+            </div>
+            <div class="quiz-feedback" id="quizFeedback"></div>
+        `;
+        $quizContainer.querySelectorAll(".quiz-option").forEach(btn => {
+            btn.addEventListener("click", () => handleQuizAnswer(btn, parseInt(btn.dataset.index)));
+        });
+    }
+
+    function handleQuizAnswer(btn, selected) {
+        if (quizAnswered) return;
+        quizAnswered = true;
+        const q = quizQuestions[quizCurrent];
+        const correct = selected === q.answer;
+        const $feedback = document.getElementById("quizFeedback");
+        const $quizContainer = document.getElementById("quizContainer");
+
+        // Highlight correct/wrong
+        $quizContainer.querySelectorAll(".quiz-option").forEach((b, i) => {
+            b.disabled = true;
+            if (i === q.answer) b.classList.add("correct");
+            if (i === selected && !correct) b.classList.add("wrong");
+        });
+
+        if (correct) {
+            quizScore++;
+            $feedback.innerHTML = `<span class="quiz-correct">✅ Correct! Great job!</span>`;
+        } else {
+            $feedback.innerHTML = `<span class="quiz-wrong">❌ Oops! The answer was: ${escapeHTML(q.options[q.answer])}</span>`;
+        }
+        $feedback.style.display = "block";
+
+        setTimeout(() => {
+            quizCurrent++;
+            renderQuizQuestion();
+        }, 1800);
+    }
+
+    function showQuizResult() {
+        const $quizContainer = document.getElementById("quizContainer");
+        const passed = quizScore >= 3;
+        const percentage = Math.round((quizScore / quizQuestions.length) * 100);
+        const emoji = passed ? "🏆" : "💪";
+        const title = passed ? "Amazing! You're an AI Expert!" : "Keep Learning, You'll Get There!";
+        const message = passed
+            ? `You nailed ${quizScore} out of ${quizQuestions.length}! You really know your AI stuff. Share this with your friends and challenge them!`
+            : `You got ${quizScore} out of ${quizQuestions.length}. Don't worry — the AI world is evolving fast. Keep reading AI Unlocked and you'll ace it next time!`;
+
+        $quizContainer.innerHTML = `
+            <div class="quiz-result ${passed ? 'quiz-passed' : 'quiz-failed'}">
+                <div class="quiz-result-emoji">${emoji}</div>
+                <div class="quiz-result-score">${percentage}%</div>
+                <h3 class="quiz-result-title">${title}</h3>
+                <p class="quiz-result-message">${message}</p>
+                <div class="quiz-result-stars">${'⭐'.repeat(quizScore)}${'☆'.repeat(quizQuestions.length - quizScore)}</div>
+                <button class="quiz-retry-btn" id="quizRetryBtn">🔄 Try Again</button>
+            </div>
+        `;
+        document.getElementById("quizRetryBtn").addEventListener("click", initQuiz);
+    }
+
+    // ══════════════════════════════════════════════════════════════
+    //   FUN FACTS — Rotating display
+    // ══════════════════════════════════════════════════════════════
+    const funFacts = [
+        { icon: "🧠", fact: "The human brain has about 86 billion neurons. GPT-4 is estimated to have over 1.7 trillion parameters — but still can't make a decent cup of coffee." },
+        { icon: "⚡", fact: "Training GPT-3 consumed approximately 1,287 MWh of energy — enough to power 120 US homes for a full year." },
+        { icon: "🤖", fact: "The term 'Artificial Intelligence' was coined in 1956 by John McCarthy at the Dartmouth Conference — almost 70 years ago!" },
+        { icon: "📈", fact: "ChatGPT reached 100 million users in just 2 months after launch — the fastest-growing consumer app in history at the time." },
+        { icon: "🎨", fact: "AI-generated art sold at Christie's for $432,500 in 2018. The artist? A GAN (Generative Adversarial Network) algorithm." },
+        { icon: "🎮", fact: "DeepMind's AlphaGo defeated the world Go champion in 2016, a feat experts predicted wouldn't happen for another decade." },
+        { icon: "🔬", fact: "AlphaFold by DeepMind predicted the 3D structures of nearly all known proteins — solving a 50-year-old biology challenge." },
+        { icon: "🌍", fact: "Over 80% of enterprises worldwide are now using or exploring AI technologies in their business operations." }
+    ];
+
+    function initFunFacts() {
+        const $factsGrid = document.getElementById("funFactsGrid");
+        if (!$factsGrid) return;
+
+        // Show 4 random facts
+        const shuffled = funFacts.sort(() => 0.5 - Math.random());
+        const selected = shuffled.slice(0, 4);
+
+        $factsGrid.innerHTML = selected.map(f => `
+            <div class="fun-fact-card">
+                <span class="fun-fact-icon">${f.icon}</span>
+                <p class="fun-fact-text">${escapeHTML(f.fact)}</p>
+            </div>
+        `).join("");
+    }
+
+    // Shuffle fun facts button
+    function bindFunFactsShuffle() {
+        const btn = document.getElementById("shuffleFactsBtn");
+        if (btn) {
+            btn.addEventListener("click", () => {
+                initFunFacts();
+                btn.classList.add("spin");
+                setTimeout(() => btn.classList.remove("spin"), 600);
+            });
+        }
+    }
+
+    // ── Floating Quiz CTA ──────────────────────────────────────────
+    function initFloatingQuizBtn() {
+        const btn = document.getElementById("floatingQuizBtn");
+        const quizSection = document.getElementById("quizSection");
+        if (!btn || !quizSection) return;
+
+        btn.addEventListener("click", () => {
+            quizSection.scrollIntoView({ behavior: "smooth", block: "center" });
+        });
+
+        // Hide button when quiz section is visible
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                btn.classList.toggle("hidden", entry.isIntersecting);
+            });
+        }, { threshold: 0.2 });
+        observer.observe(quizSection);
+    }
+
+    // ── Bootstrap ───────────────────────────────────────────────────
     initTheme();
     init();
+    initQuiz();
+    initFunFacts();
+    bindFunFactsShuffle();
+    initFloatingQuizBtn();
 
 })();
