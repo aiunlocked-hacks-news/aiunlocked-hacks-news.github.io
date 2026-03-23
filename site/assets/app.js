@@ -84,6 +84,10 @@
 
             // First render
             applyFilters();
+
+            // Data-dependent features
+            initWeeklySummary();
+            initLeaderboard();
         } catch (e) {
             console.error("Init failed", e);
             $grid.innerHTML = `<div class="empty-state"><span class="empty-icon">⚠️</span><h3>Failed to load data</h3><p>${escapeHTML(e.message)}</p></div>`;
@@ -181,6 +185,7 @@
         // Company logo or AI Unlocked default
         const logoSrc = a.company_logo || "assets/favicon.svg";
         const companyName = a.company_name || "AI Unlocked";
+        const readTime = Math.max(1, Math.ceil(((a.summary || '').split(/\s+/).length) / 200));
 
         // Card image: use image_url, or the AI Unlocked branded default
         const image = a.image_url
@@ -193,6 +198,7 @@
             <div class="card-body">
                 <div class="card-meta">
                     <span class="badge" style="background:${colour}">${escapeHTML(a.category)}</span>
+                    <span class="card-reading-time">📖 ${readTime} min</span>
                     <span class="card-date">${dateStr}</span>
                 </div>
                 <div class="card-company">
@@ -225,6 +231,8 @@
                         <span class="clap-emoji">👏</span>
                         <span class="clap-count">${getClapCount(a.guid || a.title)}</span>
                     </button>
+                    <button class="copy-summary-btn" data-summary="${escapeAttr(a.summary)}" title="Copy summary">📋 Summary</button>
+                    <button class="quote-card-btn" data-title="${escapeAttr(a.title)}" data-summary="${escapeAttr(a.summary)}" title="Create quote card">🖼️ Quote</button>
                     <span class="share-copied">Copied!</span>
                 </div>
                 <div class="card-footer">
@@ -239,7 +247,7 @@
         $grid.querySelectorAll(".article-card").forEach((card) => {
             // Expand/collapse on click (but not on buttons)
             card.addEventListener("click", (e) => {
-                if (e.target.closest(".share-btn, .listen-btn")) return;
+                if (e.target.closest(".share-btn, .listen-btn, .clap-btn, .copy-summary-btn, .quote-card-btn")) return;
                 const isExpanded = card.classList.contains("expanded");
                 $grid.querySelectorAll(".article-card.expanded").forEach((c) => {
                     c.classList.remove("expanded");
@@ -319,6 +327,25 @@
                 countEl.textContent = claps[id];
                 btn.classList.add("clap-animate");
                 setTimeout(() => btn.classList.remove("clap-animate"), 600);
+            });
+        });
+
+        // Copy Summary buttons
+        $grid.querySelectorAll(".copy-summary-btn").forEach(btn => {
+            btn.addEventListener("click", (e) => {
+                e.stopPropagation();
+                navigator.clipboard.writeText(btn.dataset.summary).then(() => {
+                    const copied = btn.closest(".card-actions").querySelector(".share-copied");
+                    if (copied) { copied.classList.add("show"); setTimeout(() => copied.classList.remove("show"), 1500); }
+                });
+            });
+        });
+
+        // Quote Card buttons
+        $grid.querySelectorAll(".quote-card-btn").forEach(btn => {
+            btn.addEventListener("click", (e) => {
+                e.stopPropagation();
+                showQuoteCardModal(btn.dataset.title, btn.dataset.summary);
             });
         });
     }
@@ -1314,7 +1341,9 @@
             { id: "articles", el: document.getElementById("articlesGrid") },
             { id: "games", el: document.getElementById("gamesArcadeSection") },
             { id: "stories", el: document.getElementById("successStoriesSection") },
-            { id: "quiz", el: document.getElementById("quizSection") }
+            { id: "quiz", el: document.getElementById("quizSection") },
+            { id: "glossary", el: document.getElementById("glossarySection") },
+            { id: "timeline", el: document.getElementById("timelineSection") }
         ];
 
         function updateActive() {
@@ -1467,6 +1496,431 @@
         }
     }
 
+    // ══════════════════════════════════════════════════════════════
+    //   BACK TO TOP BUTTON
+    // ══════════════════════════════════════════════════════════════
+    function initBackToTop() {
+        const btn = document.getElementById("backToTopBtn");
+        if (!btn) return;
+        btn.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+        window.addEventListener("scroll", () => {
+            btn.classList.toggle("visible", window.scrollY > 400);
+        }, { passive: true });
+    }
+
+    // ══════════════════════════════════════════════════════════════
+    //   RANDOM ARTICLE
+    // ══════════════════════════════════════════════════════════════
+    function initRandomArticle() {
+        const btn = document.getElementById("randomArticleBtn");
+        if (!btn) return;
+        btn.addEventListener("click", () => {
+            if (allArticles.length === 0) return;
+            const rand = allArticles[Math.floor(Math.random() * allArticles.length)];
+            currentSearch = rand.title.split(" ").slice(0, 4).join(" ");
+            $searchInput.value = currentSearch;
+            currentCategory = "";
+            currentPage = 1;
+            $catList.querySelectorAll(".cat-btn").forEach(b => b.classList.toggle("active", b.dataset.category === ""));
+            $title.textContent = "🎲 Random Pick";
+            applyFilters();
+            document.getElementById("articlesGrid").scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+    }
+
+    // ══════════════════════════════════════════════════════════════
+    //   KEYBOARD SHORTCUTS
+    // ══════════════════════════════════════════════════════════════
+    function initKeyboardShortcuts() {
+        const modal = document.getElementById("shortcutsModal");
+        if (!modal) return;
+        const closeBtn = modal.querySelector(".modal-close");
+        if (closeBtn) closeBtn.addEventListener("click", () => modal.classList.remove("open"));
+        modal.addEventListener("click", (e) => { if (e.target === modal) modal.classList.remove("open"); });
+
+        document.addEventListener("keydown", (e) => {
+            if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA" || e.target.isContentEditable) return;
+            switch (e.key) {
+                case "?":
+                    e.preventDefault();
+                    modal.classList.toggle("open");
+                    break;
+                case "t":
+                    $themeToggle.click();
+                    break;
+                case "s":
+                    e.preventDefault();
+                    $searchInput.focus();
+                    break;
+                case "g":
+                    document.getElementById("gamesArcadeSection")?.scrollIntoView({ behavior: "smooth" });
+                    break;
+                case "q":
+                    document.getElementById("quizSection")?.scrollIntoView({ behavior: "smooth" });
+                    break;
+                case "h":
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                    break;
+                case "r":
+                    document.getElementById("randomArticleBtn")?.click();
+                    break;
+                case "Escape":
+                    modal.classList.remove("open");
+                    document.getElementById("quoteCardModal")?.classList.remove("open");
+                    break;
+            }
+        });
+    }
+
+    // ══════════════════════════════════════════════════════════════
+    //   AI GLOSSARY
+    // ══════════════════════════════════════════════════════════════
+    const glossaryTerms = [
+        { term: "AGI", def: "Artificial General Intelligence — a hypothetical AI system with human-level reasoning across all domains.", category: "Core" },
+        { term: "Algorithm", def: "A step-by-step procedure for solving a problem or performing a computation.", category: "Core" },
+        { term: "Attention Mechanism", def: "A technique that allows models to focus on relevant parts of the input when generating output.", category: "Architecture" },
+        { term: "Backpropagation", def: "The algorithm used to train neural networks by computing gradients and updating weights.", category: "Training" },
+        { term: "BERT", def: "Bidirectional Encoder Representations from Transformers — Google's pre-trained language model.", category: "Models" },
+        { term: "Bias", def: "Systematic errors in AI predictions, often reflecting societal prejudices in training data.", category: "Ethics" },
+        { term: "ChatGPT", def: "OpenAI's conversational AI assistant built on the GPT architecture with RLHF fine-tuning.", category: "Models" },
+        { term: "CNN", def: "Convolutional Neural Network — specialized for processing grid-like data such as images.", category: "Architecture" },
+        { term: "Computer Vision", def: "AI field focused on enabling machines to interpret and understand visual information.", category: "Core" },
+        { term: "Diffusion Model", def: "Generative model that creates data by gradually denoising random noise (used in DALL-E, Stable Diffusion).", category: "Architecture" },
+        { term: "Embedding", def: "A dense numerical representation of data (text, images) in a continuous vector space.", category: "Core" },
+        { term: "Epoch", def: "One complete pass through the entire training dataset during model training.", category: "Training" },
+        { term: "Few-Shot Learning", def: "Teaching a model to perform tasks with only a few examples, often via prompt engineering.", category: "Training" },
+        { term: "Fine-Tuning", def: "Adapting a pre-trained model to a specific task using a smaller, targeted dataset.", category: "Training" },
+        { term: "GAN", def: "Generative Adversarial Network — two networks (generator & discriminator) competing to create realistic data.", category: "Architecture" },
+        { term: "GPT", def: "Generative Pre-trained Transformer — OpenAI's family of large language models.", category: "Models" },
+        { term: "Gradient Descent", def: "Optimization algorithm that iteratively adjusts parameters to minimize the loss function.", category: "Training" },
+        { term: "Hallucination", def: "When an AI model generates confident but factually incorrect or fabricated information.", category: "Core" },
+        { term: "Inference", def: "The process of running a trained model to make predictions on new data.", category: "Core" },
+        { term: "LLM", def: "Large Language Model — neural networks with billions of parameters trained on massive text corpora.", category: "Core" },
+        { term: "LSTM", def: "Long Short-Term Memory — a recurrent network architecture designed to learn long-range dependencies.", category: "Architecture" },
+        { term: "Machine Learning", def: "Subset of AI where systems learn patterns from data without being explicitly programmed.", category: "Core" },
+        { term: "Neural Network", def: "Computing system inspired by biological brains, composed of interconnected layers of nodes.", category: "Core" },
+        { term: "NLP", def: "Natural Language Processing — AI's ability to understand, interpret, and generate human language.", category: "Core" },
+        { term: "Overfitting", def: "When a model memorizes training data too well and fails to generalize to new, unseen data.", category: "Training" },
+        { term: "Parameter", def: "A learnable variable in a neural network — modern LLMs have billions of parameters.", category: "Core" },
+        { term: "Prompt Engineering", def: "The art of crafting input prompts to elicit desired outputs from AI language models.", category: "Core" },
+        { term: "RAG", def: "Retrieval-Augmented Generation — combining LLMs with external knowledge retrieval for more accurate answers.", category: "Architecture" },
+        { term: "Reinforcement Learning", def: "Training approach where agents learn by receiving rewards or penalties for actions in an environment.", category: "Training" },
+        { term: "RLHF", def: "Reinforcement Learning from Human Feedback — used to align LLMs with human preferences.", category: "Training" },
+        { term: "Tokenization", def: "Breaking text into smaller units (tokens) that language models can process.", category: "Core" },
+        { term: "Transfer Learning", def: "Reusing a model trained on one task as a starting point for a different but related task.", category: "Training" },
+        { term: "Transformer", def: "The dominant neural network architecture using self-attention, powering GPT, BERT, and most modern AI.", category: "Architecture" }
+    ];
+
+    function initGlossary() {
+        const grid = document.getElementById("glossaryGrid");
+        const search = document.getElementById("glossarySearch");
+        const lettersDiv = document.getElementById("glossaryLetters");
+        if (!grid || !search) return;
+
+        const letters = [...new Set(glossaryTerms.map(t => t.term[0].toUpperCase()))].sort();
+        if (lettersDiv) {
+            lettersDiv.innerHTML = letters.map(l => `<button class="glossary-letter" data-letter="${l}">${l}</button>`).join("");
+            lettersDiv.querySelectorAll(".glossary-letter").forEach(btn => {
+                btn.addEventListener("click", () => {
+                    search.value = "";
+                    renderGlossary(btn.dataset.letter);
+                });
+            });
+        }
+        renderGlossary();
+        search.addEventListener("input", () => {
+            renderGlossary("", search.value.trim().toLowerCase());
+        });
+    }
+
+    function renderGlossary(filterLetter = "", filterText = "") {
+        const grid = document.getElementById("glossaryGrid");
+        let terms = glossaryTerms;
+        if (filterLetter) terms = terms.filter(t => t.term[0].toUpperCase() === filterLetter);
+        if (filterText) terms = terms.filter(t => t.term.toLowerCase().includes(filterText) || t.def.toLowerCase().includes(filterText));
+        grid.innerHTML = terms.length ? terms.map(t => `
+            <div class="glossary-card">
+                <div class="glossary-card-term">${escapeHTML(t.term)}</div>
+                <span class="glossary-card-cat">${escapeHTML(t.category)}</span>
+                <p class="glossary-card-def">${escapeHTML(t.def)}</p>
+            </div>
+        `).join("") : '<p style="text-align:center;color:var(--text-muted);grid-column:1/-1;padding:40px 0;">No matching terms found.</p>';
+    }
+
+    // ══════════════════════════════════════════════════════════════
+    //   AI TOOL OF THE DAY
+    // ══════════════════════════════════════════════════════════════
+    const aiTools = [
+        { name: "ChatGPT", maker: "OpenAI", category: "Chatbot", desc: "The AI chatbot that started the revolution. Chat, create, learn, and build with the world's most popular language model.", icon: "💬", url: "https://chat.openai.com" },
+        { name: "Claude", maker: "Anthropic", category: "Chatbot", desc: "A thoughtful AI assistant focused on safety, helpfulness, and nuanced conversations. Great for writing and analysis.", icon: "🧠", url: "https://claude.ai" },
+        { name: "Midjourney", maker: "Midjourney", category: "Image Gen", desc: "Create stunning AI-generated artwork and images from text descriptions. The go-to for creative professionals.", icon: "🎨", url: "https://midjourney.com" },
+        { name: "GitHub Copilot", maker: "GitHub / Microsoft", category: "Coding", desc: "Your AI pair programmer. Autocompletes code, writes functions, and helps you code faster across all languages.", icon: "👨‍💻", url: "https://github.com/features/copilot" },
+        { name: "Perplexity", maker: "Perplexity AI", category: "Search", desc: "AI-powered search engine that gives direct answers with cited sources. The future of how we find information.", icon: "🔍", url: "https://perplexity.ai" },
+        { name: "Runway", maker: "Runway", category: "Video", desc: "Generate and edit videos with AI. From text-to-video to motion brush — Hollywood-grade tools for everyone.", icon: "🎬", url: "https://runwayml.com" },
+        { name: "ElevenLabs", maker: "ElevenLabs", category: "Audio", desc: "Ultra-realistic AI voice generation and cloning. Create voiceovers, audiobooks, and podcasts in seconds.", icon: "🎙️", url: "https://elevenlabs.io" },
+        { name: "Notion AI", maker: "Notion", category: "Productivity", desc: "AI writing assistant built into Notion. Summarize, brainstorm, draft, and improve your notes and docs.", icon: "📝", url: "https://notion.so" },
+        { name: "Hugging Face", maker: "Hugging Face", category: "Platform", desc: "The GitHub of AI models. Host, share, and deploy 500K+ open-source models and datasets for free.", icon: "🤗", url: "https://huggingface.co" },
+        { name: "Cursor", maker: "Cursor", category: "Coding", desc: "The AI-first code editor built on VS Code. Chat with your codebase, generate code, and refactor intelligently.", icon: "⌨️", url: "https://cursor.sh" },
+        { name: "Stable Diffusion", maker: "Stability AI", category: "Image Gen", desc: "Open-source image generation model you can run locally. Full creative control without cloud dependencies.", icon: "🖼️", url: "https://stability.ai" },
+        { name: "Suno AI", maker: "Suno", category: "Music", desc: "Create full songs with vocals, instruments, and lyrics from text prompts. AI music creation made easy.", icon: "🎵", url: "https://suno.ai" },
+        { name: "Ollama", maker: "Ollama", category: "Local AI", desc: "Run large language models locally on your machine. Privacy-first AI with no cloud needed.", icon: "🦙", url: "https://ollama.ai" },
+        { name: "v0 by Vercel", maker: "Vercel", category: "Coding", desc: "Generate UI components and full web apps from text descriptions. AI-powered frontend development.", icon: "🖥️", url: "https://v0.dev" },
+        { name: "Gemini", maker: "Google", category: "Chatbot", desc: "Google's most capable AI model. Multimodal understanding across text, images, audio, video, and code.", icon: "✨", url: "https://gemini.google.com" }
+    ];
+
+    function initToolOfDay() {
+        const container = document.getElementById("toolOfDayCard");
+        if (!container) return;
+        const now = new Date();
+        const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000);
+        const tool = aiTools[dayOfYear % aiTools.length];
+        container.innerHTML = `
+            <div class="tod-card">
+                <div class="tod-icon">${tool.icon}</div>
+                <div class="tod-body">
+                    <div class="tod-header">
+                        <h3 class="tod-name">${escapeHTML(tool.name)}</h3>
+                        <span class="tod-cat">${escapeHTML(tool.category)}</span>
+                    </div>
+                    <p class="tod-maker">by ${escapeHTML(tool.maker)}</p>
+                    <p class="tod-desc">${escapeHTML(tool.desc)}</p>
+                    <a href="${escapeAttr(tool.url)}" target="_blank" rel="noopener noreferrer" class="tod-link">Try it →</a>
+                </div>
+            </div>
+            <p class="tod-refresh-hint">🔄 New tool every day — come back tomorrow!</p>
+        `;
+    }
+
+    // ══════════════════════════════════════════════════════════════
+    //   AI EVENTS TIMELINE
+    // ══════════════════════════════════════════════════════════════
+    const timelineEvents = [
+        { year: "1950", title: "Turing Test Proposed", desc: "Alan Turing publishes 'Computing Machinery and Intelligence', proposing a test for machine intelligence.", icon: "🧪" },
+        { year: "1956", title: "AI Is Born", desc: "The term 'Artificial Intelligence' is coined at the Dartmouth Conference, marking the birth of the field.", icon: "🎓" },
+        { year: "1997", title: "Deep Blue Beats Kasparov", desc: "IBM's Deep Blue defeats world chess champion Garry Kasparov, a landmark moment for AI.", icon: "♟️" },
+        { year: "2011", title: "Watson Wins Jeopardy!", desc: "IBM Watson defeats human champions on Jeopardy!, showcasing NLP capabilities.", icon: "📺" },
+        { year: "2012", title: "AlexNet Revolution", desc: "AlexNet wins ImageNet, igniting the deep learning revolution in computer vision.", icon: "👁️" },
+        { year: "2014", title: "GANs Invented", desc: "Ian Goodfellow introduces Generative Adversarial Networks, enabling realistic data generation.", icon: "🎭" },
+        { year: "2016", title: "AlphaGo Defeats Lee Sedol", desc: "DeepMind's AlphaGo beats Go world champion, a feat thought decades away.", icon: "⚫" },
+        { year: "2017", title: "Attention Is All You Need", desc: "Google publishes the Transformer paper, the architecture that powers all modern LLMs.", icon: "⚡" },
+        { year: "2018", title: "BERT Released", desc: "Google releases BERT, revolutionizing NLP with bidirectional pre-training.", icon: "📚" },
+        { year: "2020", title: "GPT-3 Launches", desc: "OpenAI releases GPT-3 with 175B parameters, showing remarkable language generation abilities.", icon: "🚀" },
+        { year: "2022", title: "ChatGPT Takes the World", desc: "ChatGPT launches and reaches 100M users in 2 months. DALL-E 2 and Stable Diffusion also debut.", icon: "💬" },
+        { year: "2023", title: "GPT-4 & AI Goes Mainstream", desc: "GPT-4 launches with multimodal capabilities. AI assistants become part of everyday life.", icon: "🌟" },
+        { year: "2024", title: "Video AI & Open Source Boom", desc: "Sora, Gemini 1.5, Claude 3, and Llama 3 push boundaries. AI agents become reality.", icon: "🎬" },
+        { year: "2025", title: "Agentic AI Era", desc: "AI agents that can plan, reason, and execute complex multi-step tasks autonomously go mainstream.", icon: "🤖" }
+    ];
+
+    function initTimeline() {
+        const container = document.getElementById("timelineContainer");
+        if (!container) return;
+        container.innerHTML = timelineEvents.map((e, i) => `
+            <div class="timeline-item">
+                <div class="timeline-dot">${e.icon}</div>
+                <div class="timeline-content">
+                    <span class="timeline-year">${escapeHTML(e.year)}</span>
+                    <h3 class="timeline-title">${escapeHTML(e.title)}</h3>
+                    <p class="timeline-desc">${escapeHTML(e.desc)}</p>
+                </div>
+            </div>
+        `).join("");
+    }
+
+    // ══════════════════════════════════════════════════════════════
+    //   WEEKLY AI SUMMARY (computed from loaded article data)
+    // ══════════════════════════════════════════════════════════════
+    function initWeeklySummary() {
+        const grid = document.getElementById("weeklySummaryGrid");
+        if (!grid || allArticles.length === 0) return;
+
+        const now = new Date();
+        const weekAgo = new Date(now - 7 * 86400000);
+        const weekArticles = allArticles.filter(a => new Date(a.published_at) >= weekAgo);
+        const pool = weekArticles.length ? weekArticles : allArticles;
+        const total = pool.length;
+
+        const catCounts = {};
+        pool.forEach(a => { catCounts[a.category] = (catCounts[a.category] || 0) + 1; });
+        const topCats = Object.entries(catCounts).sort((a, b) => b[1] - a[1]).slice(0, 5);
+
+        const companyCounts = {};
+        pool.forEach(a => { if (a.company_name) companyCounts[a.company_name] = (companyCounts[a.company_name] || 0) + 1; });
+        const topCompanies = Object.entries(companyCounts).sort((a, b) => b[1] - a[1]).slice(0, 5);
+
+        grid.innerHTML = `
+            <div class="ws-card ws-highlight">
+                <div class="ws-card-icon">📊</div>
+                <div class="ws-card-value">${total}</div>
+                <div class="ws-card-label">Articles This Period</div>
+            </div>
+            <div class="ws-card ws-highlight">
+                <div class="ws-card-icon">📂</div>
+                <div class="ws-card-value">${Object.keys(catCounts).length}</div>
+                <div class="ws-card-label">Categories Covered</div>
+            </div>
+            <div class="ws-card ws-highlight">
+                <div class="ws-card-icon">🏢</div>
+                <div class="ws-card-value">${Object.keys(companyCounts).length}</div>
+                <div class="ws-card-label">Companies Featured</div>
+            </div>
+            <div class="ws-card ws-wide">
+                <h4 class="ws-card-title">🔥 Top Categories</h4>
+                <div class="ws-bar-chart">${topCats.map(([cat, cnt]) => `
+                    <div class="ws-bar-row">
+                        <span class="ws-bar-label">${escapeHTML(cat)}</span>
+                        <div class="ws-bar-track"><div class="ws-bar-fill" style="width:${Math.round((cnt / total) * 100)}%"></div></div>
+                        <span class="ws-bar-count">${cnt}</span>
+                    </div>
+                `).join("")}</div>
+            </div>
+            <div class="ws-card ws-wide">
+                <h4 class="ws-card-title">🏢 Top Companies</h4>
+                <div class="ws-bar-chart">${topCompanies.map(([comp, cnt]) => `
+                    <div class="ws-bar-row">
+                        <span class="ws-bar-label">${escapeHTML(comp)}</span>
+                        <div class="ws-bar-track"><div class="ws-bar-fill" style="width:${Math.round((cnt / total) * 100)}%"></div></div>
+                        <span class="ws-bar-count">${cnt}</span>
+                    </div>
+                `).join("")}</div>
+            </div>
+        `;
+    }
+
+    // ══════════════════════════════════════════════════════════════
+    //   READER FAVORITES LEADERBOARD
+    // ══════════════════════════════════════════════════════════════
+    function initLeaderboard() {
+        const list = document.getElementById("leaderboardList");
+        if (!list || allArticles.length === 0) return;
+
+        const claps = JSON.parse(localStorage.getItem("aiunlocked-claps") || "{}");
+        const ranked = allArticles
+            .map(a => ({ ...a, claps: claps[a.guid || a.title] || 0 }))
+            .filter(a => a.claps > 0)
+            .sort((a, b) => b.claps - a.claps)
+            .slice(0, 10);
+
+        if (ranked.length === 0) {
+            list.innerHTML = '<p class="leaderboard-empty">👏 No claps yet! Like your favorite articles above and they\'ll appear here.</p>';
+            return;
+        }
+
+        list.innerHTML = ranked.map((a, i) => `
+            <div class="lb-row">
+                <span class="lb-rank">${i < 3 ? ["🥇","🥈","🥉"][i] : "#" + (i + 1)}</span>
+                <div class="lb-info">
+                    <span class="lb-title">${escapeHTML(a.title)}</span>
+                    <span class="lb-meta">${escapeHTML(a.company_name || "AI Unlocked")} · ${escapeHTML(a.category)}</span>
+                </div>
+                <span class="lb-claps">👏 ${a.claps}</span>
+            </div>
+        `).join("");
+    }
+
+    // ══════════════════════════════════════════════════════════════
+    //   SHAREABLE QUOTE CARDS (Canvas-based image generator)
+    // ══════════════════════════════════════════════════════════════
+    function showQuoteCardModal(title, summary) {
+        const modal = document.getElementById("quoteCardModal");
+        if (!modal) return;
+        modal.classList.add("open");
+
+        const canvas = document.getElementById("quoteCanvas");
+        const ctx = canvas.getContext("2d");
+        canvas.width = 1080;
+        canvas.height = 1080;
+
+        // Background gradient
+        const grad = ctx.createLinearGradient(0, 0, 1080, 1080);
+        grad.addColorStop(0, "#1e1b4b");
+        grad.addColorStop(0.5, "#312e81");
+        grad.addColorStop(1, "#3730a3");
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, 1080, 1080);
+
+        // Decorative circles
+        ctx.globalAlpha = 0.08;
+        ctx.fillStyle = "#fff";
+        ctx.beginPath(); ctx.arc(100, 100, 200, 0, Math.PI * 2); ctx.fill();
+        ctx.beginPath(); ctx.arc(980, 980, 300, 0, Math.PI * 2); ctx.fill();
+        ctx.globalAlpha = 1;
+
+        // Quote mark
+        ctx.fillStyle = "rgba(255,255,255,0.15)";
+        ctx.font = "bold 200px serif";
+        ctx.fillText("\u201C", 60, 220);
+
+        // Title text
+        ctx.fillStyle = "#fff";
+        ctx.font = "bold 42px Inter, sans-serif";
+        wrapText(ctx, title || "", 80, 320, 920, 52);
+
+        // Summary text
+        ctx.fillStyle = "rgba(255,255,255,0.75)";
+        ctx.font = "400 28px Inter, sans-serif";
+        const truncated = (summary || "").length > 200 ? (summary || "").slice(0, 200) + "…" : (summary || "");
+        wrapText(ctx, truncated, 80, 580, 920, 38);
+
+        // Branding bar
+        ctx.fillStyle = "rgba(0,0,0,0.3)";
+        ctx.fillRect(0, 980, 1080, 100);
+        ctx.fillStyle = "#fff";
+        ctx.font = "bold 28px Inter, sans-serif";
+        ctx.fillText("AI Unlocked — aiunlocked.info", 80, 1040);
+
+        // Download / Share button (use Web Share API on mobile if available)
+        const dlBtn = document.getElementById("quoteDownloadBtn");
+        if (dlBtn) {
+            dlBtn.onclick = async () => {
+                try {
+                    // Try Web Share API for mobile (works on iOS/Android)
+                    if (navigator.share && navigator.canShare) {
+                        canvas.toBlob(async (blob) => {
+                            const file = new File([blob], "ai-unlocked-quote.png", { type: "image/png" });
+                            if (navigator.canShare({ files: [file] })) {
+                                await navigator.share({ files: [file], title: "AI Unlocked Quote" });
+                                return;
+                            }
+                            // Fallback to download
+                            downloadCanvas();
+                        }, "image/png");
+                        return;
+                    }
+                } catch (e) { /* ignore share errors, fall through to download */ }
+                downloadCanvas();
+            };
+            function downloadCanvas() {
+                const link = document.createElement("a");
+                link.download = "ai-unlocked-quote.png";
+                link.href = canvas.toDataURL("image/png");
+                link.click();
+            }
+        }
+
+        // Close modal
+        const closeBtn = modal.querySelector(".modal-close");
+        if (closeBtn) closeBtn.onclick = () => modal.classList.remove("open");
+        modal.addEventListener("click", (e) => { if (e.target === modal) modal.classList.remove("open"); });
+    }
+
+    function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
+        const words = text.split(" ");
+        let line = "";
+        for (let i = 0; i < words.length; i++) {
+            const test = line + words[i] + " ";
+            if (ctx.measureText(test).width > maxWidth && i > 0) {
+                ctx.fillText(line, x, y);
+                line = words[i] + " ";
+                y += lineHeight;
+            } else {
+                line = test;
+            }
+        }
+        ctx.fillText(line, x, y);
+    }
+
     // ── Bootstrap ───────────────────────────────────────────────────
     initTheme();
     init();
@@ -1479,5 +1933,11 @@
     initSectionNav();
     initLangSelector();
     initMobileLangSelector();
+    initBackToTop();
+    initRandomArticle();
+    initKeyboardShortcuts();
+    initGlossary();
+    initToolOfDay();
+    initTimeline();
 
 })();
