@@ -15,6 +15,10 @@
 
     <title>AI Unlocked — Daily AI News &amp; Updates</title>
     <meta name="description" content="Stay up to date with the latest AI news, research papers, model releases, and industry deals — curated and summarised daily." />
+    <meta name="keywords" content="AI news, artificial intelligence, machine learning, LLM, GPT, deep learning, AI research, AI updates, AI industry, generative AI, AI daily news" />
+    <meta name="author" content="AI Unlocked" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://aiunlocked.info/" />
 
     <!-- Open Graph / Social sharing -->
     <meta property="og:type" content="website" />
@@ -22,18 +26,77 @@
     <meta property="og:description" content="Stay up to date with the latest AI news, research papers, model releases, and industry deals — curated and summarised daily." />
     <meta property="og:url" content="https://aiunlocked.info" />
     <meta property="og:image" content="https://aiunlocked.info/assets/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="AI Unlocked — Daily AI News & Updates" />
     <meta property="og:site_name" content="AI Unlocked" />
+    <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="AI Unlocked — Daily AI News & Updates" />
     <meta name="twitter:description" content="Your daily AI news — curated & summarised. Research, industry, open source, and more." />
     <meta name="twitter:image" content="https://aiunlocked.info/assets/og-image.png" />
+    <meta name="twitter:image:alt" content="AI Unlocked — Daily AI News & Updates" />
+
+    <!-- JSON-LD Structured Data — WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AI Unlocked",
+      "alternateName": "AI Unlocked — Daily AI News",
+      "url": "https://aiunlocked.info",
+      "description": "Stay up to date with the latest AI news, research papers, model releases, and industry deals — curated and summarised daily.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://aiunlocked.info/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI Unlocked",
+        "url": "https://aiunlocked.info",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://aiunlocked.info/assets/favicon.svg"
+        }
+      }
+    }
+    </script>
+
+    <!-- JSON-LD Structured Data — CollectionPage (News listing) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Latest AI News",
+      "description": "Curated daily AI news covering research papers, model releases, industry deals, and more.",
+      "url": "https://aiunlocked.info",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "AI Unlocked",
+        "url": "https://aiunlocked.info"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      "inLanguage": "en"
+    }
+    </script>
 
     <!-- Favicon -->
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/favicon.svg" />
 
-    <!-- Google Fonts -->
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="AI Unlocked RSS Feed" href="https://aiunlocked.info/rss.xml" />
+
+    <!-- DNS Prefetch & Preconnect for performance -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
     <!-- Styles -->
@@ -64,6 +127,38 @@
             </div>
         </div>
     </header>
+
+    <!-- ═══════════════════  SECTION NAV  ═══════════════════ -->
+    <nav class="section-nav" id="sectionNav">
+        <div class="container section-nav-inner">
+            <div class="section-nav-links">
+                <a href="#articlesGrid" class="section-nav-link active" data-section="articles">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    Articles
+                </a>
+                <a href="#gamesArcadeSection" class="section-nav-link" data-section="games">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 12h4m-2-2v4"/><circle cx="17" cy="10" r="1"/><circle cx="15" cy="14" r="1"/><rect x="2" y="6" width="20" height="12" rx="3"/></svg>
+                    Games
+                </a>
+                <a href="#successStoriesSection" class="section-nav-link" data-section="stories">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    Success Stories
+                </a>
+                <a href="#quizSection" class="section-nav-link" data-section="quiz">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><circle cx="12" cy="17" r=".5"/></svg>
+                    Quiz
+                </a>
+            </div>
+            <div class="section-nav-social">
+                <a href="https://youtube.com/@aiunlocked-ai?si=OooZKzPtezVuS76y" target="_blank" rel="noopener noreferrer" class="section-nav-social-btn yt" title="YouTube">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                </a>
+                <a href="https://www.instagram.com/aiunlocked.hacks.news?igsh=ZXp4M2NnOHgwenFz&utm_source=qr" target="_blank" rel="noopener noreferrer" class="section-nav-social-btn ig" title="Instagram">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                </a>
+            </div>
+        </div>
+    </nav>
 
     <!-- ═══════════════════  STATS BAR  ═══════════════════ -->
     <section class="stats-bar">
@@ -169,6 +264,54 @@
         🧠 <span>Take Quiz</span>
     </button>
 
+    <!-- ═══════════════════  AI GAMES ARCADE  ═══════════════════ -->
+    <section class="games-arcade-section" id="gamesArcadeSection">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">🕹️</span>
+                <h2 class="section-heading">AI Games Arcade</h2>
+                <p class="section-subtitle">Take a break and play these fun AI-themed mini-games! How well do you really know artificial intelligence?</p>
+            </div>
+
+            <!-- Game Picker Tabs -->
+            <div class="games-tabs" id="gamesTabs">
+                <button class="game-tab active" data-game="emoji">🎯 Emoji Decoder</button>
+                <button class="game-tab" data-game="scramble">🔤 Word Scramble</button>
+                <button class="game-tab" data-game="speedmatch">⏱️ Speed Match</button>
+                <button class="game-tab" data-game="aiorhuman">🤖 AI or Human?</button>
+                <button class="game-tab" data-game="acronym">🧩 Acronym Challenge</button>
+            </div>
+
+            <!-- Shared game card container -->
+            <div class="game-card">
+                <div id="gameContainer" class="game-container">
+                    <!-- Active game rendered by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  AI SUCCESS STORIES  ═══════════════════ -->
+    <section class="success-stories-section" id="successStoriesSection">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">🏆</span>
+                <h2 class="section-heading">AI Success Stories</h2>
+                <p class="section-subtitle">Real-world examples of how AI is transforming industries, saving lives, and pushing the boundaries of what's possible.</p>
+            </div>
+            <div class="ss-controls">
+                <div class="ss-filter-bar" id="ssFilterBar">
+                    <button class="ss-filter-btn active" data-filter="all">All</button>
+                </div>
+                <button class="ss-view-toggle" id="ssViewToggle" title="Toggle view">⊞</button>
+            </div>
+            <div id="successStoriesGrid" class="ss-grid">
+                <!-- Success stories rendered by JS -->
+            </div>
+            <div class="ss-pagination" id="ssPagination"></div>
+        </div>
+    </section>
+
     <!-- ═══════════════════  FOOTER  ═══════════════════ -->
     <footer class="site-footer">
         <div class="container footer-inner">
@@ -177,10 +320,27 @@
                 <strong>AI Unlocked</strong> — your daily dose of AI news, curated and summarised.<br/>
                 Built with ❤️ for the AI community.
             </p>
+            <div class="footer-social">
+                <a href="https://youtube.com/@aiunlocked-ai?si=OooZKzPtezVuS76y" target="_blank" rel="noopener noreferrer" class="footer-social-link yt" title="Follow on YouTube">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    YouTube
+                </a>
+                <a href="https://www.instagram.com/aiunlocked.hacks.news?igsh=ZXp4M2NnOHgwenFz&utm_source=qr" target="_blank" rel="noopener noreferrer" class="footer-social-link ig" title="Follow on Instagram">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                    Instagram
+                </a>
+            </div>
             <p class="footer-small">Updated daily&ensp;·&ensp;Powered by AI Unlocked&ensp;·&ensp;<a href="rss.xml" style="color:var(--accent)">RSS Feed</a></p>
         </div>
     </footer>
 
     <script src="assets/app.js"></script>
+    <noscript>
+        <style>.articles-grid,.quiz-section,.fun-facts-strip,.floating-quiz-btn{display:none!important}</style>
+        <div style="text-align:center;padding:60px 20px;font-family:sans-serif;">
+            <h2>JavaScript Required</h2>
+            <p>AI Unlocked requires JavaScript to load articles and interactive features. Please enable JavaScript in your browser settings.</p>
+        </div>
+    </noscript>
 </body>
 </html>
