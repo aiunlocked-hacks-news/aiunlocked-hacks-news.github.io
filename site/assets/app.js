@@ -1425,10 +1425,12 @@
 
         function positionDropdown() {
             const rect = toggle.getBoundingClientRect();
+            const dropW = 190;
             dropdown.style.top = (rect.bottom + 6) + "px";
-            // Align to right edge of screen with padding
-            dropdown.style.left = "auto";
-            dropdown.style.right = "8px";
+            // Right-align: place left edge so the dropdown ends near the right side of the button
+            const leftPos = Math.max(8, rect.right - dropW);
+            dropdown.style.left = leftPos + "px";
+            dropdown.style.right = "auto";
         }
 
         toggle.addEventListener("click", (e) => {
