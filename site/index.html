@@ -176,6 +176,14 @@
                     <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><circle cx="12" cy="17" r=".5"/></svg>
                     Quiz
                 </a>
+                <a href="#glossarySection" class="section-nav-link" data-section="glossary">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    Glossary
+                </a>
+                <a href="#timelineSection" class="section-nav-link" data-section="timeline">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    Timeline
+                </a>
                 <!-- Translate dropdown (inline with other nav links) -->
                 <div class="lang-selector" id="langSelector">
                     <button class="section-nav-link lang-nav-btn" id="langToggle" title="Translate page">
@@ -277,7 +285,10 @@
         <section class="articles-section">
             <div class="articles-header">
                 <h2 id="sectionTitle">Latest AI News</h2>
-                <span class="article-count" id="articleCount"></span>
+                <div class="articles-header-right">
+                    <button class="btn btn-outline btn-sm" id="randomArticleBtn" title="Show a random article">🎲 Random</button>
+                    <span class="article-count" id="articleCount"></span>
+                </div>
             </div>
 
             <div id="articlesGrid" class="articles-grid">
@@ -370,6 +381,70 @@
         </div>
     </section>
 
+    <!-- ═══════════════════  AI GLOSSARY  ═══════════════════ -->
+    <section class="glossary-section" id="glossarySection">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">📖</span>
+                <h2 class="section-heading">AI Glossary</h2>
+                <p class="section-subtitle">Your quick-reference guide to essential AI terms and concepts.</p>
+            </div>
+            <div class="glossary-search-wrap">
+                <input type="text" id="glossarySearch" class="glossary-search" placeholder="Search AI terms…" autocomplete="off" />
+            </div>
+            <div class="glossary-letters" id="glossaryLetters"></div>
+            <div id="glossaryGrid" class="glossary-grid"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  AI TOOL OF THE DAY  ═══════════════════ -->
+    <section class="tool-of-day-section" id="toolOfDaySection">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">🛠️</span>
+                <h2 class="section-heading">AI Tool of the Day</h2>
+                <p class="section-subtitle">Discover a new AI tool every day — handpicked for builders, creators, and curious minds.</p>
+            </div>
+            <div id="toolOfDayCard" class="tool-of-day-card"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  AI EVENTS TIMELINE  ═══════════════════ -->
+    <section class="timeline-section" id="timelineSection">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">📅</span>
+                <h2 class="section-heading">AI Milestones Timeline</h2>
+                <p class="section-subtitle">A journey through the key moments that shaped artificial intelligence.</p>
+            </div>
+            <div id="timelineContainer" class="timeline-container"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  WEEKLY AI SUMMARY  ═══════════════════ -->
+    <section class="weekly-summary-section" id="weeklySummarySection">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">📰</span>
+                <h2 class="section-heading">This Week in AI</h2>
+                <p class="section-subtitle">A snapshot of this week's AI landscape — top categories, trending topics, and highlights.</p>
+            </div>
+            <div id="weeklySummaryGrid" class="weekly-summary-grid"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  AI LEADERBOARD  ═══════════════════ -->
+    <section class="leaderboard-section" id="leaderboardSection">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">🏅</span>
+                <h2 class="section-heading">Reader Favorites</h2>
+                <p class="section-subtitle">The most-loved articles by our community — based on reader claps.</p>
+            </div>
+            <div id="leaderboardList" class="leaderboard-list"></div>
+        </div>
+    </section>
+
     <!-- ═══════════════════  FOOTER  ═══════════════════ -->
     <footer class="site-footer">
         <div class="container footer-inner">
@@ -405,6 +480,39 @@
     }
     </script>
     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTopBtn" title="Back to top">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m18 15-6-6-6 6"/></svg>
+    </button>
+
+    <!-- Keyboard Shortcuts Modal -->
+    <div class="modal-overlay" id="shortcutsModal">
+        <div class="modal-card shortcuts-card">
+            <button class="modal-close">✕</button>
+            <h3 class="modal-title">⌨️ Keyboard Shortcuts</h3>
+            <div class="shortcuts-grid">
+                <div class="shortcut-row"><kbd>?</kbd><span>Show / hide shortcuts</span></div>
+                <div class="shortcut-row"><kbd>T</kbd><span>Toggle dark / light mode</span></div>
+                <div class="shortcut-row"><kbd>S</kbd><span>Focus search</span></div>
+                <div class="shortcut-row"><kbd>H</kbd><span>Scroll to top</span></div>
+                <div class="shortcut-row"><kbd>R</kbd><span>Random article</span></div>
+                <div class="shortcut-row"><kbd>G</kbd><span>Go to Games</span></div>
+                <div class="shortcut-row"><kbd>Q</kbd><span>Go to Quiz</span></div>
+                <div class="shortcut-row"><kbd>Esc</kbd><span>Close modals</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quote Card Modal -->
+    <div class="modal-overlay" id="quoteCardModal">
+        <div class="modal-card quote-card-modal">
+            <button class="modal-close">✕</button>
+            <h3 class="modal-title">🖼️ Shareable Quote Card</h3>
+            <canvas id="quoteCanvas" class="quote-canvas"></canvas>
+            <button class="btn-gradient" id="quoteDownloadBtn">📥 Share / Download</button>
+        </div>
+    </div>
 
     <script src="assets/app.js"></script>
     <noscript>
