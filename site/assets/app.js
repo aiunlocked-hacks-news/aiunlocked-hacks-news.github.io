@@ -1416,6 +1416,55 @@
         }
     }
 
+    // ── Mobile Language Selector (mirrors desktop logic) ────────────
+    function initMobileLangSelector() {
+        const selector = document.getElementById("langSelectorMobile");
+        const toggle = document.getElementById("langToggleMobile");
+        const dropdown = document.getElementById("langDropdownMobile");
+        if (!selector || !toggle || !dropdown) return;
+
+        function positionDropdown() {
+            const rect = toggle.getBoundingClientRect();
+            dropdown.style.top = (rect.bottom + 6) + "px";
+            // Align to right edge of screen with padding
+            dropdown.style.left = "auto";
+            dropdown.style.right = "8px";
+        }
+
+        toggle.addEventListener("click", (e) => {
+            e.stopPropagation();
+            positionDropdown();
+            selector.classList.toggle("open");
+        });
+
+        document.addEventListener("click", (e) => {
+            if (!selector.contains(e.target)) selector.classList.remove("open");
+        });
+
+        dropdown.querySelectorAll(".lang-option").forEach(btn => {
+            btn.addEventListener("click", () => {
+                const lang = btn.dataset.lang;
+                selector.classList.remove("open");
+                if (lang === "en") {
+                    document.cookie = "googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+                    document.cookie = "googtrans=; path=/; domain=." + location.hostname + "; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+                } else {
+                    document.cookie = "googtrans=/en/" + lang + "; path=/";
+                    document.cookie = "googtrans=/en/" + lang + "; path=/; domain=." + location.hostname;
+                }
+                location.reload();
+            });
+        });
+
+        // Restore active state from cookie
+        const match = document.cookie.match(/googtrans=\/en\/([^;]+)/);
+        if (match && match[1]) {
+            dropdown.querySelectorAll(".lang-option").forEach(b => {
+                b.classList.toggle("active", b.dataset.lang === match[1]);
+            });
+        }
+    }
+
     // ── Bootstrap ───────────────────────────────────────────────────
     initTheme();
     init();
@@ -1427,5 +1476,6 @@
     initGamesArcade();
     initSectionNav();
     initLangSelector();
+    initMobileLangSelector();
 
 })();
