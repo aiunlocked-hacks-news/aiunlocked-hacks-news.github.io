@@ -1,0 +1,9 @@
+# AI Unlocked — robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://aiunlocked.info/sitemap.xml
+
+# Crawl-delay (be polite)
+Crawl-delay: 1
