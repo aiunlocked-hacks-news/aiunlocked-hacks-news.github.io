@@ -230,7 +230,8 @@ img { max-width: 100%; display: block; }
     z-index: 300;
     display: none;
     animation: langFadeIn .2s ease;
-}.section-nav-link {
+}
+.section-nav-link {
     display: inline-flex;
     align-items: center;
     gap: 6px;
