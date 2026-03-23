@@ -3,21 +3,21 @@
   <!-- Main page — AI news articles (updated daily) -->
   <url>
     <loc>https://aiunlocked.info/</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <!-- Games Arcade section -->
   <url>
     <loc>https://aiunlocked.info/#gamesArcadeSection</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- AI Success Stories section -->
   <url>
     <loc>https://aiunlocked.info/#successStoriesSection</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -175,6 +175,7 @@
         $grid.innerHTML = pageArticles.map(articleCard).join("");
         bindCardEvents();
         renderPagination(currentPage, totalPages);
+        injectArticleSchema(pageArticles);
     }
 
     // ── Render a single card ────────────────────────────────────
@@ -443,6 +444,41 @@
     function getClapCount(id) {
         const claps = JSON.parse(localStorage.getItem("aiunlocked-claps") || "{}");
         return claps[id] || 0;
+    }
+
+    // ── NewsArticle JSON-LD for SEO ─────────────────────────────
+    function injectArticleSchema(articles) {
+        const old = document.getElementById("dynamic-article-schema");
+        if (old) old.remove();
+        if (!articles || articles.length === 0) return;
+
+        const items = articles.slice(0, 6).map(a => ({
+            "@type": "NewsArticle",
+            "headline": a.title,
+            "description": a.summary,
+            "datePublished": a.published_at,
+            "author": {
+                "@type": "Organization",
+                "name": a.company_name || "AI Unlocked"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "AI Unlocked",
+                "url": "https://aiunlocked.info",
+                "logo": { "@type": "ImageObject", "url": "https://aiunlocked.info/assets/favicon.svg" }
+            },
+            "mainEntityOfPage": a.guid || "https://aiunlocked.info",
+            "image": a.image_url || "https://aiunlocked.info/assets/og-image.png"
+        }));
+
+        const script = document.createElement("script");
+        script.type = "application/ld+json";
+        script.id = "dynamic-article-schema";
+        script.textContent = JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": items
+        });
+        document.head.appendChild(script);
     }
 
     // ══════════════════════════════════════════════════════════════
