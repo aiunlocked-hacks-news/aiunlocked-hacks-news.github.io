@@ -1332,6 +1332,90 @@
         updateActive();
     }
 
+    // ══════════════════════════════════════════════════════════════
+    //   LANGUAGE SELECTOR — Google Translate integration
+    // ══════════════════════════════════════════════════════════════
+    const langNames = {
+        en: "Translate", hi: "🇮🇳 Hindi", es: "🇪🇸 Español", fr: "🇫🇷 Français", de: "🇩🇪 Deutsch",
+        "zh-CN": "🇨🇳 中文", ja: "🇯🇵 日本語", ko: "🇰🇷 한국어", pt: "🇧🇷 Português", ar: "🇸🇦 العربية",
+        ru: "🇷🇺 Русский", it: "🇮🇹 Italiano", nl: "🇳🇱 Nederlands", sv: "🇸🇪 Svenska", pl: "🇵🇱 Polski",
+        tr: "🇹🇷 Türkçe", vi: "🇻🇳 Việt", th: "🇹🇭 ไทย", id: "🇮🇩 Bahasa", bn: "🇧🇩 বাংলা"
+    };
+
+    function initLangSelector() {
+        const selector = document.getElementById("langSelector");
+        const toggle = document.getElementById("langToggle");
+        const dropdown = document.getElementById("langDropdown");
+        const label = document.getElementById("langLabel");
+        if (!selector || !toggle || !dropdown) return;
+
+        // Position dropdown below the toggle button using fixed positioning
+        function positionDropdown() {
+            const rect = toggle.getBoundingClientRect();
+            dropdown.style.top = (rect.bottom + 6) + "px";
+            dropdown.style.left = Math.max(8, rect.left) + "px";
+        }
+
+        // Toggle dropdown
+        toggle.addEventListener("click", (e) => {
+            e.stopPropagation();
+            positionDropdown();
+            selector.classList.toggle("open");
+        });
+
+        // Reposition on scroll/resize
+        window.addEventListener("scroll", () => { if (selector.classList.contains("open")) positionDropdown(); }, { passive: true });
+        window.addEventListener("resize", () => { if (selector.classList.contains("open")) positionDropdown(); }, { passive: true });
+
+        // Close on outside click
+        document.addEventListener("click", (e) => {
+            if (!selector.contains(e.target)) selector.classList.remove("open");
+        });
+
+        // Language option click
+        dropdown.querySelectorAll(".lang-option").forEach(btn => {
+            btn.addEventListener("click", () => {
+                const lang = btn.dataset.lang;
+                selector.classList.remove("open");
+
+                // Update active state
+                dropdown.querySelectorAll(".lang-option").forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
+                label.textContent = langNames[lang] || lang.toUpperCase();
+
+                // Trigger Google Translate
+                if (lang === "en") {
+                    // Restore original
+                    const frame = document.querySelector(".goog-te-banner-frame");
+                    if (frame) {
+                        const innerDoc = frame.contentDocument || frame.contentWindow.document;
+                        const restoreBtn = innerDoc.querySelector("button#\\:1\\.restore, button.goog-close-link");
+                        if (restoreBtn) restoreBtn.click();
+                    }
+                    // Fallback: reset cookie
+                    document.cookie = "googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+                    document.cookie = "googtrans=; path=/; domain=." + location.hostname + "; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+                    location.reload();
+                } else {
+                    // Set Google Translate cookie & reload
+                    document.cookie = "googtrans=/en/" + lang + "; path=/";
+                    document.cookie = "googtrans=/en/" + lang + "; path=/; domain=." + location.hostname;
+                    location.reload();
+                }
+            });
+        });
+
+        // Restore active state from cookie on load
+        const match = document.cookie.match(/googtrans=\/en\/([^;]+)/);
+        if (match && match[1]) {
+            const savedLang = match[1];
+            label.textContent = langNames[savedLang] || savedLang.toUpperCase();
+            dropdown.querySelectorAll(".lang-option").forEach(b => {
+                b.classList.toggle("active", b.dataset.lang === savedLang);
+            });
+        }
+    }
+
     // ── Bootstrap ───────────────────────────────────────────────────
     initTheme();
     init();
@@ -1342,5 +1426,6 @@
     initSuccessStories();
     initGamesArcade();
     initSectionNav();
+    initLangSelector();
 
 })();

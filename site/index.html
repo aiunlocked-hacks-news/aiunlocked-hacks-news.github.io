@@ -148,6 +148,36 @@
                     <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><circle cx="12" cy="17" r=".5"/></svg>
                     Quiz
                 </a>
+                <!-- Translate dropdown (inline with other nav links) -->
+                <div class="lang-selector" id="langSelector">
+                    <button class="section-nav-link lang-nav-btn" id="langToggle" title="Translate page">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><ellipse cx="12" cy="12" rx="4" ry="10"/></svg>
+                        <span id="langLabel">Translate</span>
+                        <svg class="lang-chevron" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+                    </button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <button class="lang-option active" data-lang="en">🇬🇧 English</button>
+                        <button class="lang-option" data-lang="hi">🇮🇳 हिन्दी</button>
+                        <button class="lang-option" data-lang="es">🇪🇸 Español</button>
+                        <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+                        <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+                        <button class="lang-option" data-lang="zh-CN">🇨🇳 中文</button>
+                        <button class="lang-option" data-lang="ja">🇯🇵 日本語</button>
+                        <button class="lang-option" data-lang="ko">🇰🇷 한국어</button>
+                        <button class="lang-option" data-lang="pt">🇧🇷 Português</button>
+                        <button class="lang-option" data-lang="ar">🇸🇦 العربية</button>
+                        <button class="lang-option" data-lang="ru">🇷🇺 Русский</button>
+                        <button class="lang-option" data-lang="it">🇮🇹 Italiano</button>
+                        <button class="lang-option" data-lang="nl">🇳🇱 Nederlands</button>
+                        <button class="lang-option" data-lang="sv">🇸🇪 Svenska</button>
+                        <button class="lang-option" data-lang="pl">🇵🇱 Polski</button>
+                        <button class="lang-option" data-lang="tr">🇹🇷 Türkçe</button>
+                        <button class="lang-option" data-lang="vi">🇻🇳 Tiếng Việt</button>
+                        <button class="lang-option" data-lang="th">🇹🇭 ไทย</button>
+                        <button class="lang-option" data-lang="id">🇮🇩 Bahasa</button>
+                        <button class="lang-option" data-lang="bn">🇧🇩 বাংলা</button>
+                    </div>
+                </div>
             </div>
             <div class="section-nav-social">
                 <a href="https://youtube.com/@aiunlocked-ai?si=OooZKzPtezVuS76y" target="_blank" rel="noopener noreferrer" class="section-nav-social-btn yt" title="YouTube">
@@ -333,6 +363,20 @@
             <p class="footer-small">Updated daily&ensp;·&ensp;Powered by AI Unlocked&ensp;·&ensp;<a href="rss.xml" style="color:var(--accent)">RSS Feed</a></p>
         </div>
     </footer>
+
+    <!-- Google Translate (hidden default widget — triggered by custom selector) -->
+    <div id="google_translate_element" style="display:none"></div>
+    <script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'en,hi,es,fr,de,zh-CN,ja,ko,pt,ar,ru,it,nl,sv,pl,tr,vi,th,id,bn',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false
+        }, 'google_translate_element');
+    }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <script src="assets/app.js"></script>
     <noscript>
