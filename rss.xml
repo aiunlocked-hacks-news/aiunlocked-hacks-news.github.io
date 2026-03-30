@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Unlocked — Daily AI News</title>
+    <link>https://aiunlocked.info</link>
+    <description>Your daily AI news — curated and summarised. Research, industry, open source, and more.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Mar 2026 11:37:58 +0000</lastBuildDate>
+    <atom:link href="https://aiunlocked.info/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[Salesforce AI Research Releases VoiceAgentRAG: A Dual-Agent Memory Router that Cuts Voice RAG Retrieval Latency by 316x]]></title>
+      <description><![CDATA[In the world of voice AI, the difference between a helpful assistant and an awkward interaction is measured in milliseconds. While text-based Retrieval-Augmented Generation (RAG) systems can afford a few seconds of ‘thinking’ time, voice agents must respond within a 200 ms budget to maintain a natural conversational flow. Standard production vector database queries typically add 50-300 ms of network latency, effectively consuming the entire budget before an LLM even begins generating a response. Salesforce AI research team has released VoiceAgentRAG , an open-source dual-agent architecture designed to bypass this retrieval bottleneck by decoupling document fetching from response generation. VoiceAgentRAG operates as a memory router that orchestrates two concurrent agents via an asynchronous event bus: To optimize search accuracy, the Slow Thinker is instructed to generate document-style descriptions rather than questions .]]></description>
+      <category>Research</category>
+      <pubDate>Mon, 30 Mar 2026 09:56:14 +0000</pubDate>
+      <guid isPermaLink="false">698333f6b293d4e1</guid>
+    </item>
+    <item>
+      <title><![CDATA[BeSafe-Bench: Unveiling Behavioral Safety Risks of Situated Agents in Functional Environments]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8cfe7c3adea69572</guid>
+    </item>
+    <item>
+      <title><![CDATA[AutoB2G: A Large Language Model-Driven Agentic Framework For Automated Building-Grid Co-Simulation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5045b5e09f6aefaa</guid>
+    </item>
+    <item>
+      <title><![CDATA[Semi-Automated Knowledge Engineering and Process Mapping for Total Airport Management]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">6a2ecf8077b997d9</guid>
+    </item>
+    <item>
+      <title><![CDATA[GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play Annotation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b544c0dc67b5f5ea</guid>
+    </item>
+    <item>
+      <title><![CDATA[AIRA_2: Overcoming Bottlenecks in AI Research Agents]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ec3173daf418172a</guid>
+    </item>
+    <item>
+      <title><![CDATA[CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">197830842ed7dea0</guid>
+    </item>
+    <item>
+      <title><![CDATA[DesignWeaver: Dimensional Scaffolding for Text-to-Image Product Design]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ffa47922bfa8ff31</guid>
+    </item>
+    <item>
+      <title><![CDATA[Sommelier: Scalable Open Multi-turn Audio Pre-processing for Full-duplex Speech Language Models]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">03db3577006380c5</guid>
+    </item>
+    <item>
+      <title><![CDATA[A-SelecT: Automatic Timestep Selection for Diffusion Transformer Representation Learning]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">aecd82cdd173533c</guid>
+    </item>
+    <item>
+      <title><![CDATA[CANGuard: A Spatio-Temporal CNN-GRU-Attention Hybrid Architecture for Intrusion Detection in In-Vehicle CAN Networks]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">787f40be73b8b729</guid>
+    </item>
+    <item>
+      <title><![CDATA[Consistency Amplifies: How Behavioral Variance Shapes Agent Accuracy]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">7d9f93ffd15f56a9</guid>
+    </item>
+    <item>
+      <title><![CDATA[ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f5c4171e9eca829f</guid>
+    </item>
+    <item>
+      <title><![CDATA[Unlocking Strong Supervision: A Data-Centric Study of General-Purpose Audio Pre-Training Methods]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">39cd63dfb0d3a11c</guid>
+    </item>
+    <item>
+      <title><![CDATA[Empowering Epidemic Response: The Role of Reinforcement Learning in Infectious Disease Control]]></title>
+      <description><![CDATA[Important: e-prints posted on arXiv are not peer-reviewed by arXiv; they should not be relied upon without context to guide clinical practice or health-related behavior and should not be reported in news media as established information without consulting multiple experts in the field. arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8e4f33e4386c1096</guid>
+    </item>
+    <item>
+      <title><![CDATA[Pure and Physics-Guided Deep Learning Solutions for Spatio-Temporal Groundwater Level Prediction at Arbitrary Locations]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4962d8f5a1126f46</guid>
+    </item>
+    <item>
+      <title><![CDATA[MAGNET: Autonomous Expert Model Generation via Decentralized Autoresearch and BitNet Training]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ec8bc7450eca4692</guid>
+    </item>
+    <item>
+      <title><![CDATA[A Compression Perspective on Simplicity Bias]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">56ac8078f0ec4fb1</guid>
+    </item>
+    <item>
+      <title><![CDATA[In-Context Molecular Property Prediction with LLMs: A Blinding Study on Memorization and Knowledge Conflicts]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f661faee0dad4d52</guid>
+    </item>
+    <item>
+      <title><![CDATA[DRiffusion: Draft-and-Refine Process Parallelizes Diffusion Models with Ease]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f9f6605cedc3acdd</guid>
+    </item>
+    <item>
+      <title><![CDATA[Data-Driven Plasticity Modeling via Acoustic Profiling]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cb53037a7bfb8ea0</guid>
+    </item>
+    <item>
+      <title><![CDATA[Decoding Defensive Coverage Responsibilities in American Football Using Factorized Attention Based Transformer Models]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2771f512f96964d4</guid>
+    </item>
+    <item>
+      <title><![CDATA[Parameter-Free Dynamic Regret for Unconstrained Linear Bandits]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">1c59506341fe41d1</guid>
+    </item>
+    <item>
+      <title><![CDATA[Preventing Data Leakage in EEG-Based Survival Prediction: A Two-Stage Embedding and Transformer Framework]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">42aee0c8f7db0ffc</guid>
+    </item>
+    <item>
+      <title><![CDATA[Personalizing Mathematical Game-based Learning for Children: A Preliminary Study]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">0b96662b00f37133</guid>
+    </item>
+    <item>
+      <title><![CDATA[Online Learning for Dynamic Constellation Topologies]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">aca80aa7872a072f</guid>
+    </item>
+    <item>
+      <title><![CDATA[EngineAD: A Real-World Vehicle Engine Anomaly Detection Dataset]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 30 Mar 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">27fa17d097eba344</guid>
+    </item>
+    <item>
+      <title><![CDATA[Why OpenAI really shut down Sora]]></title>
+      <description><![CDATA[OpenAI’s decision last week to shut down Sora, its AI video-generation tool, just six months after releasing it to the public raised immediate suspicions. According to a new WSJ investigation , the real explanation is considerably more boring: Sora was a money pit that nobody was using, and keeping it alive was costing OpenAI the AI race. Every user who dropped themselves into a fantastical scene was drawing down a finite supply of AI chips. While a whole team inside OpenAI was focused on making Sora work, Anthropic was quietly winning over the software engineers and enterprises that drive revenue. So CEO Sam Altman made the call: kill Sora, free up compute, and refocus. If you want to understand just how sudden this was, consider what happened to Disney, per the WSJ: the entertainment giant had committed $1 billion to the partnership, yet found out Sora was being shut down less than an hour before the public.]]></description>
+      <category>Industry</category>
+      <pubDate>Mon, 30 Mar 2026 03:09:38 +0000</pubDate>
+      <guid isPermaLink="false">e557f00698e263cc</guid>
+    </item>
+    <item>
+      <title><![CDATA[All the latest in AI &#8216;music&#8217;]]></title>
+      <description><![CDATA[As part of the deal, Google will fold ProducerAI under the Labs umbrella and power the tool with a preview version of its new Lyria 3 music-making AI model . ProducerAI is a music-making platform that allows users to work with an AI agent to generate sounds, workshop lyrics, remix songs, and even create new instruments based on a prompt. The platform launched in July 2025 as a successor to the AI music-making tool Riffusion, and initially used the startup’s own AI model to help you generate songs and tweak existing ones. Seth Forsgren, the cofounder and CEO of ProducerAI, tells The Verge the team is “just scratching the surface of what these models are going to be able to do once we harness everything that Google brings to the table.” Google has given Gemini the ability to spit out AI-generated music, courtesy of DeepMind’s latest audio model.]]></description>
+      <category>Industry</category>
+      <pubDate>Mon, 30 Mar 2026 01:32:14 +0000</pubDate>
+      <guid isPermaLink="false">0a8d66c102c0b50f</guid>
+    </item>
+    <item>
+      <title><![CDATA[Agent-Infra Releases AIO Sandbox: An All-in-One Runtime for AI Agents with Browser, Shell, Shared Filesystem, and MCP]]></title>
+      <description><![CDATA[In the development of autonomous agents, the technical bottleneck is shifting from model reasoning to the execution environment. While Large Language Models (LLMs) can generate code and multi-step plans, providing a functional and isolated environment for that code to run remains a significant infrastructure challenge. Unlike standard containerization, which often requires manual configuration for tool-chaining, the AIO Sandbox integrates a browser, a shell, and a file system into a single environment designed for AI agents. By providing pre-configured MCP servers, Agent-Infra allows developers to expose sandbox capabilities to LLMs via a standardized protocol. As AI agents transition from simple chatbots to operators capable of interacting with the web and local files, the execution environment becomes a critical component of the stack. Agent-Infra team is positioning the AIO Sandbox as a standardized, lightweight runtime for this transition.]]></description>
+      <category>Research</category>
+      <pubDate>Mon, 30 Mar 2026 00:04:53 +0000</pubDate>
+      <guid isPermaLink="false">fee03f1784bf9840</guid>
+    </item>
+    <item>
+      <title><![CDATA[How to Build Advanced Cybersecurity AI Agents with CAI Using Tools, Guardrails, Handoffs, and Multi-Agent Workflows]]></title>
+      <description><![CDATA[In this tutorial, we build and explore the CAI Cybersecurity AI Framework step by step in Colab using an OpenAI-compatible model. We gradually move into more advanced capabilities such as custom function tools, multi-agent handoffs, agent orchestration, input guardrails, dynamic tools, CTF-style pipelines, multi-turn context handling, and streaming responses. We define custom cybersecurity tools that let our agents check IP reputation, simulate a port scan, and look up CVE details. We move from single-agent execution to coordinated multi-agent workflows using handoffs and agent-as-tool orchestration. In conclusion, we understood how the CAI framework is used to build advanced cybersecurity agents rather than just simple chatbot-style interactions. Overall, we came away with a strong working foundation for using CAI in real security-focused workflows, and we now understand how its agent, tool, guardrail, and orchestration patterns fit together in practice.]]></description>
+      <category>Research</category>
+      <pubDate>Sun, 29 Mar 2026 23:28:57 +0000</pubDate>
+      <guid isPermaLink="false">8c0ed694785c1522</guid>
+    </item>
+    <item>
+      <title><![CDATA[Helping disaster response teams turn AI into action across Asia]]></title>
+      <description><![CDATA[AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation]]></description>
+      <category>Company Updates</category>
+      <pubDate>Sun, 29 Mar 2026 22:15:00 +0000</pubDate>
+      <guid isPermaLink="false">f91c8657db60b582</guid>
+    </item>
+    <item>
+      <title><![CDATA[Bluesky’s new app is an AI for customizing your feed]]></title>
+      <description><![CDATA[Eventually, Attie will be able to vibe-code entire apps for the AT Protocol. The latest app from the team behind Bluesky is Attie, an AI assistant that lets you build your own algorithm . At the Atmosphere conference, Bluesky’s former CEO, Jay Graber, and CTO Paul Frazee, unveiled Attie, which is powered by Anthropic’s Claude and built on top of Bluesky’s underlying AT Protocol (atproto). Attie allows users to create custom feeds using natural language. For example, you could ask for “posts about folklore, mythology, and traditional music, especially Celtic traditions.” To start these custom feeds will be confined to a standalone Attie app. But the plan is to make them available in Bluesky and other atproto apps.]]></description>
+      <category>Industry</category>
+      <pubDate>Sun, 29 Mar 2026 21:44:41 +0000</pubDate>
+      <guid isPermaLink="false">2aaf8c7673a083f6</guid>
+    </item>
+    <item>
+      <title><![CDATA[Meet A-Evolve: The PyTorch Moment For Agentic AI Systems Replacing Manual Tuning With Automated State Mutation And Self-Correction]]></title>
+      <description><![CDATA[A team of researchers associated with Amazon has released A-Evolve , a universal infrastructure designed to automate the development of autonomous AI agents. The framework aims to replace the ‘manual harness engineering’ that currently defines agent development with a systematic, automated evolution process. The project is being described as a potential ‘PyTorch moment’ for agentic AI. Just as PyTorch moved deep learning away from manual gradient calculations, A-Evolve seeks to move agent design away from hand-tuned prompts and toward a scalable framework where agents improve their own code and logic through iterative cycles. In current workflows, software and AI engineers building autonomous agents often find themselves in a loop of manual trial and error. This can transform a basic ‘seed’ agent into a high-performing one with ‘zero human intervention, ‘ a goal achieved by delegating the tuning process to an automated engine.]]></description>
+      <category>Research</category>
+      <pubDate>Sun, 29 Mar 2026 18:17:23 +0000</pubDate>
+      <guid isPermaLink="false">0669372b9544ffa3</guid>
+    </item>
+    <item>
+      <title><![CDATA[Self-Healing Neural Networks in PyTorch: Fix Model Drift in Real Time Without Retraining]]></title>
+      <description><![CDATA[Problem: Model drifts, retraining unavailable Solution: Self-healing adapter layer Key idea: Update a small component, not the full model Result: +27.8% accuracy recovery — with an explicit recall tradeoff explained inside. Full code, all 7 versions, production stack, monitoring export, all plots: https://github.com/Emmimal/self-healing-neural-networks/ When a model starts degrading, the typical playbook is one of three things: retrain on fresh labeled data, use an ensemble that includes a recently trained model, or roll back to a previous checkpoint. The reason this split matters: catastrophic forgetting (the tendency of neural networks to lose previously learned behavior when updated on new data) is limited because the backbone is always frozen during healing. The symbolic rule provides the consistency signal during healing (the loss architecture from Hybrid Neuro-Symbolic Fraud Detection and Neural Network Learned Its Own Fraud Rules).]]></description>
+      <category>Tutorials</category>
+      <pubDate>Sun, 29 Mar 2026 13:00:00 +0000</pubDate>
+      <guid isPermaLink="false">434279eb1d00117e</guid>
+    </item>
+    <item>
+      <title><![CDATA[Chroma Releases Context-1: A 20B Agentic Search Model for Multi-Hop Retrieval, Context Management, and Scalable Synthetic Task Generation]]></title>
+      <description><![CDATA[But as any AI professionals building RAG (Retrieval-Augmented Generation) systems knows, stuffing a million tokens into a prompt often leads to higher latency, astronomical costs, and a ‘lost in the middle’ reasoning failure that no amount of compute seems to fully solve. They released Context-1 , a 20B parameter agentic search model designed to act as a specialized retrieval subagent. Context-1 is derived from gpt-oss-20B , a Mixture of Experts (MoE) architecture that Chroma has fine-tuned using a combination of Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) via CISPO (a staged curriculum optimization). Mid-search, the model reviews its accumulated context and proactively executes a prune_chunks command to discard irrelevant passages. The pipeline avoids the pitfalls of static benchmarks by generating synthetic multi-hop tasks across four specific domains: The data generation follows a rigorous Explore → Verify → Distract → Index pattern.]]></description>
+      <category>Research</category>
+      <pubDate>Sun, 29 Mar 2026 08:25:09 +0000</pubDate>
+      <guid isPermaLink="false">5bf72e53aba43413</guid>
+    </item>
+    <item>
+      <title><![CDATA[Google-Agent vs Googlebot: Google Defines the Technical Boundary Between User Triggered AI Access and Search Crawling Systems Today]]></title>
+      <description><![CDATA[As Google integrates AI capabilities across its product suite, a new technical entity has surfaced in server logs: Google-Agent . Unlike the autonomous crawlers that have defined the web for decades, Google-Agent operates under a different set of rules and protocols. The fundamental technical difference between Google’s legacy bots and Google-Agent lies in the trigger mechanism . While autonomous crawlers like Googlebot strictly adhere to robots.txt directives to determine which parts of a site to index, user-triggered fetchers generally operate under a different protocol. For security and monitoring, it is important to note that because these are user-triggered, they may not originate from the same predictable IP blocks as Google’s primary search crawlers. By moving from autonomous crawling to user-triggered fetching, Google is creating a more direct link between the user’s intent and the live web content.]]></description>
+      <category>Research</category>
+      <pubDate>Sun, 29 Mar 2026 06:03:27 +0000</pubDate>
+      <guid isPermaLink="false">941fb992715ddddf</guid>
+    </item>
+    <item>
+      <title><![CDATA[A Coding Guide to Exploring nanobot’s Full Agent Pipeline, from Wiring Up Tools and Memory to Skills, Subagents, and Cron Scheduling]]></title>
+      <description><![CDATA[In this tutorial, we take a deep dive into nanobot , the ultra-lightweight personal AI agent framework from HKUDS that packs full agent capabilities into roughly 4,000 lines of Python. Rather than simply installing and running it out of the box, we crack open the hood and manually recreate each of its core subsystems, the agent loop, tool execution, memory persistence, skills loading, session management, subagent spawning, and cron scheduling, so we understand exactly how they work. We wire everything up with OpenAI’s gpt-4o-mini as our LLM provider, enter our API key securely through the terminal (never exposing it in notebook output), and progressively build from a single tool-calling loop all the way to a multi-step research pipeline that reads and writes files, stores long-term memories, and delegates tasks to concurrent background workers.]]></description>
+      <category>Research</category>
+      <pubDate>Sun, 29 Mar 2026 05:40:25 +0000</pubDate>
+      <guid isPermaLink="false">711b835d0de4a437</guid>
+    </item>
+    <item>
+      <title><![CDATA[Mistral AI Releases Voxtral TTS: A 4B Open-Weight Streaming Speech Model for Low-Latency Multilingual Voice Generation]]></title>
+      <description><![CDATA[Mistral AI has released Voxtral TTS , an open-weight text-to-speech model that marks the company’s first major move into audio generation. Following the release of its transcription and language models, Mistral is now providing the final ‘output layer’ of the audio stack, positioning itself as a direct competitor to proprietary voice APIs in the developer ecosystem. The system comprises three primary components: By separating the ‘meaning’ of the speech (semantic) from the ‘texture’ of the voice (acoustic), Voxtral TTS maintains long-range consistency while delivering the fine-grained nuances required for lifelike interaction. Mistral has optimized Voxtral TTS for low-latency streaming inference, making it suitable for conversational agents and real-time translation. The model achieves a 70ms model latency for a typical 10-second voice sample and 500-character input.]]></description>
+      <category>Research</category>
+      <pubDate>Sat, 28 Mar 2026 20:58:21 +0000</pubDate>
+      <guid isPermaLink="false">ce0a4f56d83fd757</guid>
+    </item>
+    <item>
+      <title><![CDATA[Stanford study outlines dangers of asking AI chatbots for personal advice]]></title>
+      <description><![CDATA[While there’s been plenty of debate about the tendency of AI chatbots to flatter users and confirm their existing beliefs — also known as AI sycophancy — a new study by Stanford computer scientists attempts to measure how harmful that tendency might be. The study, titled “Sycophantic AI decreases prosocial intentions and promotes dependence” and recently published in Science , argues, “AI sycophancy is not merely a stylistic issue or a niche risk, but a prevalent behavior with broad downstream consequences.” According to a recent Pew report , 12% of U.S. teens say they turn to chatbots for emotional support or advice. And the study’s lead author, computer science Ph.D. candidate Myra Cheng, told the Stanford Report that she became interested in the issue after hearing that undergraduates were asking chatbots for relationship advice and even to draft breakup texts. “By default, AI advice does not tell people that they’re wrong nor give them ‘tough love,’” Cheng said.]]></description>
+      <category>Industry</category>
+      <pubDate>Sat, 28 Mar 2026 20:45:54 +0000</pubDate>
+      <guid isPermaLink="false">3f9749f6c1bbd3f6</guid>
+    </item>
+    <item>
+      <title><![CDATA[Using OpenClaw as a Force Multiplier: What One Person Can Ship with Autonomous Agents]]></title>
+      <description><![CDATA[I ship content across multiple domains and have too many things vying for my attention: a homelab, infrastructure monitoring, smart home devices, a technical writing pipeline, a book project, home automation, and a handful of other things that would normally require a small team. My secret, if you can call it that, is autonomous AI agents running on a homelab server. Eventually, I got that down to 8 total orchestrator agents and a healthy library of personas they could assume or use to spawn a subagent. One of my favorite things when building out agents is naming them, so let’s see what I’ve got so far today: CABAL (from Command and Conquer – the evil AI in one of the games) – this is the central coordinator and primary interface with my OpenClaw cluster. The persona does one job, returns the output, and disappears. Isolation comes from scope management (personas only see what the orchestrator passes them, and their sessions are short-lived) rather than enforced permissions.]]></description>
+      <category>Tutorials</category>
+      <pubDate>Sat, 28 Mar 2026 16:30:00 +0000</pubDate>
+      <guid isPermaLink="false">9229c549eed8831a</guid>
+    </item>
+    <item>
+      <title><![CDATA[Anthropic’s Claude popularity with paying consumers is skyrocketing]]></title>
+      <description><![CDATA[Whatever the final outcome for Anthropic from its feud with the Department of Defense, the attention it has generated — coupled with the company’s funny Super Bowl ads taking aim at OpenAI and the surging popularity of Claude Code — has made Anthropic more popular with consumers than ever. It also doesn’t include Claude’s enterprise business (which is its bread and butter) or its free-tier users (those not paying Anthropic at all). Estimates for total Claude consumer users are all over the map (we’ve seen figures ranging from 18 million to 30 million) but Anthropic has not disclosed this data. To recap why consumers may have become so much more aware of Claude since January: Anthropic released several Super Bowl commercials that mocked ChatGPT’s decision to show ads to its users — and promised Claude would never do the same.]]></description>
+      <category>Industry</category>
+      <pubDate>Sat, 28 Mar 2026 14:15:00 +0000</pubDate>
+      <guid isPermaLink="false">c9a337737c1df0f3</guid>
+    </item>
+    <item>
+      <title><![CDATA[Why can’t TikTok identify AI generated ads when I can?]]></title>
+      <description><![CDATA[I’ve been struggling to tell whether the ads appearing in my TikTok feeds have been made with generative AI tools. After slopping AI-generated videos across its social media channels, I started to notice ads teasing the Galaxy S26 Ultra’s privacy display feature appearing on my TikTok. Regular videos on Samsung’s TikTok accounts — those not actively promoted as ads — also lack AI disclosures, despite those same videos being labeled as AI-generated on YouTube. If Samsung knowingly used AI to make its videos, it should have told TikTok when the ads were submitted. Advertisers on TikTok are only permitted to use content “significantly” edited or generated by AI if they make that known. TikTok pointed me to its AI labeling requirements for advertisers and its C2PA partnership, but declined to provide an on-record statement on why Samsung’s AI-generated ads received a pass.]]></description>
+      <category>Industry</category>
+      <pubDate>Sat, 28 Mar 2026 14:00:00 +0000</pubDate>
+      <guid isPermaLink="false">0e0bc404a7eb364e</guid>
+    </item>
+    <item>
+      <title><![CDATA[Why OpenAI killed Sora]]></title>
+      <description><![CDATA[As OpenAI faces questions from investors and hot competition from Anthropic and Google, executives seem to agree that a change in direction is warranted. “We cannot miss this moment because we are distracted by side quests,” Fidji Simo, OpenAI’s CEO of AGI deployment (after being moved from her role as CEO of applications), reportedly told staff recently. “We really have to nail productivity in general and particularly productivity on the business front.” That means backing off projects like Sora, as well as reportedly deprioritizing the “adult mode” sexting capabilities it had been exploring for ChatGPT. Then, reportedly less than an hour after OpenAI and Disney were working together on a Sora-related project, Disney was blindsided by plans to discontinue the app. OpenAI had also reportedly planned, earlier in the month, to integrate Sora’s video-generation capabilities into ChatGPT itself, before scrapping that strategy.]]></description>
+      <category>Industry</category>
+      <pubDate>Sat, 28 Mar 2026 12:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9e9c66d72d4fd5ec</guid>
+    </item>
+    <item>
+      <title><![CDATA[NVIDIA AI Unveils ProRL Agent: A Decoupled Rollout-as-a-Service Infrastructure for Reinforcement Learning of Multi-Turn LLM Agents at Scale]]></title>
+      <description><![CDATA[NVIDIA researchers introduced ProRL AGENT , a scalable infrastructure designed for reinforcement learning (RL) training of multi-turn LLM agents. By adopting a ‘Rollout-as-a-Service’ philosophy, the system decouples agentic rollout orchestration from the training loop. Multi-turn agent tasks involve interacting with external environments, such as code repositories or operating systems, via iterative tool use. Many existing frameworks—including SkyRL , VeRL-Tool , Agent Lightning , rLLM , and GEM —embed rollout control directly within the training process. This tight coupling leads to two primary limitations: ProRL AGENT operates as a standalone HTTP service that manages the full rollout lifecycle. This strategy maximizes prefix cache reuse , reducing inference time across multiple agent turns .]]></description>
+      <category>Research</category>
+      <pubDate>Sat, 28 Mar 2026 05:38:49 +0000</pubDate>
+      <guid isPermaLink="false">8f0315b87ae1bced</guid>
+    </item>
+    <item>
+      <title><![CDATA[STADLER reshapes knowledge work at a 230-year-old company]]></title>
+      <description><![CDATA[Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Fri, 27 Mar 2026 22:00:00 +0000</pubDate>
+      <guid isPermaLink="false">230e28e45fa950eb</guid>
+    </item>
+    <item>
+      <title><![CDATA[Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO]]></title>
+      <description><![CDATA[SoftBank has taken on a new $40 billion loan to help it cover its $30 billion commitment to invest in OpenAI as part of the AI model maker’s record-breaking $110 billion raise last month , the Japanese conglomerate said on Friday . Most striking is that the loan is unsecured and has a 12-month term, meaning it must be repaid or refinanced by next year. This could be a signal that the lenders believe OpenAI’s highly anticipated public listing will indeed come later this year, as some outlets, like CNBC , have reported. The loan is provided by JPMorgan Chase, Goldman Sachs, and four Japanese banks. Since OpenAI’s IPO is bound to be one of the largest listings ever, if it does happen this year, that would presumably give SoftBank the liquidity to settle the debt in such a short time span. SoftBank’s new $30 billion investment in OpenAI brings its total bet on ChatGPT’s maker to over $60 billion.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 27 Mar 2026 21:44:45 +0000</pubDate>
+      <guid isPermaLink="false">7e040006f0ae5ead</guid>
+    </item>
+    <item>
+      <title><![CDATA[An Implementation of IWE’s Context Bridge as an AI-Powered Knowledge Graph with Agentic RAG, OpenAI Function Calling, and Graph Traversal]]></title>
+      <description><![CDATA[In this tutorial, we implement IWE : an open-source, Rust-powered personal knowledge management system that treats markdown notes as a navigable knowledge graph. Finally, we construct a full agentic RAG pipeline where an AI agent navigates the graph using function-calling tools, performs multi-hop reasoning across interconnected documents, identifies knowledge gaps, and even generates new notes that slot into the existing structure. We build the full agentic retrieval pipeline that embodies IWE’s “Context Bridge” concept: an AI agent that navigates our knowledge graph using OpenAI function calling with four tools: iwe_find for discovery, iwe_retrieve for context-aware content fetching, iwe_tree for hierarchy exploration, and iwe_stats for knowledge base analytics.]]></description>
+      <category>Research</category>
+      <pubDate>Fri, 27 Mar 2026 20:06:55 +0000</pubDate>
+      <guid isPermaLink="false">bd0b7b448f455736</guid>
+    </item>
+    <item>
+      <title><![CDATA[Memory chip giant SK hynix could help end ‘RAMmageddon’ with blockbuster US IPO]]></title>
+      <description><![CDATA[SK hynix , a South Korean memory chip giant already listed on the KOSPI, is laying the groundwork for a potential U.S. listing that could reportedly raise an estimated $10 billion to $14 billion. But the real question isn’t just how much it can raise: it’s whether a U.S. listing could increase its trading value as one of the most critical players in the AI chip supply chain. The move is widely seen as an effort to increase its valuation to match global peers like Micron. “SK hynix’s U.S. listing could help close a long-standing valuation gap with global peers. SK hynix’s planned ADR listing is also widely seen as a move to secure funding ahead of increased capital spending to meet the rising demand for memory from AI semiconductors. The tech giants are working on solving RAMmageddon in other ways beyond increased manufacturing. For instance, Google this week introduced a tech called TurboQuant , an ultra-efficient AI memory compression algorithm.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 27 Mar 2026 19:11:28 +0000</pubDate>
+      <guid isPermaLink="false">f03994bb85635c2b</guid>
+    </item>
+    <item>
+      <title><![CDATA[Not Just Understanding, But Evolving: The All-New Self-Evolving JiuwenClaw Makes Its Debut]]></title>
+      <description><![CDATA[Over the past year, AI agents have evolved from merely answering questions to attempting to get real tasks done. It doesn’t aim to be the “most conversational” agent; instead, it focuses on a more critical question: Can an AI agent take a task from start to finish? JiuwenClaw disrupts this pattern by introducing a critical architectural mechanism: Autonomous Skill Evolution: Powered by the openJiuwen Self-Evolution Framework, JiuwenClaw autonomously refines its own Skills. In essence, JiuwenClaw establishes a high-fidelity Execution-to-Learning Closed Loop: Execution → Failure → Learning → Optimization → Re-execution This paradigm shift means the agent is no longer a static collection of tools, but a continuously evolving system that grows more aligned with user intent through every interaction.]]></description>
+      <category>Research</category>
+      <pubDate>Fri, 27 Mar 2026 17:02:48 +0000</pubDate>
+      <guid isPermaLink="false">c205d5fcb1cc51ce</guid>
+    </item>
+  </channel>
+</rss>

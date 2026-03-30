@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main page — AI news articles (updated daily) -->
+  <url>
+    <loc>https://aiunlocked.info/</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Games Arcade section -->
+  <url>
+    <loc>https://aiunlocked.info/#gamesArcadeSection</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- AI Success Stories section -->
+  <url>
+    <loc>https://aiunlocked.info/#successStoriesSection</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- AI Quiz section -->
+  <url>
+    <loc>https://aiunlocked.info/#quizSection</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- AI Glossary section -->
+  <url>
+    <loc>https://aiunlocked.info/#glossarySection</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- AI Tool of the Day -->
+  <url>
+    <loc>https://aiunlocked.info/#toolOfDaySection</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- AI Milestones Timeline -->
+  <url>
+    <loc>https://aiunlocked.info/#timelineSection</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5Z3TJDSQ9E"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5Z3TJDSQ9E');
+    </script>
+
+    <title>AI Unlocked — Daily AI News &amp; Updates</title>
+    <meta name="description" content="Stay up to date with the latest AI news, research papers, model releases, and industry deals — curated and summarised daily." />
+    <meta name="keywords" content="AI news, artificial intelligence, machine learning, LLM, GPT, deep learning, AI research, AI updates, AI industry, generative AI, AI daily news" />
+    <meta name="author" content="AI Unlocked" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://aiunlocked.info/" />
+
+    <!-- Open Graph / Social sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AI Unlocked — Daily AI News & Updates" />
+    <meta property="og:description" content="Stay up to date with the latest AI news, research papers, model releases, and industry deals — curated and summarised daily." />
+    <meta property="og:url" content="https://aiunlocked.info" />
+    <meta property="og:image" content="https://aiunlocked.info/assets/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="AI Unlocked — Daily AI News & Updates" />
+    <meta property="og:site_name" content="AI Unlocked" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI Unlocked — Daily AI News & Updates" />
+    <meta name="twitter:description" content="Your daily AI news — curated & summarised. Research, industry, open source, and more." />
+    <meta name="twitter:image" content="https://aiunlocked.info/assets/og-image.png" />
+    <meta name="twitter:image:alt" content="AI Unlocked — Daily AI News & Updates" />
+
+    <!-- JSON-LD Structured Data — WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AI Unlocked",
+      "alternateName": "AI Unlocked — Daily AI News",
+      "url": "https://aiunlocked.info",
+      "description": "Stay up to date with the latest AI news, research papers, model releases, and industry deals — curated and summarised daily.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://aiunlocked.info/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI Unlocked",
+        "url": "https://aiunlocked.info",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://aiunlocked.info/assets/favicon.svg"
+        }
+      }
+    }
+    </script>
+
+    <!-- JSON-LD Structured Data — CollectionPage (News listing) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Latest AI News",
+      "description": "Curated daily AI news covering research papers, model releases, industry deals, and more.",
+      "url": "https://aiunlocked.info",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "AI Unlocked",
+        "url": "https://aiunlocked.info"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Artificial Intelligence"
+      },
+      "inLanguage": "en"
+    }
+    </script>
+
+    <!-- JSON-LD Structured Data — BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aiunlocked.info/" },
+        { "@type": "ListItem", "position": 2, "name": "AI News", "item": "https://aiunlocked.info/#articlesGrid" },
+        { "@type": "ListItem", "position": 3, "name": "AI Games", "item": "https://aiunlocked.info/#gamesArcadeSection" },
+        { "@type": "ListItem", "position": 4, "name": "Success Stories", "item": "https://aiunlocked.info/#successStoriesSection" },
+        { "@type": "ListItem", "position": 5, "name": "AI Glossary", "item": "https://aiunlocked.info/#glossarySection" },
+        { "@type": "ListItem", "position": 6, "name": "AI Timeline", "item": "https://aiunlocked.info/#timelineSection" }
+      ]
+    }
+    </script>
+
+    <!-- JSON-LD Structured Data — FAQPage (Glossary terms for rich snippets) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is AGI?", "acceptedAnswer": { "@type": "Answer", "text": "Artificial General Intelligence — a hypothetical AI system with human-level reasoning across all domains." }},
+        { "@type": "Question", "name": "What is a Large Language Model (LLM)?", "acceptedAnswer": { "@type": "Answer", "text": "Neural networks with billions of parameters trained on massive text corpora, such as GPT-4 and Claude." }},
+        { "@type": "Question", "name": "What does GPT stand for?", "acceptedAnswer": { "@type": "Answer", "text": "Generative Pre-trained Transformer — OpenAI's family of large language models." }},
+        { "@type": "Question", "name": "What is a Transformer in AI?", "acceptedAnswer": { "@type": "Answer", "text": "The dominant neural network architecture using self-attention, powering GPT, BERT, and most modern AI systems." }},
+        { "@type": "Question", "name": "What is AI hallucination?", "acceptedAnswer": { "@type": "Answer", "text": "When an AI model generates confident but factually incorrect or fabricated information." }},
+        { "@type": "Question", "name": "What is RAG in AI?", "acceptedAnswer": { "@type": "Answer", "text": "Retrieval-Augmented Generation — combining LLMs with external knowledge retrieval for more accurate answers." }},
+        { "@type": "Question", "name": "What is RLHF?", "acceptedAnswer": { "@type": "Answer", "text": "Reinforcement Learning from Human Feedback — a technique used to align language models with human preferences." }},
+        { "@type": "Question", "name": "What is prompt engineering?", "acceptedAnswer": { "@type": "Answer", "text": "The art of crafting input prompts to elicit desired outputs from AI language models." }},
+        { "@type": "Question", "name": "What is computer vision?", "acceptedAnswer": { "@type": "Answer", "text": "An AI field focused on enabling machines to interpret and understand visual information from images and video." }},
+        { "@type": "Question", "name": "What is fine-tuning in AI?", "acceptedAnswer": { "@type": "Answer", "text": "Adapting a pre-trained model to a specific task using a smaller, targeted dataset." }}
+      ]
+    }
+    </script>
+
+    <!-- JSON-LD Structured Data — ItemList (Success Stories for carousel rich results) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "AI Success Stories",
+      "description": "Real-world examples of how AI is transforming industries.",
+      "numberOfItems": 20,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "AI Detects Eye Diseases as Accurately as World-Leading Doctors", "url": "https://aiunlocked.info/#successStoriesSection" },
+        { "@type": "ListItem", "position": 2, "name": "AlphaFold Predicts the 3D Structure of Nearly Every Known Protein", "url": "https://aiunlocked.info/#successStoriesSection" },
+        { "@type": "ListItem", "position": 3, "name": "Waymo Autonomous Ride-Hailing Serves Thousands Daily", "url": "https://aiunlocked.info/#successStoriesSection" },
+        { "@type": "ListItem", "position": 4, "name": "AI-Powered Precision Farming Cuts Herbicide Use by 90%", "url": "https://aiunlocked.info/#successStoriesSection" },
+        { "@type": "ListItem", "position": 5, "name": "Spotify AI Personalization Powers 600M+ User Experiences", "url": "https://aiunlocked.info/#successStoriesSection" },
+        { "@type": "ListItem", "position": 6, "name": "AI-Discovered Drug Reaches Human Clinical Trials in Record Time", "url": "https://aiunlocked.info/#successStoriesSection" },
+        { "@type": "ListItem", "position": 7, "name": "AI Fraud Detection Saves JPMorgan Billions Annually", "url": "https://aiunlocked.info/#successStoriesSection" },
+        { "@type": "ListItem", "position": 8, "name": "Google AI Flood Warnings Protect 460 Million People", "url": "https://aiunlocked.info/#successStoriesSection" }
+      ]
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/favicon.svg" />
+
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="AI Unlocked RSS Feed" href="https://aiunlocked.info/rss.xml" />
+
+    <!-- DNS Prefetch & Preconnect for performance -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+    <!-- ═══════════════════  HEADER  ═══════════════════ -->
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+            <h1 class="sr-only">AI Unlocked — Daily AI News &amp; Updates</h1>
+            <a href="./" class="logo" aria-label="AI Unlocked home">
+                <img class="logo-icon" src="assets/favicon.svg" alt="AI Unlocked" width="36" height="36" />
+                <span class="logo-text">AI <span class="accent">Unlocked</span></span>
+            </a>
+
+            <p class="tagline">Your daily AI news — curated &amp; summarised</p>
+
+            <div class="header-actions">
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="Search AI news…" autocomplete="off" />
+                </div>
+                <button id="themeToggle" class="btn btn-icon" title="Toggle dark / light mode">
+                    🌙
+                </button>
+                <!-- Mobile translate button (visible on small screens only) -->
+                <div class="lang-selector mobile-lang" id="langSelectorMobile">
+                    <button class="btn btn-icon" id="langToggleMobile" title="Translate page">
+                        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><ellipse cx="12" cy="12" rx="4" ry="10"/></svg>
+                    </button>
+                    <div class="lang-dropdown" id="langDropdownMobile">
+                        <button class="lang-option active" data-lang="en">🇬🇧 English</button>
+                        <button class="lang-option" data-lang="hi">🇮🇳 हिन्दी</button>
+                        <button class="lang-option" data-lang="es">🇪🇸 Español</button>
+                        <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+                        <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+                        <button class="lang-option" data-lang="zh-CN">🇨🇳 中文</button>
+                        <button class="lang-option" data-lang="ja">🇯🇵 日本語</button>
+                        <button class="lang-option" data-lang="ko">🇰🇷 한국어</button>
+                        <button class="lang-option" data-lang="pt">🇧🇷 Português</button>
+                        <button class="lang-option" data-lang="ar">🇸🇦 العربية</button>
+                        <button class="lang-option" data-lang="ru">🇷🇺 Русский</button>
+                        <button class="lang-option" data-lang="it">🇮🇹 Italiano</button>
+                        <button class="lang-option" data-lang="nl">🇳🇱 Nederlands</button>
+                        <button class="lang-option" data-lang="sv">🇸🇪 Svenska</button>
+                        <button class="lang-option" data-lang="pl">🇵🇱 Polski</button>
+                        <button class="lang-option" data-lang="tr">🇹🇷 Türkçe</button>
+                        <button class="lang-option" data-lang="vi">🇻🇳 Tiếng Việt</button>
+                        <button class="lang-option" data-lang="th">🇹🇭 ไทย</button>
+                        <button class="lang-option" data-lang="id">🇮🇩 Bahasa</button>
+                        <button class="lang-option" data-lang="bn">🇧🇩 বাংলা</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ═══════════════════  SECTION NAV  ═══════════════════ -->
+    <nav class="section-nav" id="sectionNav">
+        <div class="container section-nav-inner">
+            <div class="section-nav-links">
+                <a href="#articlesGrid" class="section-nav-link active" data-section="articles">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                    Articles
+                </a>
+                <a href="#gamesArcadeSection" class="section-nav-link" data-section="games">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 12h4m-2-2v4"/><circle cx="17" cy="10" r="1"/><circle cx="15" cy="14" r="1"/><rect x="2" y="6" width="20" height="12" rx="3"/></svg>
+                    Games
+                </a>
+                <a href="#successStoriesSection" class="section-nav-link" data-section="stories">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    Success Stories
+                </a>
+                <a href="#quizSection" class="section-nav-link" data-section="quiz">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><circle cx="12" cy="17" r=".5"/></svg>
+                    Quiz
+                </a>
+                <a href="#glossarySection" class="section-nav-link" data-section="glossary">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    Glossary
+                </a>
+                <a href="#timelineSection" class="section-nav-link" data-section="timeline">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    Timeline
+                </a>
+                <!-- Translate dropdown (inline with other nav links) -->
+                <div class="lang-selector" id="langSelector">
+                    <button class="section-nav-link lang-nav-btn" id="langToggle" title="Translate page">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><ellipse cx="12" cy="12" rx="4" ry="10"/></svg>
+                        <span id="langLabel">Translate</span>
+                        <svg class="lang-chevron" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m6 9 6 6 6-6"/></svg>
+                    </button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <button class="lang-option active" data-lang="en">🇬🇧 English</button>
+                        <button class="lang-option" data-lang="hi">🇮🇳 हिन्दी</button>
+                        <button class="lang-option" data-lang="es">🇪🇸 Español</button>
+                        <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+                        <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+                        <button class="lang-option" data-lang="zh-CN">🇨🇳 中文</button>
+                        <button class="lang-option" data-lang="ja">🇯🇵 日本語</button>
+                        <button class="lang-option" data-lang="ko">🇰🇷 한국어</button>
+                        <button class="lang-option" data-lang="pt">🇧🇷 Português</button>
+                        <button class="lang-option" data-lang="ar">🇸🇦 العربية</button>
+                        <button class="lang-option" data-lang="ru">🇷🇺 Русский</button>
+                        <button class="lang-option" data-lang="it">🇮🇹 Italiano</button>
+                        <button class="lang-option" data-lang="nl">🇳🇱 Nederlands</button>
+                        <button class="lang-option" data-lang="sv">🇸🇪 Svenska</button>
+                        <button class="lang-option" data-lang="pl">🇵🇱 Polski</button>
+                        <button class="lang-option" data-lang="tr">🇹🇷 Türkçe</button>
+                        <button class="lang-option" data-lang="vi">🇻🇳 Tiếng Việt</button>
+                        <button class="lang-option" data-lang="th">🇹🇭 ไทย</button>
+                        <button class="lang-option" data-lang="id">🇮🇩 Bahasa</button>
+                        <button class="lang-option" data-lang="bn">🇧🇩 বাংলা</button>
+                    </div>
+                </div>
+            </div>
+            <div class="section-nav-social">
+                <a href="https://youtube.com/@aiunlocked-ai?si=OooZKzPtezVuS76y" target="_blank" rel="noopener noreferrer" class="section-nav-social-btn yt" title="YouTube">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                </a>
+                <a href="https://www.instagram.com/aiunlocked.hacks.news?igsh=ZXp4M2NnOHgwenFz&utm_source=qr" target="_blank" rel="noopener noreferrer" class="section-nav-social-btn ig" title="Instagram">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════  STATS BAR  ═══════════════════ -->
+    <section class="stats-bar">
+        <div class="container stats-inner">
+            <div class="stat">
+                <span class="stat-value" id="statTotal">—</span>
+                <span class="stat-label">Total Articles</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="statToday">—</span>
+                <span class="stat-label">Today</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="statCategories">—</span>
+                <span class="stat-label">Categories</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="lastUpdated">—</span>
+                <span class="stat-label">Last Updated</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  TRENDING TICKER  ═══════════════════ -->
+    <section class="trending-bar" id="trendingBar" style="display:none">
+        <div class="container trending-inner">
+            <span class="trending-label">🔥 Trending</span>
+            <div class="trending-scroll" id="trendingScroll"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  FUN FACTS STRIP  ═══════════════════ -->
+    <section class="fun-facts-strip">
+        <div class="container">
+            <div class="fun-facts-strip-header">
+                <span class="fun-facts-strip-title">💡 Fun AI Facts</span>
+                <button class="shuffle-btn-sm" id="shuffleFactsBtn" title="Shuffle facts">🔀 Shuffle</button>
+            </div>
+            <div id="funFactsGrid" class="fun-facts-strip-grid">
+                <!-- Facts rendered by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  MAIN CONTENT  ═══════════════════ -->
+    <main class="container main-grid">
+
+        <!-- Sidebar: Categories -->
+        <aside class="sidebar">
+            <h3 class="sidebar-title">Categories</h3>
+            <ul id="categoryList" class="category-list">
+                <li><button class="cat-btn active" data-category="">All</button></li>
+                <!-- filled by JS -->
+            </ul>
+        </aside>
+
+        <!-- Articles -->
+        <section class="articles-section">
+            <div class="articles-header">
+                <h2 id="sectionTitle">Latest AI News</h2>
+                <div class="articles-header-right">
+                    <button class="btn btn-outline btn-sm" id="randomArticleBtn" title="Show a random article">🎲 Random</button>
+                    <span class="article-count" id="articleCount"></span>
+                </div>
+            </div>
+
+            <div id="articlesGrid" class="articles-grid">
+                <!-- Loading skeleton -->
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+
+            <div id="emptyState" class="empty-state" style="display:none">
+                <span class="empty-icon">📡</span>
+                <h3>No articles found</h3>
+                <p>Try a different search or category.</p>
+            </div>
+
+            <!-- Pagination -->
+            <div id="pagination" class="pagination"></div>
+        </section>
+    </main>
+
+    <!-- ═══════════════════  AI QUIZ  ═══════════════════ -->
+    <section class="quiz-section" id="quizSection" aria-label="AI Quiz">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">🧠</span>
+                <h2 class="section-heading">Test Your AI Knowledge</h2>
+                <p class="section-subtitle">Think you know AI? Take this quick 5-question quiz and find out!</p>
+            </div>
+            <div class="quiz-card">
+                <div id="quizContainer" class="quiz-container">
+                    <!-- Quiz rendered by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Quiz CTA -->
+    <button class="floating-quiz-btn" id="floatingQuizBtn" title="Take the AI Quiz!">
+        🧠 <span>Take Quiz</span>
+    </button>
+
+    <!-- ═══════════════════  AI GAMES ARCADE  ═══════════════════ -->
+    <section class="games-arcade-section" id="gamesArcadeSection" aria-label="AI Games Arcade">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">🕹️</span>
+                <h2 class="section-heading">AI Games Arcade</h2>
+                <p class="section-subtitle">Take a break and play these fun AI-themed mini-games! How well do you really know artificial intelligence?</p>
+            </div>
+
+            <!-- Game Picker Tabs -->
+            <div class="games-tabs" id="gamesTabs">
+                <button class="game-tab active" data-game="emoji">🎯 Emoji Decoder</button>
+                <button class="game-tab" data-game="scramble">🔤 Word Scramble</button>
+                <button class="game-tab" data-game="speedmatch">⏱️ Speed Match</button>
+                <button class="game-tab" data-game="aiorhuman">🤖 AI or Human?</button>
+                <button class="game-tab" data-game="acronym">🧩 Acronym Challenge</button>
+            </div>
+
+            <!-- Shared game card container -->
+            <div class="game-card">
+                <div id="gameContainer" class="game-container">
+                    <!-- Active game rendered by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  AI SUCCESS STORIES  ═══════════════════ -->
+    <section class="success-stories-section" id="successStoriesSection" aria-label="AI Success Stories">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">🏆</span>
+                <h2 class="section-heading">AI Success Stories</h2>
+                <p class="section-subtitle">Real-world examples of how AI is transforming industries, saving lives, and pushing the boundaries of what's possible.</p>
+            </div>
+            <div class="ss-controls">
+                <div class="ss-filter-bar" id="ssFilterBar">
+                    <button class="ss-filter-btn active" data-filter="all">All</button>
+                </div>
+                <button class="ss-view-toggle" id="ssViewToggle" title="Toggle view">⊞</button>
+            </div>
+            <div id="successStoriesGrid" class="ss-grid">
+                <!-- Success stories rendered by JS -->
+            </div>
+            <div class="ss-pagination" id="ssPagination"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  AI GLOSSARY  ═══════════════════ -->
+    <section class="glossary-section" id="glossarySection" aria-label="AI Glossary">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">📖</span>
+                <h2 class="section-heading">AI Glossary</h2>
+                <p class="section-subtitle">Your quick-reference guide to essential AI terms and concepts.</p>
+            </div>
+            <div class="glossary-search-wrap">
+                <input type="text" id="glossarySearch" class="glossary-search" placeholder="Search AI terms…" autocomplete="off" />
+            </div>
+            <div class="glossary-letters" id="glossaryLetters"></div>
+            <div id="glossaryGrid" class="glossary-grid"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  AI TOOL OF THE DAY  ═══════════════════ -->
+    <section class="tool-of-day-section" id="toolOfDaySection" aria-label="AI Tool of the Day">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">🛠️</span>
+                <h2 class="section-heading">AI Tool of the Day</h2>
+                <p class="section-subtitle">Discover a new AI tool every day — handpicked for builders, creators, and curious minds.</p>
+            </div>
+            <div id="toolOfDayCard" class="tool-of-day-card"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  AI EVENTS TIMELINE  ═══════════════════ -->
+    <section class="timeline-section" id="timelineSection" aria-label="AI Milestones Timeline">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">📅</span>
+                <h2 class="section-heading">AI Milestones Timeline</h2>
+                <p class="section-subtitle">A journey through the key moments that shaped artificial intelligence.</p>
+            </div>
+            <div id="timelineContainer" class="timeline-container"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  WEEKLY AI SUMMARY  ═══════════════════ -->
+    <section class="weekly-summary-section" id="weeklySummarySection" aria-label="This Week in AI">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">📰</span>
+                <h2 class="section-heading">This Week in AI</h2>
+                <p class="section-subtitle">A snapshot of this week's AI landscape — top categories, trending topics, and highlights.</p>
+            </div>
+            <div id="weeklySummaryGrid" class="weekly-summary-grid"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  AI LEADERBOARD  ═══════════════════ -->
+    <section class="leaderboard-section" id="leaderboardSection" aria-label="Reader Favorites Leaderboard">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">🏅</span>
+                <h2 class="section-heading">Reader Favorites</h2>
+                <p class="section-subtitle">The most-loved articles by our community — based on reader claps.</p>
+            </div>
+            <div id="leaderboardList" class="leaderboard-list"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  FOOTER  ═══════════════════ -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <img src="assets/favicon.svg" alt="AI Unlocked" width="32" height="32" style="margin: 0 auto 10px; display: block; opacity: 0.6;" />
+            <p>
+                <strong>AI Unlocked</strong> — your daily dose of AI news, curated and summarised.<br/>
+                Built with ❤️ for the AI community.
+            </p>
+            <div class="footer-social">
+                <a href="https://youtube.com/@aiunlocked-ai?si=OooZKzPtezVuS76y" target="_blank" rel="noopener noreferrer" class="footer-social-link yt" title="Follow on YouTube">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    YouTube
+                </a>
+                <a href="https://www.instagram.com/aiunlocked.hacks.news?igsh=ZXp4M2NnOHgwenFz&utm_source=qr" target="_blank" rel="noopener noreferrer" class="footer-social-link ig" title="Follow on Instagram">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                    Instagram
+                </a>
+            </div>
+            <p class="footer-small">Updated daily&ensp;·&ensp;Powered by AI Unlocked&ensp;·&ensp;<a href="rss.xml" style="color:var(--accent)">RSS Feed</a></p>
+        </div>
+    </footer>
+
+    <!-- Google Translate (hidden default widget — triggered by custom selector) -->
+    <div id="google_translate_element" style="display:none"></div>
+    <script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'en,hi,es,fr,de,zh-CN,ja,ko,pt,ar,ru,it,nl,sv,pl,tr,vi,th,id,bn',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false
+        }, 'google_translate_element');
+    }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTopBtn" title="Back to top">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m18 15-6-6-6 6"/></svg>
+    </button>
+
+    <!-- Keyboard Shortcuts Modal -->
+    <div class="modal-overlay" id="shortcutsModal">
+        <div class="modal-card shortcuts-card">
+            <button class="modal-close">✕</button>
+            <h3 class="modal-title">⌨️ Keyboard Shortcuts</h3>
+            <div class="shortcuts-grid">
+                <div class="shortcut-row"><kbd>?</kbd><span>Show / hide shortcuts</span></div>
+                <div class="shortcut-row"><kbd>T</kbd><span>Toggle dark / light mode</span></div>
+                <div class="shortcut-row"><kbd>S</kbd><span>Focus search</span></div>
+                <div class="shortcut-row"><kbd>H</kbd><span>Scroll to top</span></div>
+                <div class="shortcut-row"><kbd>R</kbd><span>Random article</span></div>
+                <div class="shortcut-row"><kbd>G</kbd><span>Go to Games</span></div>
+                <div class="shortcut-row"><kbd>Q</kbd><span>Go to Quiz</span></div>
+                <div class="shortcut-row"><kbd>Esc</kbd><span>Close modals</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quote Card Modal -->
+    <div class="modal-overlay" id="quoteCardModal">
+        <div class="modal-card quote-card-modal">
+            <button class="modal-close">✕</button>
+            <h3 class="modal-title">🖼️ Shareable Quote Card</h3>
+            <canvas id="quoteCanvas" class="quote-canvas"></canvas>
+            <button class="btn-gradient" id="quoteDownloadBtn">📥 Share / Download</button>
+        </div>
+    </div>
+
+    <script src="assets/app.js"></script>
+    <noscript>
+        <style>.articles-grid,.quiz-section,.fun-facts-strip,.floating-quiz-btn,.games-arcade-section,.back-to-top{display:none!important}</style>
+        <div style="max-width:800px;margin:40px auto;padding:20px;font-family:sans-serif;">
+            <h2>AI Unlocked — Daily AI News &amp; Updates</h2>
+            <p>Stay up to date with the latest AI news, research papers, model releases, and industry deals — curated and summarised daily.</p>
+            <h3>🧠 AI Glossary</h3>
+            <dl>
+                <dt><strong>AGI</strong></dt><dd>Artificial General Intelligence — a hypothetical AI system with human-level reasoning across all domains.</dd>
+                <dt><strong>LLM</strong></dt><dd>Large Language Model — neural networks with billions of parameters trained on massive text corpora.</dd>
+                <dt><strong>GPT</strong></dt><dd>Generative Pre-trained Transformer — OpenAI's family of large language models.</dd>
+                <dt><strong>Transformer</strong></dt><dd>The dominant neural network architecture using self-attention, powering GPT, BERT, and most modern AI.</dd>
+                <dt><strong>Hallucination</strong></dt><dd>When an AI model generates confident but factually incorrect or fabricated information.</dd>
+                <dt><strong>RAG</strong></dt><dd>Retrieval-Augmented Generation — combining LLMs with external knowledge retrieval for more accurate answers.</dd>
+                <dt><strong>RLHF</strong></dt><dd>Reinforcement Learning from Human Feedback — used to align LLMs with human preferences.</dd>
+                <dt><strong>NLP</strong></dt><dd>Natural Language Processing — AI's ability to understand, interpret, and generate human language.</dd>
+                <dt><strong>Fine-Tuning</strong></dt><dd>Adapting a pre-trained model to a specific task using a smaller, targeted dataset.</dd>
+                <dt><strong>Prompt Engineering</strong></dt><dd>The art of crafting input prompts to elicit desired outputs from AI language models.</dd>
+            </dl>
+            <h3>🏆 AI Success Stories</h3>
+            <ul>
+                <li>DeepMind's AlphaFold predicted the 3D structure of over 200 million proteins — solving a 50-year biology challenge.</li>
+                <li>Waymo's self-driving taxis operate commercially across 3 cities with 100K+ weekly rides.</li>
+                <li>Google's AI flood forecasting protects 460 million people across 80+ countries.</li>
+                <li>John Deere's AI-powered See &amp; Spray cuts herbicide use by up to 90%.</li>
+                <li>Netflix's AI recommendation engine saves an estimated $1 billion annually.</li>
+            </ul>
+            <h3>📅 AI Milestones</h3>
+            <ul>
+                <li>1950 — Turing Test proposed by Alan Turing</li>
+                <li>1956 — Term 'Artificial Intelligence' coined at Dartmouth Conference</li>
+                <li>1997 — IBM Deep Blue defeats chess champion Garry Kasparov</li>
+                <li>2017 — Google publishes the Transformer paper 'Attention Is All You Need'</li>
+                <li>2022 — ChatGPT launches, reaches 100M users in 2 months</li>
+                <li>2024 — Video AI, Gemini 1.5, Claude 3, and Llama 3 push boundaries</li>
+            </ul>
+            <p>Enable JavaScript for the full interactive experience including articles, games, quizzes, and more.</p>
+        </div>
+    </noscript>
+</body>
+</html>
