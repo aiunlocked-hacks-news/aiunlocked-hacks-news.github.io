@@ -1362,8 +1362,10 @@
         // Smooth scroll on click
         links.forEach(link => {
             link.addEventListener("click", (e) => {
+                const href = link.getAttribute("href");
+                if (!href || !href.startsWith("#")) return; // allow normal navigation for page links
                 e.preventDefault();
-                const target = document.querySelector(link.getAttribute("href"));
+                const target = document.querySelector(href);
                 if (target) {
                     const offset = 120; // header + nav height
                     const top = target.getBoundingClientRect().top + window.scrollY - offset;

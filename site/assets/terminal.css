@@ -1,0 +1,170 @@
+/* ═══════════════════════════════════════════════════════════════
+   AI Unlocked — Terminal page styles
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Toolbar (macOS-style title bar) ───────────────────────── */
+.terminal-toolbar {
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    padding: 0;
+}
+.toolbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 42px;
+    gap: 12px;
+}
+.toolbar-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.toolbar-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.toolbar-dot.red    { background: #ff5f57; }
+.toolbar-dot.yellow { background: #febc2e; }
+.toolbar-dot.green  { background: #28c840; }
+.toolbar-title {
+    font-family: var(--font-mono);
+    font-size: .78rem;
+    color: var(--text-muted);
+    margin-left: 8px;
+}
+.toolbar-right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.toolbar-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: transparent;
+    color: var(--text-muted);
+    font-family: var(--font);
+    font-size: .72rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+.toolbar-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(99,102,241,.06);
+}
+.toolbar-btn svg {
+    flex-shrink: 0;
+}
+
+/* ── Terminal container ────────────────────────────────────── */
+.terminal-wrapper {
+    background: #0d1117;
+    padding: 0;
+    min-height: calc(100vh - var(--header-h) - 42px - 200px);
+    display: flex;
+    flex-direction: column;
+    transition: background .3s;
+}
+.terminal-wrapper.fullscreen {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    min-height: 100vh;
+}
+.terminal-container {
+    flex: 1;
+    padding: 12px 8px;
+}
+
+/* Override xterm cursor blink */
+.terminal-container .xterm-cursor-layer {
+    z-index: 10;
+}
+
+/* ── Cheatsheet ────────────────────────────────────────────── */
+.cheatsheet-section {
+    padding: 48px 0 64px;
+    background: var(--bg);
+}
+.cheatsheet-title {
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 32px;
+    color: var(--text);
+}
+.cheatsheet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+.cheat-group {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+}
+.cheat-group h3 {
+    font-size: .85rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: var(--text);
+}
+.cheat-item {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: .8rem;
+}
+.cheat-item:last-child {
+    border-bottom: none;
+}
+.cheat-item code {
+    font-family: var(--font-mono);
+    font-size: .74rem;
+    font-weight: 500;
+    background: rgba(99,102,241,.1);
+    color: var(--accent);
+    padding: 2px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+.cheat-item span {
+    color: var(--text-muted);
+    font-size: .76rem;
+}
+
+/* ── Fullscreen hides everything else ──────────────────────── */
+.terminal-wrapper.fullscreen ~ * {
+    display: none !important;
+}
+
+/* ── Responsive ────────────────────────────────────────────── */
+@media (max-width: 768px) {
+    .toolbar-title { display: none; }
+    .toolbar-btn span { display: none; }
+    .terminal-wrapper {
+        min-height: 60vh;
+    }
+    .cheatsheet-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .toolbar-btn {
+        padding: 5px 8px;
+        font-size: .68rem;
+    }
+}
