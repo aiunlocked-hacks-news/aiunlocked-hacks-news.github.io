@@ -642,23 +642,21 @@
         }
     }
 
-    // ── Floating Quiz CTA ──────────────────────────────────────────
+    // ── Floating Video CTA ──────────────────────────────────────────
     function initFloatingQuizBtn() {
-        const btn = document.getElementById("floatingQuizBtn");
-        const quizSection = document.getElementById("quizSection");
-        if (!btn || !quizSection) return;
+        const btn = document.getElementById("floatingVideoBtn");
+        const academy = document.getElementById("academyBanner");
+        if (!btn) return;
 
-        btn.addEventListener("click", () => {
-            quizSection.scrollIntoView({ behavior: "smooth", block: "center" });
-        });
-
-        // Hide button when quiz section is visible
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                btn.classList.toggle("hidden", entry.isIntersecting);
-            });
-        }, { threshold: 0.2 });
-        observer.observe(quizSection);
+        // Hide button when academy banner is visible
+        if (academy) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    btn.classList.toggle("hidden", entry.isIntersecting);
+                });
+            }, { threshold: 0.2 });
+            observer.observe(academy);
+        }
     }
 
     // ══════════════════════════════════════════════════════════════
