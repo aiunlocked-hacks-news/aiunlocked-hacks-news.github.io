@@ -224,19 +224,17 @@ img { max-width: 100%; display: block; }
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 44px;
+    min-height: 44px;
+    padding: 4px 0;
+    flex-wrap: wrap;
+    gap: 4px;
 }
 .section-nav-links {
     display: flex;
     align-items: center;
     gap: 4px;
-    overflow-x: auto;
-    overflow-y: visible;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    -webkit-overflow-scrolling: touch;
+    flex-wrap: wrap;
 }
-.section-nav-links::-webkit-scrollbar { display: none; }
 
 /* Lang selector needs to break out of the scrollable row */
 .lang-selector {
@@ -259,10 +257,10 @@ img { max-width: 100%; display: block; }
 .section-nav-link {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 8px 16px;
+    gap: 5px;
+    padding: 5px 10px;
     border-radius: 999px;
-    font-size: .8rem;
+    font-size: .78rem;
     font-weight: 600;
     color: var(--text-muted);
     text-decoration: none;
@@ -290,7 +288,7 @@ img { max-width: 100%; display: block; }
     color: #fbbf24 !important;
     border: 1.5px solid rgba(251,191,36,.35);
     border-radius: 999px;
-    padding: 6px 16px;
+    padding: 5px 10px;
     font-weight: 700;
     transition: all .25s ease;
 }
@@ -316,9 +314,9 @@ img { max-width: 100%; display: block; }
 .section-nav-social {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 4px;
     flex-shrink: 0;
-    margin-left: 12px;
+    margin-left: 8px;
 }
 .section-nav-social-btn {
     display: inline-flex;
@@ -2584,9 +2582,9 @@ body { top: 0 !important; }
     .search-box { width: 0; flex: 0; overflow: hidden; display: none; }
     .mobile-lang { display: flex; }
     .section-nav { top: 0; }
-    .section-nav-inner { height: 40px; }
-    .section-nav-link { padding: 6px 12px; font-size: .74rem; gap: 4px; }
-    .section-nav-link svg { width: 14px; height: 14px; }
+    .section-nav-inner { min-height: 36px; padding: 4px 0; }
+    .section-nav-link { padding: 4px 8px; font-size: .7rem; gap: 3px; }
+    .section-nav-link svg { width: 13px; height: 13px; }
     .lang-selector:not(.mobile-lang) { display: none; }
     .mobile-lang .lang-dropdown { right: 0; left: auto; }
     .section-nav-social-btn { width: 28px; height: 28px; }
@@ -2700,6 +2698,15 @@ body { top: 0 !important; }
     .section-icon { font-size: 1.8rem; }
     .section-heading { font-size: 1.2rem; }
     .section-subtitle { font-size: .78rem; }
+
+    /* Nav — ultra-compact on small phones */
+    .section-nav-inner { padding: 3px 0; gap: 2px; }
+    .section-nav-link { padding: 4px 6px; font-size: .65rem; gap: 2px; }
+    .section-nav-link svg { width: 12px; height: 12px; }
+    .nav-terminal-link { padding: 4px 6px !important; font-size: .65rem; }
+    .section-nav-social { margin-left: 6px; gap: 3px; }
+    .section-nav-social-btn { width: 24px; height: 24px; }
+    .section-nav-social-btn svg { width: 11px; height: 11px; }
 
     /* Tool of Day — tighter */
     .tod-card { padding: 18px 14px; gap: 12px; }
