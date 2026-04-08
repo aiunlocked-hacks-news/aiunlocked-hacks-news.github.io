@@ -44,9 +44,16 @@ jobs:
           if [ -d _prev/logo_cache ]; then
             cp -r _prev/logo_cache/* site/logo_cache/ 2>/dev/null || true
           fi
+          if [ -d _prev/articles ]; then
+            mkdir -p site/articles
+            cp -r _prev/articles/* site/articles/ 2>/dev/null || true
+          fi
 
       - name: Run build script
         run: python scripts/build.py
+
+      - name: Ping Google with updated sitemap
+        run: curl -s "https://www.google.com/ping?sitemap=https://aiunlocked.info/sitemap.xml" || true
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

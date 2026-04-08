@@ -25,10 +25,6 @@
     const $catList     = document.getElementById("categoryList");
     const $count       = document.getElementById("articleCount");
     const $title       = document.getElementById("sectionTitle");
-    const $statTotal   = document.getElementById("statTotal");
-    const $statToday   = document.getElementById("statToday");
-    const $statCats    = document.getElementById("statCategories");
-    const $lastUpdated = document.getElementById("lastUpdated");
     const $trendingBar = document.getElementById("trendingBar");
     const $trendingScroll = document.getElementById("trendingScroll");
 
@@ -66,15 +62,6 @@
 
             allArticles = articles;
             categoryColours = meta.colours || {};
-
-            // Stats bar
-            $statTotal.textContent = meta.total_articles.toLocaleString();
-            $statToday.textContent = meta.today.toLocaleString();
-            $statCats.textContent  = meta.categories != null ? meta.categories.toLocaleString() : "—";
-            if (meta.built_at) {
-                const d = new Date(meta.built_at + "Z");
-                $lastUpdated.textContent = d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-            }
 
             // Build category sidebar
             buildCategoryList(meta.category_list || []);
@@ -277,17 +264,17 @@
                 e.stopPropagation();
                 const type = btn.dataset.share;
                 const title = btn.dataset.title;
-                const siteUrl = "https://aiunlocked.info";
+                const articleUrl = `https://aiunlocked.info/articles/${btn.dataset.url}.html`;
                 const text = `${title} — via AI Unlocked`;
 
                 if (type === "twitter") {
-                    window.open(`https://x.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(siteUrl)}`, "_blank", "width=550,height=420");
+                    window.open(`https://x.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(articleUrl)}`, "_blank", "width=550,height=420");
                 } else if (type === "linkedin") {
-                    window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(siteUrl)}&title=${encodeURIComponent(title)}`, "_blank", "width=550,height=520");
+                    window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(articleUrl)}&title=${encodeURIComponent(title)}`, "_blank", "width=550,height=520");
                 } else if (type === "reddit") {
-                    window.open(`https://reddit.com/submit?url=${encodeURIComponent(siteUrl)}&title=${encodeURIComponent(text)}`, "_blank", "width=550,height=520");
+                    window.open(`https://reddit.com/submit?url=${encodeURIComponent(articleUrl)}&title=${encodeURIComponent(text)}`, "_blank", "width=550,height=520");
                 } else if (type === "copy") {
-                    navigator.clipboard.writeText(`${title} — ${siteUrl}`).then(() => {
+                    navigator.clipboard.writeText(`${title} — ${articleUrl}`).then(() => {
                         const copied = btn.closest(".card-actions").querySelector(".share-copied");
                         if (copied) { copied.classList.add("show"); setTimeout(() => copied.classList.remove("show"), 1500); }
                     });
@@ -1533,6 +1520,58 @@
     }
 
     // ══════════════════════════════════════════════════════════════
+    //   BOOKMARK BUTTON
+    // ══════════════════════════════════════════════════════════════
+    function initBookmarkBtn() {
+        const btn = document.getElementById("bookmarkBtn");
+        if (!btn) return;
+
+        // Show after scroll
+        window.addEventListener("scroll", () => {
+            btn.classList.toggle("visible", window.scrollY > 300);
+        }, { passive: true });
+
+        btn.addEventListener("click", () => {
+            const pageTitle = document.title;
+            const pageUrl = window.location.href;
+
+            // Try the Web Share API first (mobile browsers)
+            if (navigator.share) {
+                navigator.share({ title: pageTitle, url: pageUrl }).catch(() => {});
+                return;
+            }
+
+            // Try browser-specific bookmark prompt
+            if (window.sidebar && window.sidebar.addPanel) {
+                // Firefox < 23
+                window.sidebar.addPanel(pageTitle, pageUrl, '');
+            } else if (window.external && window.external.AddFavorite) {
+                // IE
+                window.external.AddFavorite(pageUrl, pageTitle);
+            } else {
+                // Modern browsers — can't programmatically add bookmark,
+                // so show a toast with the shortcut hint
+                const isMac = /Mac|iPhone|iPad/i.test(navigator.userAgent);
+                const shortcut = isMac ? '⌘+D' : 'Ctrl+D';
+                showBookmarkToast(shortcut);
+            }
+        });
+    }
+
+    function showBookmarkToast(shortcut) {
+        let toast = document.getElementById('bookmarkToast');
+        if (!toast) {
+            toast = document.createElement('div');
+            toast.id = 'bookmarkToast';
+            toast.className = 'bookmark-toast';
+            document.body.appendChild(toast);
+        }
+        toast.innerHTML = `<span>🔖</span> Press <kbd>${shortcut}</kbd> to bookmark this page`;
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 3500);
+    }
+
+    // ══════════════════════════════════════════════════════════════
     //   BACK TO TOP BUTTON
     // ══════════════════════════════════════════════════════════════
     function initBackToTop() {
@@ -1970,6 +2009,7 @@
     initLangSelector();
     initMobileLangSelector();
     initBackToTop();
+    initBookmarkBtn();
     initRandomArticle();
     initKeyboardShortcuts();
     initGlossary();
