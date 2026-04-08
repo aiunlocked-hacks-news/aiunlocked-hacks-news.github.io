@@ -290,42 +290,28 @@
 
 
     <!-- ═══════════════════  AI ACADEMY BANNER  ═══════════════════ -->
-    <a href="https://www.youtube.com/@aiunlocked-ai" target="_blank" rel="noopener noreferrer" class="academy-strip" id="academyBanner">
-        <span class="academy-strip-sparkle"></span>
-        <span class="academy-strip-sparkle"></span>
-        <span class="academy-strip-sparkle"></span>
-        <span class="academy-strip-sparkle"></span>
-        <span class="academy-strip-sparkle"></span>
-        <div class="academy-strip-inner container">
-            <span class="academy-strip-play">
-                <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-            </span>
-            <span class="academy-strip-text"><span class="academy-full">🎓 <strong>AI Academy</strong> — Free video tutorials to master AI from scratch</span><span class="academy-short">🎓 <strong>AI Academy</strong> — Free AI video tutorials</span></span>
-            <span class="academy-strip-arrow">→</span>
-        </div>
-    </a>
-
-    <!-- ═══════════════════  STATS BAR  ═══════════════════ -->
-    <section class="stats-bar">
-        <div class="container stats-inner">
-            <div class="stat">
-                <span class="stat-value" id="statTotal">—</span>
-                <span class="stat-label">Total Articles</span>
-            </div>
-            <div class="stat">
-                <span class="stat-value" id="statToday">—</span>
-                <span class="stat-label">Today</span>
-            </div>
-            <div class="stat">
-                <span class="stat-value" id="statCategories">—</span>
-                <span class="stat-label">Categories</span>
-            </div>
-            <div class="stat">
-                <span class="stat-value" id="lastUpdated">—</span>
-                <span class="stat-label">Last Updated</span>
-            </div>
+    <section class="academy-banner" id="academyBanner">
+        <div class="container">
+            <a href="https://www.youtube.com/@aiunlocked-ai" target="_blank" rel="noopener noreferrer" class="academy-card">
+                <div class="academy-glow"></div>
+                <div class="academy-content">
+                    <div class="academy-icon">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                    <div class="academy-info">
+                        <h3 class="academy-title">🎓 AI Academy</h3>
+                        <p class="academy-desc">Free video tutorials to master AI from scratch — learn at your own pace</p>
+                    </div>
+                    <span class="academy-cta">
+                        Watch Now
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m9 18 6-6-6-6"/></svg>
+                    </span>
+                </div>
+            </a>
         </div>
     </section>
+
+
 
     <!-- ═══════════════════  TRENDING TICKER  ═══════════════════ -->
     <section class="trending-bar" id="trendingBar" style="display:none">
@@ -560,6 +546,12 @@
     }
     </script>
     <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- Bookmark Button -->
+    <button class="bookmark-fab" id="bookmarkBtn" title="Bookmark this page">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+        <span>Bookmark</span>
+    </button>
 
     <!-- Back to Top Button -->
     <button class="back-to-top" id="backToTopBtn" title="Back to top">
