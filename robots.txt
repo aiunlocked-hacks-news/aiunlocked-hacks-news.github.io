@@ -1,0 +1,32 @@
+# AI Unlocked — robots.txt
+
+# Allow all search engines
+User-agent: *
+Allow: /
+Disallow: /data/
+Disallow: /logo_cache/
+
+# Block AI training crawlers (optional — protect your content)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://aiunlocked.info/sitemap.xml
+
+# Crawl-delay (be polite)
+Crawl-delay: 1

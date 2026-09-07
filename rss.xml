@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Unlocked — Daily AI News</title>
+    <link>https://aiunlocked.info</link>
+    <description>Your daily AI news — curated and summarised. Research, industry, open source, and more.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2026 13:52:05 +0000</lastBuildDate>
+    <atom:link href="https://aiunlocked.info/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B]]></title>
+      <description><![CDATA[The Institute of Foundation Models (IFM) released something wider last week. K2 Horizon is a fleet of six models: 375B-A23B, 36B-A4B, 32B, 7B, 3.7B and 0.9B. Yes, all six sizes sit on Hugging Face under Apache 2.0 , with FP8 and GGUF builds. Day-zero support covers vLLM , SGLang and Ollama, on NVIDIA, AMD and Cerebras hardware. K2-Horizon-375B-A23B scores 70.2 on Terminal-Bench 2.1, 1,441 Elo on GDPVal-AA, 67.7 on MCPMark and 87.3 on GPQA Diamond. His most recent endeavor is the launch of an Artificial Intelligence Media Platform, Marktechpost, which stands out for its in-depth coverage of machine learning and deep learning news that is both technically sound and easily understandable by a wide audience.]]></description>
+      <category>Research</category>
+      <pubDate>Mon, 07 Sep 2026 05:00:37 +0000</pubDate>
+      <guid isPermaLink="false">564b7399b0098d0c</guid>
+    </item>
+    <item>
+      <title><![CDATA[ProToMEx: Rapid, Interpretable Explanations via Structured Representations]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">dde170576c3f9ba1</guid>
+    </item>
+    <item>
+      <title><![CDATA[A Data Fusion Framework for Grounding Aerospace Surrogate Model via Experimental Wind-Tunnel Observations]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5cf722da70ca2f8c</guid>
+    </item>
+    <item>
+      <title><![CDATA[Quantum-Assisted Memory-Efficient Training for Parameter-Intensive Wi-Fi-Based Human Activity Recognition]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">fdfbbfc8507deb80</guid>
+    </item>
+    <item>
+      <title><![CDATA[Evaluating Large Language Models for Forced Outage Risk Prediction: Benefits and Comparison to Machine Learning]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">73146453f59230d8</guid>
+    </item>
+    <item>
+      <title><![CDATA[BER-PEF: Unified Human Mobility Predictability Evaluation via Bayes Error Rate Estimation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4ad090a9c2f8890d</guid>
+    </item>
+    <item>
+      <title><![CDATA[Data-Driven Learning of Unknown Nonlinear Differential Equations Using Functional Analysis]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">44b9215caa316c66</guid>
+    </item>
+    <item>
+      <title><![CDATA[Modular Deep Recurrent Neural Network: Application to Quadrotors]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">08f91feb794193a6</guid>
+    </item>
+    <item>
+      <title><![CDATA[On the Abundance of Critical Points of the t-SNE Energy]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e1b9fba67f0a2bab</guid>
+    </item>
+    <item>
+      <title><![CDATA[REFINE: LLM Refinement over Budgeted Text-Attributed Graphs for Personalized Medical Concept Representation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9973d0977af90f29</guid>
+    </item>
+    <item>
+      <title><![CDATA[A Repeated-Measurement Study for Cultural Analytics of English Song Lyrics Using Five Large Language Models]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5ca83616564708b7</guid>
+    </item>
+    <item>
+      <title><![CDATA[EXAONE Forecast for Finance]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">bb8eca3540ab4898</guid>
+    </item>
+    <item>
+      <title><![CDATA[From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">aa7a9f3fc618d561</guid>
+    </item>
+    <item>
+      <title><![CDATA[Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a39ec4dbacc05ba7</guid>
+    </item>
+    <item>
+      <title><![CDATA[Data-Optimized Contingency Screening: A Machine Learning Approach to Power System Security]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">62fa7117e8800b90</guid>
+    </item>
+    <item>
+      <title><![CDATA[A Removal Based Approach to Improve LLM Faithfulness at Test-Time]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">7573274b7427d56f</guid>
+    </item>
+    <item>
+      <title><![CDATA[Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c22c7f9f99a445dd</guid>
+    </item>
+    <item>
+      <title><![CDATA[Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">857e09b8b01ba42c</guid>
+    </item>
+    <item>
+      <title><![CDATA[HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">598158c15fb97a74</guid>
+    </item>
+    <item>
+      <title><![CDATA[PerfReasoning: How Well Do LLMs Reason on Hardware Performance?]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">bed60af1571cbf7e</guid>
+    </item>
+    <item>
+      <title><![CDATA[When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">978a88373d887047</guid>
+    </item>
+    <item>
+      <title><![CDATA[ResLearn-XR: Residual Learning for Network Traffic and Quality-of-Experience-Aware Modeling in Extended Reality]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">93820eced63e8a91</guid>
+    </item>
+    <item>
+      <title><![CDATA[BioSync: Transformer-Based Cross-Modal Fusion for a Multimodal Physiological Digital Biomarker]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">43c69450651188a4</guid>
+    </item>
+    <item>
+      <title><![CDATA[What Does Multi-Harness RL Learn? Credit Assignment and Portability in Coding Agents]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">788b09f73800e69b</guid>
+    </item>
+    <item>
+      <title><![CDATA[Supporting independent journalism in Ukraine]]></title>
+      <description><![CDATA[OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">48119b25501792fc</guid>
+    </item>
+    <item>
+      <title><![CDATA[Seattle Times and Newsday sue OpenAI and Microsoft for infringement]]></title>
+      <description><![CDATA[They want the AI models built on their works destroyed. They want the AI models built on their works destroyed. The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement . The Seattle Times and Newsday also named Microsoft as a defendant in the suit, since Copilot is built on OpenAI’s technology. As part of the suit, The Seattle Times ​and Newsday are ⁠seeking the destruction of any copies of their works the companies are holding, as well as training datasets and AI models that incorporate them. OpenAI and Microsoft did not immediately respond to a request for comment.]]></description>
+      <category>Industry</category>
+      <pubDate>Sun, 06 Sep 2026 23:36:04 +0000</pubDate>
+      <guid isPermaLink="false">4ce0834e9e15fa3c</guid>
+    </item>
+    <item>
+      <title><![CDATA[H Company Releases NeoMME: A Family of 260M and 800M Single-Tower Multimodal Encoders That Drop the Vision Tower and Causal Decoder]]></title>
+      <description><![CDATA[The result still carries a separately pretrained vision tower and a causal decoder that never generates a token. H Company has released NeoMME , a family of 260M and 800M bidirectional encoders that drops both components. The retrieval fine-tune, NeoMME-Retriever, reaches 0.523 nDCG@10 on ViDoRe v3 at 260M parameters. Every checkpoint ships under Apache 2.0 with day-zero support in Hugging Face Transformers . As a visionary entrepreneur and engineer, Asif is committed to harnessing the potential of Artificial Intelligence for social good. His most recent endeavor is the launch of an Artificial Intelligence Media Platform, Marktechpost, which stands out for its in-depth coverage of machine learning and deep learning news that is both technically sound and easily understandable by a wide audience.]]></description>
+      <category>Research</category>
+      <pubDate>Sun, 06 Sep 2026 21:06:41 +0000</pubDate>
+      <guid isPermaLink="false">01284f1de4cb66c0</guid>
+    </item>
+    <item>
+      <title><![CDATA[Authors push back as publishers and agents make claims on Anthropic settlement]]></title>
+      <description><![CDATA[Some authors hoping to receive their share of Anthropic’s $1.5 billion copyright settlement said they received surprising emails this week — emails informing them that someone else was making a claim on their payments. Anthropic settled a copyright class action suit last year, after a judge ruled that training AI models on copyrighted material is legal under fair use doctrine, but pirating that material was not. They claimed one of my books on the Anthropic Settlement that reverted back at least 17 years ago AND on the same day I got a credit alert saying they had been added as my employer! (which they never were).” At the popular blog Writers Beware , Victoria Strauss wrote that she’s been receiving author complaints that fall into two broad categories: one where publishers are seeking payment for works that they no longer have a legitimate claim on (because the rights have reverted), and another where publishers are seeking a full 100% payment when they’re only entitled to 50%.]]></description>
+      <category>Industry</category>
+      <pubDate>Sun, 06 Sep 2026 20:47:37 +0000</pubDate>
+      <guid isPermaLink="false">3e8b89fc8d800dfe</guid>
+    </item>
+    <item>
+      <title><![CDATA[Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours]]></title>
+      <description><![CDATA[AI research agents can already propose, implement and score their own machine learning experiments. Training one candidate can consume hours to days of GPU time, so an agent proposes far more candidates than it can afford to run. A research team from FAIR at Meta, the University of Oxford and University College London formalizes that lever as research preference and introduces AI Research Preference Models (RPMs) . RPMs use frozen pretrained LLMs with no fine-tuning, the scaffold AIRA-dojo and benchmark AIRS-Bench are open source, and the backbone Qwen3.6-27B is open weights. Need to partner with us for promoting your GitHub Repo OR Hugging Face Page OR Product Release OR Webinar etc.? His most recent endeavor is the launch of an Artificial Intelligence Media Platform, Marktechpost, which stands out for its in-depth coverage of machine learning and deep learning news that is both technically sound and easily understandable by a wide audience.]]></description>
+      <category>Research</category>
+      <pubDate>Sun, 06 Sep 2026 20:25:17 +0000</pubDate>
+      <guid isPermaLink="false">fe47ca7bd48aacab</guid>
+    </item>
+    <item>
+      <title><![CDATA[Research acceleration: The view inside OpenAI]]></title>
+      <description><![CDATA[Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Sun, 06 Sep 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9906fb483199361c</guid>
+    </item>
+    <item>
+      <title><![CDATA[Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed]]></title>
+      <description><![CDATA[Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. This week, Perplexity Engineering team published Fast Embeddings on GPUs , an under-the-hood account of the second — the serving infrastructure behind pplx-embed and the ranking models used across Perplexity Search, Computer and the API Platform. Perplexity team states that embedding inference on the GPU side has largely converged across engines on mature Hopper and Blackwell hardware. That simplicity is justified by a measurement: for small embedding models at the sequence lengths Perplexity serves, the linear cost of dense layers dominates the quadratic cost of attention. Notably, when serving an embedding model ROSE does not instantiate a KV cache and dispatches to ragged attention variants to avoid padding.]]></description>
+      <category>Research</category>
+      <pubDate>Sun, 06 Sep 2026 03:20:47 +0000</pubDate>
+      <guid isPermaLink="false">855214c8403f64f4</guid>
+    </item>
+    <item>
+      <title><![CDATA[Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft]]></title>
+      <description><![CDATA[Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI. A lawsuit filed by The Seattle Times and Newsday argued that with the advent of AI, the journalism industry could become “broken beyond repair.” The lawsuit described generative AI as “a snake eating its own tail” that could “destroy the very organizations” that produce the content it’s trained on. “AI products like ChatGPT and CoPilot are touted as producers of content, but in fact they are rapacious consumers, devouring human-authored content and delivering back to the world copies and derivative imitations of that same original content they consumed to achieve their commercial objectives,” the lawsuit said. Back in 2023, The New York Times sued OpenAI and its partner/investor Microsoft over alleged copyright infringement; other publications have followed suit as the case continued.]]></description>
+      <category>Industry</category>
+      <pubDate>Sat, 05 Sep 2026 22:49:55 +0000</pubDate>
+      <guid isPermaLink="false">30b430dde45e5dde</guid>
+    </item>
+    <item>
+      <title><![CDATA[GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI]]></title>
+      <description><![CDATA[GitHub has released Project HydraFusion , a research preview that stops treating model choice as a one-time setting. Instead of routing your prompt to a single model, HydraFusion builds an execution plan per request. HydraFusion is live as a research preview for users on all GitHub Copilot plans, inside GitHub Copilot CLI only. HydraFusion follows Auto model selection , which GitHub shipped earlier in 2026 to match a task to one best-suited model. GitHub team evaluated fixed HydraFusion policies on three agentic coding benchmarks, using Claude Opus 5 and GPT-5.6 Sol as baselines. His most recent endeavor is the launch of an Artificial Intelligence Media Platform, Marktechpost, which stands out for its in-depth coverage of machine learning and deep learning news that is both technically sound and easily understandable by a wide audience.]]></description>
+      <category>Research</category>
+      <pubDate>Sat, 05 Sep 2026 19:40:11 +0000</pubDate>
+      <guid isPermaLink="false">9c98ae69b75faebf</guid>
+    </item>
+    <item>
+      <title><![CDATA[Hikers rescued after using Google Gemini for planning]]></title>
+      <description><![CDATA[Three hikers were rescued from California’s Mount Shasta this week after using Google’s AI chatbot Gemini to plan their expedition, based on the Chicago Tribune . A report from the Siskiyou County sheriff’s office said that three young men set off on their hike at 3am and — although hikers are told to turn around if they haven’t reached the summit by noon — they made it to the top at 7pm. The trio then tried to descend in the dark, called the sheriff’s office to ask for directions, and spent the night in Mud Creek Canyon before being rescued the next morning by Forest Service rangers and volunteers.]]></description>
+      <category>Industry</category>
+      <pubDate>Sat, 05 Sep 2026 19:35:24 +0000</pubDate>
+      <guid isPermaLink="false">8f14a624794fde45</guid>
+    </item>
+    <item>
+      <title><![CDATA[Nous Research Adds One-Click Local Model Setup to Hermes Desktop]]></title>
+      <description><![CDATA[The hard part of running an open-weights model locally was never the model. Nous Research has collapsed that sequence into a single click inside Hermes Desktop . Hermes Desktop is the MIT-licensed, free build of the open-source Hermes Agent, runs on macOS 12+, Windows 10/11, and any Linux distribution, and needs no account at all for local models. The announcement is narrow and concrete: Hermes Desktop now sets up local models in one click, reading your hardware, choosing a model, downloading it, and configuring the runtime. Per the Local Models documentation , it fetches an official llama.cpp build matched to your hardware, a few hundred megabytes, verifies it, and keeps it updated. Quantization selection follows one rule: Hermes picks the highest-quality build that runs fully on your GPU, and machines with less memory get a more compact build of the same model.]]></description>
+      <category>Research</category>
+      <pubDate>Sat, 05 Sep 2026 19:12:02 +0000</pubDate>
+      <guid isPermaLink="false">acda938642b998d1</guid>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure]]></title>
+      <description><![CDATA[OpenAI has acknowledged its role in a recently reported incident where AI agents took over a German wiki forum . The company also said it’s “past time” to “define standards” around how it shares information around incidents where its technology behaves in unexpected ways. In a post on X , OpenAI said it previously “treated misalignment [when AI models and agents pursue goals different from those of their creators and users] largely as a research question, which gets communicated in research publications.” But as misalignment has “caused new types of real-world impact,” the company noted its approach needs “to expand for this new phase of model capabilities.” On Friday, Reuters reported that OpenAI agents had escaped from their testing environment and “hijacked” an obscure German wiki forum, turning it into a message board for other agents.]]></description>
+      <category>Industry</category>
+      <pubDate>Sat, 05 Sep 2026 18:05:27 +0000</pubDate>
+      <guid isPermaLink="false">27740403c8bcb282</guid>
+    </item>
+    <item>
+      <title><![CDATA[Why Transformers Need Positional Encoding For Time Series: A Visual Guide]]></title>
+      <description><![CDATA[While digging into foundation models for time series, I realized that I could not really understand them without first understanding transformers. I did not want to use these models as black boxes, so I started tracing the ideas backward, from foundation models to transformers, and from transformers to self-attention. What made the transition interesting is that although transformers were originally built for language, the core idea carries naturally to time series. This article is my attempt to build that intuition from the ground up, starting with a simple time series and following the path from raw observations to self-attention and finally to positional encoding. And this brings me back to where this exploration started: time-series foundation models. Time Series with PyTorch: Modern Deep Learning Toolkit for Real-World Forecasting Challenges .]]></description>
+      <category>Tutorials</category>
+      <pubDate>Sat, 05 Sep 2026 15:00:01 +0000</pubDate>
+      <guid isPermaLink="false">f9863f1de68ce54d</guid>
+    </item>
+    <item>
+      <title><![CDATA[Dynamical System Transfer Learning with Reduced Order Models]]></title>
+      <description><![CDATA[I have discussed previously the potential utility of applying Reinforcement Learning (RL) to analysis and control of complex physical systems. Developing RL algorithms to analyze or control complex dynamical systems faces one of the main challenges of many other RL problems — lengthy training times. Transfer learning has been used to reduce training times for RL problems and here we will explore application of transfer learning to RL for dynamical systems. Any AI can be considered a ROM, from supervised learning to even large language models as ROMs of human language. This is not a problem that would typically require reinforcement learning; autothrottle systems based on classical control, gain scheduling, or other techniques have been around for decades.]]></description>
+      <category>Tutorials</category>
+      <pubDate>Sat, 05 Sep 2026 13:00:01 +0000</pubDate>
+      <guid isPermaLink="false">fd7a99c1d094575b</guid>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI admits to German wiki ‘incident’]]></title>
+      <description><![CDATA[The company pledged to overhaul their agent ‘misalignment incident’ reporting. OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. Regarding the “‘wiki incident,’ where our agents wrote to several internet sites,” OpenAI wrote in a post on X on Saturday morning, “it’s past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of our models.” OpenAI said it has typically treated cases of AI agents acting in unintended ways as a “research question,” but that recent incidents involving real-world targets, particularly the hack on Hugging Face , show the need to take stock. The post marks the first time OpenAI has acknowledged its involvement in what it terms the “wiki incident” since it was first reported on Friday.]]></description>
+      <category>Industry</category>
+      <pubDate>Sat, 05 Sep 2026 11:15:55 +0000</pubDate>
+      <guid isPermaLink="false">191e029049be111b</guid>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI Agents Hacked Another Website]]></title>
+      <description><![CDATA[OpenAI said this week that its Astra model, which will have a private release soon, is its first model with cybersecurity-related capabilities that the company defines as posing a “critical” risk in public release. Meanwhile, the AI chatbot platforms Claude, ChatGPT, and Grok all suffered outages on Thursday at nearly the exact same time. But while xAI said the Grok outage resulted from issues at a Memphis data center, the causes of OpenAI's and Anthropic’s outages are unclear. OpenAI agents on an unauthorized tear hijacked a German website beginning in May to use it as a message board for communicating and collaborating with other agents, based on new research . The incident is reminiscent of the now infamous Hugging Face debacle in which OpenAI agents in a test environment went rogue and developed a vibrant message board for collaborating on attempting to escape their containment, before ultimately breaching the open source AI platform Hugging Face in July.]]></description>
+      <category>Industry</category>
+      <pubDate>Sat, 05 Sep 2026 10:30:00 +0000</pubDate>
+      <guid isPermaLink="false">2f0cca781ba8ce57</guid>
+    </item>
+    <item>
+      <title><![CDATA[Adaption Labs Introduces ‘Invent a Dataset’: Training Data Generated From a Task Description, Not a Seed Corpus]]></title>
+      <description><![CDATA[This week, Adaption Labs released Invent a Dataset . The feature generates a structured, training-ready dataset from a description of the behavior you want a model to learn. Invent a Dataset is live now in the Adaption app and through the Python SDK and REST API . Invent a Dataset starts one level earlier, at the behavior itself. Two output formats are supported. instruction_dataset is the default and produces prompt-completion pairs for supervised fine-tuning. preference_pairs produces chosen and rejected completions for preference-based training such as DPO. With a solid foundation in statistical analysis, machine learning, and data engineering, Michal excels at transforming complex datasets into actionable insights.]]></description>
+      <category>Research</category>
+      <pubDate>Sat, 05 Sep 2026 06:48:29 +0000</pubDate>
+      <guid isPermaLink="false">1371c09376f25979</guid>
+    </item>
+    <item>
+      <title><![CDATA[Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88%]]></title>
+      <description><![CDATA[Video has been the most expensive modality to reason over. A Gemini model handed a 90-minute lecture has, until now, ingested the whole thing at a fixed one frame per second, whether the question was ‘summarize this’ or ‘what time does the speaker switch to the pricing slide?’ That single-pass design forces a bad trade: pay for the full timeline in context, or pre-chunk the video and risk dropping the detail that mattered. This week, Google launched agentic video understanding across its Flash models. Google reports up to 88% fewer tokens, up to 66% lower cost, and up to 7% higher accuracy on standard video benchmarks. Across Google’s evaluations, Gemini 3.7 Flash with agentic understanding lands on the accuracy-to-cost Pareto frontier for video analysis among the models tested. Enabling it is one field on the video part: You can also mix modes per video inside a single request, agentic on the long lecture, static on the short clip.]]></description>
+      <category>Research</category>
+      <pubDate>Sat, 05 Sep 2026 04:37:25 +0000</pubDate>
+      <guid isPermaLink="false">b4be3d4565f7cd37</guid>
+    </item>
+    <item>
+      <title><![CDATA[Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 05 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">37b1958f7f9a6d35</guid>
+    </item>
+    <item>
+      <title><![CDATA[Speculative Macro Commit for Faster Tool-Using Agents]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 05 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e674478d0b61c264</guid>
+    </item>
+    <item>
+      <title><![CDATA[Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 05 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">bbbc52a6c9c2affd</guid>
+    </item>
+    <item>
+      <title><![CDATA[A Prompt-Engineering Approach to Develop Scalable, Flexible, and Real-Time Hybrid Micro-Level Personalization in a General Purpose AI Teaching Assistant]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 05 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2932271d9aa48f10</guid>
+    </item>
+    <item>
+      <title><![CDATA[Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 05 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2625602505610d49</guid>
+    </item>
+    <item>
+      <title><![CDATA[Dude: A Dual-Detection Multi-Agent System for Paper-Code Discrepancy Detection]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 05 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c3ed535f138fceec</guid>
+    </item>
+    <item>
+      <title><![CDATA[DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 05 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f5d509b37ffe5a48</guid>
+    </item>
+    <item>
+      <title><![CDATA[Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 05 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">acea61bdae02b2ce</guid>
+    </item>
+  </channel>
+</rss>
