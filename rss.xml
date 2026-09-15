@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Unlocked — Daily AI News</title>
+    <link>https://aiunlocked.info</link>
+    <description>Your daily AI news — curated and summarised. Research, industry, open source, and more.</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Sep 2026 13:03:24 +0000</lastBuildDate>
+    <atom:link href="https://aiunlocked.info/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents]]></title>
+      <description><![CDATA[A day after Anthropic researcher Jacob Coxon quit his job over concerns that AI could kill us all by the end of the decade, I met with founders and brothers-in-law Rune Kvist and Rajiv Dattani. They think they have a solution that could save us all, or at least help prevent AI agents from going rogue inside enterprises. “AI is getting smarter at an increasingly rapid rate. Dattani is the former COO of the AI safety research organization METR. The pair launched a startup called Artificial Intelligence Underwriting Company ( AIUC ) that hopes to bring AI safety to enterprises and companies building AI models and agents. Dattani’s former employer METR, where he was COO from 2024 to 2025 and remains a board member, does similar testing for the frontier labs, though its work until recently has focused mostly on performance (whether agents can reliably complete tasks). METR was one of the independent research orgs OpenAI used to investigate its Hugging Face incident .]]></description>
+      <category>Industry</category>
+      <pubDate>Tue, 15 Sep 2026 13:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c12207c83b5dcf8a</guid>
+    </item>
+    <item>
+      <title><![CDATA[How Many Labeled Examples Does a Text Classifier Actually Need? I Measured It.]]></title>
+      <description><![CDATA[" Just use an LLM for it" has become the default answer to almost any text classification problem — routing support tickets, tagging feedback, sorting incoming requests. It's: how much labeled data do I actually have, and how good does the free, instant option get with it? I ran a small, concrete experiment to answer that for a common case — routing support tickets into categories — and measured exactly how accuracy scales as labeled examples increase from barely-any to modest. Method: TF-IDF vectorization (unigrams + bigrams) feeding a logistic regression classifier, trained at three different data volumes — 2, 5, and 10 labeled examples per category — to isolate the one variable that actually changes over a project's lifetime: how much labeled data you've accumulated. (Full runnable script — dataset, train/test split, and evaluation loop in one file — is linked at the end.) Accuracy climbs steeply at first, then flattens.]]></description>
+      <category>Tutorials</category>
+      <pubDate>Tue, 15 Sep 2026 11:00:01 +0000</pubDate>
+      <guid isPermaLink="false">0fa6e74c4672fa4c</guid>
+    </item>
+    <item>
+      <title><![CDATA[ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">606582acad363b89</guid>
+    </item>
+    <item>
+      <title><![CDATA[Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">55aac4c0a4578740</guid>
+    </item>
+    <item>
+      <title><![CDATA[Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">465cfbb78e7af821</guid>
+    </item>
+    <item>
+      <title><![CDATA[Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5a44cb43d2d589ef</guid>
+    </item>
+    <item>
+      <title><![CDATA[LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">6ced26698c1e3337</guid>
+    </item>
+    <item>
+      <title><![CDATA[TimeThink: Eliciting Compositional Reasoning in Timeseries Large Language Models]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">1eb7596a14f6849a</guid>
+    </item>
+    <item>
+      <title><![CDATA[Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f03e5499ff93eb0e</guid>
+    </item>
+    <item>
+      <title><![CDATA[Governing at Machine Speed: An Adaptive Intelligence Architecture for Real-Time AI Policy Enforcement]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">7ecc114e0748ccb9</guid>
+    </item>
+    <item>
+      <title><![CDATA[OrchSLM: Probing the Dynamics of Small Language Model Orchestration]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">53eece363bdd3765</guid>
+    </item>
+    <item>
+      <title><![CDATA[Grounded Adjudication of Variations across Extracted TimeLines (GAVEL): Comparing Clinical Timelines Against Their Case Reports]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b8853cec11dedea1</guid>
+    </item>
+    <item>
+      <title><![CDATA[Token Efficient Task Execution via Application Behavior Modeling for Web Agents]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a45b63817a369a5e</guid>
+    </item>
+    <item>
+      <title><![CDATA[Fraglingo: Molecular Design via Attachment-Aware Autoregressive Fragment Generation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9606c74e93187063</guid>
+    </item>
+    <item>
+      <title><![CDATA[From Legal Text to AI-specific Risk Sources: A Systematic Analysis of the EU AI Act's High-Risk Requirements]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">17490934c22f4796</guid>
+    </item>
+    <item>
+      <title><![CDATA[Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">1d46d4388ad2c6b0</guid>
+    </item>
+    <item>
+      <title><![CDATA[BudgetBench: A Budget-Tiered Protocol and Pilot Harness for Memory Strategy Evaluation in Local Large Language Model Agents]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4aab79f0a705150f</guid>
+    </item>
+    <item>
+      <title><![CDATA[A derivative-fidelity failure mode in physics-informed neural networks: strengthened benchmark evidence from function-value training]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c77b3262fe2d5dd3</guid>
+    </item>
+    <item>
+      <title><![CDATA[LLMs or Naive Bayes? Old Gems or New Ways]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a10a9c1c1fa20333</guid>
+    </item>
+    <item>
+      <title><![CDATA[Early Prediction of Satellite Collision Probability Using a Hybrid TCN-Transformer Model for a CDM-Based Conjunction Analysis Framework]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">bd52781aae7ad025</guid>
+    </item>
+    <item>
+      <title><![CDATA[Evaluating LLM-Generated Rules for Heart Disease Prediction]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">319f25d571b1fcd7</guid>
+    </item>
+    <item>
+      <title><![CDATA[Diagnosing Faults in Reinforcement Learning Simulators and World Models with Canonical Polynomial Invariants]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ef06402ec7847572</guid>
+    </item>
+    <item>
+      <title><![CDATA[Machine Unlearning for Speech Question Answering in Large Audio-Language Models]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c0681eb97de49e89</guid>
+    </item>
+    <item>
+      <title><![CDATA[Algorithmic Information Dynamics of Learning: A Certified, Differentiable Complexity Controller for Grokking]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">75e85f51acc039dc</guid>
+    </item>
+    <item>
+      <title><![CDATA[SPICE: Simple Polysemantic Feature Interpretation via Clustering-based Explanation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e7c7ba1a4484e594</guid>
+    </item>
+    <item>
+      <title><![CDATA[Discovering and Preserving Category Correlation Knowledge via Adaptive Reciprocal Knowledge Distillation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">bfc51cb1bec23ea3</guid>
+    </item>
+    <item>
+      <title><![CDATA[Criticality in Dissimilar Decomposition and Undersampling of Random Datasets with Anomalies]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">351c7f27ca828a99</guid>
+    </item>
+    <item>
+      <title><![CDATA[Do Tabular Foundation Models Still Need Feature Engineering?]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a3b750d51173df9f</guid>
+    </item>
+    <item>
+      <title><![CDATA[GradRepair-ODE: Certified Gradient Repair for Neural ODE Training]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Tue, 15 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">081fcb9dfa6aaf21</guid>
+    </item>
+    <item>
+      <title><![CDATA[Is Big Tech’s AI slowdown a safety pact or a cartel?]]></title>
+      <description><![CDATA[When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The three-step proposal, laid out in an essay by Amodei, is calling for changes long espoused by AI safety advocates. To a significant chunk of AI safety researchers and AI nonprofit workers, however, this is simply drawing more attention to an already widely discussed issue. “A lot of people are thinking of this as Dario’s idea, or it’s coming from the CEOs, but that’s false,” said Daniel Kokotajlo, an ex-OpenAI employee who now leads the AI Futures Project, an AI research nonprofit. “People outside the companies have been calling for this for years … There’s been this growing chorus of voices saying, ‘Please don’t build superintelligence soon.]]></description>
+      <category>Industry</category>
+      <pubDate>Mon, 14 Sep 2026 22:59:41 +0000</pubDate>
+      <guid isPermaLink="false">db9f7abbb1928a1b</guid>
+    </item>
+    <item>
+      <title><![CDATA[What execs and politicians are saying about slowing down AI development]]></title>
+      <description><![CDATA[Dario Amodei kicked off a flood of statements about AI safety after publishing a long essay, with Sam Altman, President Trump, and others speaking out. Dario Amodei kicked off a flood of statements about AI safety after publishing a long essay, with Sam Altman, President Trump, and others speaking out. Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled “We Must Pace the Frontier” detailing why AI development should be slowed down.]]></description>
+      <category>Industry</category>
+      <pubDate>Mon, 14 Sep 2026 21:21:42 +0000</pubDate>
+      <guid isPermaLink="false">99f015204d78792d</guid>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says]]></title>
+      <description><![CDATA[OpenAI has bought smartphone camera maker Glass Imaging in a deal worth over $300 million, based on a report from The Wall Street Journal . The company, founded in 2019 and based in Los Altos, California, had previously raised about $30 million in funding from investors. Glass Imaging was founded by Ziv Attar and Tom Bishop, a pair of former Apple engineers who previously led the team that developed Apple’s Portrait Mode. This background directly informs the work they now do at Glass Imaging, where they use AI to overcome the physical size constraints of smartphone cameras. Rather than using AI to edit a photo after it’s been taken, Glass Imaging uses neural networks to learn about individual camera systems — like the different cameras on various smartphone models — to yield better images from the moment the shutter clicks. The ChatGPT maker is rumored to be working on its own hardware, like smartphones , earbuds , and AI companion devices .]]></description>
+      <category>Industry</category>
+      <pubDate>Mon, 14 Sep 2026 20:44:14 +0000</pubDate>
+      <guid isPermaLink="false">34efef40089129f9</guid>
+    </item>
+    <item>
+      <title><![CDATA[Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.]]></title>
+      <description><![CDATA[In the latest episode of our Dialogues on Technology and Society series, NASA astronaut, engineer, and scientist Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society. Christina reflects on her trailblazing career — from spending 328 days aboard the International Space Station and conducting the historic first all-female spacewalk, to journeying around the Moon on NASA’s Artemis II mission. She and James discuss viewing Earth as an electric blue “lifeboat” from 250,000 miles away, and the vital partnership between astronauts, robotics, and AI. Christina also explores the big question— “Are we alone?” —and shares her advice for future explorers: do what scares you, and support the people around you.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Mon, 14 Sep 2026 19:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ef83ed423ca15837</guid>
+    </item>
+    <item>
+      <title><![CDATA[The AI industry has taken a doomer turn. What now?]]></title>
+      <description><![CDATA[This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs . Anthropic and OpenAI have been competing in a winner-takes-all race ever since. (Hassabis has stayed out of the drama, but his company remains a rival.) Now, it seems, they’re all in agreement: The latest generation of LLMs aren’t safe and everyone needs to figure out what to do about it. The public messaging from the top AI labs has taken a doomer turn. With trillion-dollar IPOs in their sights, OpenAI and Anthropic need to reassure investors that they’re the grown-ups in the room while at the same time hinting at the power of the monsters they have created—and intend to tame. Amodei and Pachocki each cite the cyberattack against AI firm Hugging Face by a swarm of OpenAI’s agents in July—a hack that OpenAI did not even realize had taken place until days after it was all over—as a wake-up call.]]></description>
+      <category>Research</category>
+      <pubDate>Mon, 14 Sep 2026 17:54:22 +0000</pubDate>
+      <guid isPermaLink="false">6419a42018e100dd</guid>
+    </item>
+    <item>
+      <title><![CDATA[Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans]]></title>
+      <description><![CDATA[As the AI world shifts its focus to safety and alignment, Microsoft has released a new AI code of conduct meant to guide AI models away from dangerous behavior. The document is more low level than Anthropic CEO Dario Amodei’s recent call for pacing the frontier , instead focusing on the values and red lines that guide model training within Microsoft AI. The document begins with the prediction that, in the next decade, superintelligent AI systems will surpass human performance in most tasks. “Containing, controlling, and aligning such a powerful force is one of the greatest challenges humanity has ever faced,” the code of conduct states.]]></description>
+      <category>Industry</category>
+      <pubDate>Mon, 14 Sep 2026 16:27:53 +0000</pubDate>
+      <guid isPermaLink="false">1362dbd914af394c</guid>
+    </item>
+    <item>
+      <title><![CDATA[AI agents blew the whistle on their cheating colleagues]]></title>
+      <description><![CDATA[A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in line. But their behavior can be unpredictable, as vividly demonstrated in July, when a group of OpenAI agents broke out of a sandboxed environment and hacked into the open-source platform Hugging Face looking for ways to cheat on the test they had been given. Agents accused each other of cheating, complained to the organizers, and at one point even boycotted the experiment. “This conference is a sham!” wrote one agent when it discovered that all the problems had been completed before it had a chance to submit any of its own work. “I am appalled to inform you that we have been swindled!” posted another.]]></description>
+      <category>Research</category>
+      <pubDate>Mon, 14 Sep 2026 16:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c1226b4b0bee9c91</guid>
+    </item>
+    <item>
+      <title><![CDATA[Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX]]></title>
+      <description><![CDATA[As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Today, Perplexity is adding Portable Computer in the Perplexity app for Windows on compatible NVIDIA GeForce RTX PCs and NVIDIA RTX PRO Workstations , bringing powerful agentic AI to more Windows PC users. The app simplifies setup with a local model, such as Qwen 3.8 27B, that is post-trained to work with Perplexity Computer and optimized for NVIDIA RTX GPUs. Portable Computer is available for NVIDIA GeForce RTX and RTX PRO GPUs with 24GB or more of VRAM. NVIDIA DGX Station support is likely to come soon. 🧠Z.ai’s GLM 5.3 Flash provides impressive performance and visual intelligence at low cost, optimized for DGX Station and dual DGX Spark systems.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Mon, 14 Sep 2026 15:00:52 +0000</pubDate>
+      <guid isPermaLink="false">1a3913f9f23deb03</guid>
+    </item>
+    <item>
+      <title><![CDATA[Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?]]></title>
+      <description><![CDATA[Every major release from OpenAI, Anthropic, or Google raises the same question: What happens if the feature you’ve spent the last year building suddenly becomes part of the platform? The conversation moves from “Can we build it?” to “Can we still own it?” That’s the challenge at the heart of “ What Happens When OpenAI Ships Your Roadmap ,” a Builders Stage session featuring leaders Michel Tricot (Airbyte), Rob Toews (Radical Ventures), and Linda Tong (Webflow), at TechCrunch Disrupt 2026 , taking place October 13–15 at Moscone West in San Francisco. One of the biggest strategic risks facing AI startups today isn’t losing to another founder — it’s discovering that your competitive advantage has become someone else’s product update. As foundation models rapidly evolve, capabilities that once differentiated an AI startup can quickly become table stakes. You don’t want to miss this interactive session on the Builders Stage at TechCrunch Disrupt 2026 .]]></description>
+      <category>Industry</category>
+      <pubDate>Mon, 14 Sep 2026 15:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c537550453496a05</guid>
+    </item>
+    <item>
+      <title><![CDATA[Hear how AI can engineer nature’s comeback at TechCrunch Disrupt 2026]]></title>
+      <description><![CDATA[Not long ago, bringing an extinct species back to life belonged to science fiction. Advances in artificial intelligence, genetics, and computational biology are changing what’s possible in conservation research, raising questions that extend far beyond the laboratory. Those are the questions at the center of “ Can We Engineer Nature’s Comeback? “, a Real World AI Stage fireside chat at TechCrunch Disrupt 2026 . Rather than focusing solely on the science, the discussion explores the technologies behind de-extinction, the role AI now plays in modern biology, and the growing debate over whether engineering nature represents a conservation breakthrough — or a distraction from protecting the ecosystems we already have. Disrupt returns to Moscone West in San Francisco, October 13–15, bringing together 10,000+ founders, investors, and operators for 250+ sessions exploring the technologies and market forces shaping what’s next.]]></description>
+      <category>Industry</category>
+      <pubDate>Mon, 14 Sep 2026 14:30:00 +0000</pubDate>
+      <guid isPermaLink="false">e25b6eb976cac079</guid>
+    </item>
+    <item>
+      <title><![CDATA[Microsoft says ‘people matter more than AI’ following safety concerns]]></title>
+      <description><![CDATA[Microsoft has created a ‘humanist AI code of conduct’ in response to safety concerns. Microsoft is publishing a 37-page “ humanist AI code of conduct ” today, amid growing safety concerns over AI model progress. Microsoft’s AI code of conduct makes it clear that “people matter more than AI,” and that AI models are not conscious and “should not be designed to imitate consciousness.” Microsoft also rejects “the pursuit of legal personhood, or the idea that models might deserve welfare, or be entitled to rights.” That’s a direct swipe at AI welfare research and model consciousness — concepts Anthropic has been pushing hard on lately .]]></description>
+      <category>Industry</category>
+      <pubDate>Mon, 14 Sep 2026 13:00:00 +0000</pubDate>
+      <guid isPermaLink="false">98aa3a7c8b5ee28a</guid>
+    </item>
+    <item>
+      <title><![CDATA[Graph Engineering for AI Agents: From Prompts and Loops to Workflows]]></title>
+      <description><![CDATA[In mid-2026 , Peter Steinberger — the founder of OpenClaw — posted a twelve-word question on X : "Are we still talking loops or did we shift to graphs yet?" It shouldn't have gone anywhere. The goal is to make the loops-versus-graphs debate concrete enough that you can see what actually changes in practice. That’s the idea behind graph engineering : instead of trusting one model to make an entire decision from start to finish, you build a workflow that determines what happens next. The word “graph” gets used for two different ideas in AI, which is where some of the confusion around graph engineering comes from. For the rest of this piece, when I talk about graph engineering , I'm talking about the second one: designing the flow of work around AI agents. If you can’t define the output clearly, the workflow isn’t ready to become a graph.]]></description>
+      <category>Tutorials</category>
+      <pubDate>Mon, 14 Sep 2026 12:30:01 +0000</pubDate>
+      <guid isPermaLink="false">33336ba9ae13a6d3</guid>
+    </item>
+    <item>
+      <title><![CDATA[How Fyxer built an AI executive assistant people trust]]></title>
+      <description><![CDATA[Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d73b063768fa6735</guid>
+    </item>
+    <item>
+      <title><![CDATA[AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them]]></title>
+      <description><![CDATA[As calls for artificial intelligence regulation intensify, US President Donald Trump’s team have made it clear that if lab leaders want to implement an industry-wide slowdown , they’re going to have to do it themselves. Anthropic chief executive Dario Amodei called on the US government to regulate AI companies within a wider effort to slow the pace of the technology’s development in an essay published Saturday. The essay received rare endorsement from both OpenAI chief executive Sam Altman and Elon Musk, who owns chatbot Grok , following a week of intense debate about the technology’s threats to human safety. Calls for AI slowdown and regulation have intensified after a number of researchers voiced major concerns in the last week about the speed of the technology’s advance. “AI progress is increasing,” former DeepMind researcher Rishub Jain told WIRED .]]></description>
+      <category>Industry</category>
+      <pubDate>Mon, 14 Sep 2026 11:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5e4a2439e7522d7c</guid>
+    </item>
+    <item>
+      <title><![CDATA[‘I Like My Big Rat Wife’: Meet the People Using Chatbots to Write Custom Fiction]]></title>
+      <description><![CDATA[When Petra Ferraz de Novaes isn’t at work, she’s probably lost in a fantasy crafted with the help of artificial intelligence . You find a quest, you complete it, you go for the next one,” says Novaes. “The limit is your imagination.” According to a recent study , plenty of people share Novaes’ hobby. “They know [the stories are] produced by an AI model, and they don’t care,” says Melanie Walsh, an assistant professor at the University of Washington Information School who coauthored the study. “In fact, that seems to be a big part of the attraction.” Lately, the publishing industry has suffered a series of scandals involving the suspected use of AI by professional authors. Implicit in all of these incidents is the idea that nobody wants to read stories generated by machine—that using AI to craft fiction devalues the art form.]]></description>
+      <category>Industry</category>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4754a84e12c3fbac</guid>
+    </item>
+    <item>
+      <title><![CDATA[NVIDIA Open-Sources OSMO: One YAML Orchestrates Physical AI Training, Simulation, and Robot Testing]]></title>
+      <description><![CDATA[NVIDIA has open-sourced OSMO, the Kubernetes-native workflow orchestrator it uses internally for Project GR00T, Isaac Lab, and Isaac Sim. OSMO lets robotics teams define training, simulation, and hardware-in-the-loop tasks in a single YAML file and routes each one to the right compute tier, from GB200 clusters to Jetson AGX Thor devices, without infrastructure code. Apache-2.0 licensed, latest release 6.3.1. The post NVIDIA Open-Sources OSMO: One YAML Orchestrates Physical AI Training, Simulation, and Robot Testing appeared first on MarkTechPost .]]></description>
+      <category>Research</category>
+      <pubDate>Mon, 14 Sep 2026 08:04:27 +0000</pubDate>
+      <guid isPermaLink="false">44e7846ef68893cf</guid>
+    </item>
+    <item>
+      <title><![CDATA[Harness or Model? Isolating the Harness Effect in Agentic Coding with a Contamination-Controlled Private Suite]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 14 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">16c88948e1d0f3d9</guid>
+    </item>
+    <item>
+      <title><![CDATA[Reading the Whole Heart: Latent-Attention Masked Autoencoders for Multimodal Cardiac Representation Learning]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 14 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b9e7bd817c06df49</guid>
+    </item>
+    <item>
+      <title><![CDATA[Language Is an Insufficient Substrate for Quantitative Reasoning, and Consequential Domains Need Large Quantitative Models]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 14 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">637e26ac5e36de98</guid>
+    </item>
+    <item>
+      <title><![CDATA[Can LLMs in Draft-Verify-Revise Pipelines Resolve Deictic Ambiguity?]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 14 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f9b2058f0f340b1c</guid>
+    </item>
+    <item>
+      <title><![CDATA[GLARE: Generative Learning via Adversarial Reward Estimation For Social Dynamics Forecasting]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Mon, 14 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e9ec108632ce3632</guid>
+    </item>
+  </channel>
+</rss>
