@@ -1,0 +1,86 @@
+{
+  "total_articles": 220,
+  "today": 2,
+  "categories": 5,
+  "category_list": [
+    {
+      "category": "Research Papers",
+      "cnt": 110
+    },
+    {
+      "category": "Industry",
+      "cnt": 69
+    },
+    {
+      "category": "Research",
+      "cnt": 21
+    },
+    {
+      "category": "Company Updates",
+      "cnt": 14
+    },
+    {
+      "category": "Tutorials",
+      "cnt": 6
+    }
+  ],
+  "colours": {
+    "Research": "#6C5CE7",
+    "Industry": "#00B894",
+    "Company Updates": "#0984E3",
+    "Open Source": "#E17055",
+    "Research Papers": "#A29BFE",
+    "Tutorials": "#FDCB6E"
+  },
+  "trending": [
+    {
+      "keyword": "OpenAI",
+      "count": 18
+    },
+    {
+      "keyword": "Anthropic",
+      "count": 14
+    },
+    {
+      "keyword": "LLM",
+      "count": 14
+    },
+    {
+      "keyword": "ai agent",
+      "count": 11
+    },
+    {
+      "keyword": "ai safety",
+      "count": 9
+    },
+    {
+      "keyword": "RAG",
+      "count": 9
+    },
+    {
+      "keyword": "GPT",
+      "count": 7
+    },
+    {
+      "keyword": "Claude",
+      "count": 7
+    },
+    {
+      "keyword": "Hugging Face",
+      "count": 6
+    },
+    {
+      "keyword": "Google",
+      "count": 5
+    },
+    {
+      "keyword": "ChatGPT",
+      "count": 5
+    },
+    {
+      "keyword": "Microsoft",
+      "count": 5
+    }
+  ],
+  "built_at": "2026-09-19T12:12:10.909746"
+}
