@@ -1,0 +1,46 @@
+{
+  "total_articles": 227,
+  "today": 14,
+  "categories": 6,
+  "category_list": [
+    {
+      "category": "Research Papers",
+      "cnt": 101
+    },
+    {
+      "category": "Industry",
+      "cnt": 67
+    },
+    {
+      "category": "Company Updates",
+      "cnt": 22
+    },
+    {
+      "category": "Research",
+      "cnt": 21
+    },
+    {
+      "category": "Tutorials",
+      "cnt": 12
+    },
+    {
+      "category": "Open Source",
+      "cnt": 4
+    }
+  ],
+  "colours": {
+    "Research": "#6C5CE7",
+    "Industry": "#00B894",
+    "Company Updates": "#0984E3",
+    "Open Source": "#E17055",
+    "Research Papers": "#A29BFE",
+    "Tutorials": "#FDCB6E"
+  },
+  "trending": [
+    {
+      "keyword": "foundation model",
+      "count": 2
+    }
+  ],
+  "built_at": "2026-09-26T12:36:35.471164"
+}
