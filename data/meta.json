@@ -1,0 +1,86 @@
+{
+  "total_articles": 237,
+  "today": 2,
+  "categories": 5,
+  "category_list": [
+    {
+      "category": "Research Papers",
+      "cnt": 104
+    },
+    {
+      "category": "Industry",
+      "cnt": 86
+    },
+    {
+      "category": "Research",
+      "cnt": 25
+    },
+    {
+      "category": "Company Updates",
+      "cnt": 15
+    },
+    {
+      "category": "Tutorials",
+      "cnt": 7
+    }
+  ],
+  "colours": {
+    "Research": "#6C5CE7",
+    "Industry": "#00B894",
+    "Company Updates": "#0984E3",
+    "Open Source": "#E17055",
+    "Research Papers": "#A29BFE",
+    "Tutorials": "#FDCB6E"
+  },
+  "trending": [
+    {
+      "keyword": "ai agent",
+      "count": 20
+    },
+    {
+      "keyword": "OpenAI",
+      "count": 13
+    },
+    {
+      "keyword": "Meta",
+      "count": 10
+    },
+    {
+      "keyword": "RAG",
+      "count": 9
+    },
+    {
+      "keyword": "GPT",
+      "count": 8
+    },
+    {
+      "keyword": "LLM",
+      "count": 7
+    },
+    {
+      "keyword": "ChatGPT",
+      "count": 6
+    },
+    {
+      "keyword": "ai safety",
+      "count": 4
+    },
+    {
+      "keyword": "Apple",
+      "count": 3
+    },
+    {
+      "keyword": "NVIDIA",
+      "count": 3
+    },
+    {
+      "keyword": "machine learning",
+      "count": 3
+    },
+    {
+      "keyword": "diffusion",
+      "count": 3
+    }
+  ],
+  "built_at": "2026-10-03T12:56:41.755698"
+}
