@@ -1,0 +1,66 @@
+{
+  "total_articles": 191,
+  "today": 18,
+  "categories": 6,
+  "category_list": [
+    {
+      "category": "Research Papers",
+      "cnt": 90
+    },
+    {
+      "category": "Industry",
+      "cnt": 55
+    },
+    {
+      "category": "Research",
+      "cnt": 23
+    },
+    {
+      "category": "Company Updates",
+      "cnt": 12
+    },
+    {
+      "category": "Tutorials",
+      "cnt": 10
+    },
+    {
+      "category": "Open Source",
+      "cnt": 1
+    }
+  ],
+  "colours": {
+    "Research": "#6C5CE7",
+    "Industry": "#00B894",
+    "Company Updates": "#0984E3",
+    "Open Source": "#E17055",
+    "Research Papers": "#A29BFE",
+    "Tutorials": "#FDCB6E"
+  },
+  "trending": [
+    {
+      "keyword": "TPU",
+      "count": 3
+    },
+    {
+      "keyword": "deep learning",
+      "count": 3
+    },
+    {
+      "keyword": "machine learning",
+      "count": 3
+    },
+    {
+      "keyword": "OpenAI",
+      "count": 3
+    },
+    {
+      "keyword": "RAG",
+      "count": 3
+    },
+    {
+      "keyword": "LLM",
+      "count": 2
+    }
+  ],
+  "built_at": "2026-10-17T11:55:09.079088"
+}

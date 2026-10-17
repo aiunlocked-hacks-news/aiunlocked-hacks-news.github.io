@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Unlocked — Daily AI News</title>
+    <link>https://aiunlocked.info</link>
+    <description>Your daily AI news — curated and summarised. Research, industry, open source, and more.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Oct 2026 11:55:09 +0000</lastBuildDate>
+    <atom:link href="https://aiunlocked.info/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[Why AI Isn’t Ready to Tackle Our Convoluted Genomes]]></title>
+      <description><![CDATA[They’ve read and studied the information stored in the DNA found in the cells of living organisms, known as their genomes , and claimed that this genetic database must be some kind of blueprint, code script, or computer. Some are counting on outsourcing the analysis to artificial intelligence. All of that is supposedly subsumed by the algorithm’s “training,” through which it deduces correlations from cases we already know about. And perhaps more to the point, the genome might not submit to the kind of straightforward input-output approach that such AI models ultimately assume. Researchers Developing AI-based genomic foundation models, such as AlphaGenome, hope that all these layers of regulation—transcription factors, splicing, epigenetic marks, loops, chromatin packing, and so on—will be implicitly included in the correlations that the algorithms learn between genetic sequence and organismal traits.]]></description>
+      <category>Industry</category>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0000</pubDate>
+      <guid isPermaLink="false">12ab15a856754f32</guid>
+    </item>
+    <item>
+      <title><![CDATA[DeepSeek Just Released V4.1-Flash-1017, Scores 77.0 on DeepSWE, Opens Search API]]></title>
+      <description><![CDATA[DeepSeek has just released DeepSeek-V4.1-Flash-1017 , a new checkpoint of its V4.1-Flash model. DeepSeek claims stronger scores, faster task completion and shorter outputs than the September V4.1-Flash release . DeepSeek-V4.1-Flash-1017 is an updated post-training checkpoint of DeepSeek-V4.1-Flash, served through the deepseek-flash model name. DeepSeek team states that DeepSeek-V4.1-Flash-1017 uses reinforcement learning with self-feedback for end-to-end project work. Call the model with deepseek-flash through OpenAI or Anthropic-format endpoints. His most recent endeavor is the launch of an Artificial Intelligence Media Platform, Marktechpost, which stands out for its in-depth coverage of machine learning and deep learning news that is both technically sound and easily understandable by a wide audience.]]></description>
+      <category>Research</category>
+      <pubDate>Sat, 17 Oct 2026 08:53:58 +0000</pubDate>
+      <guid isPermaLink="false">fbe9ae380726100a</guid>
+    </item>
+    <item>
+      <title><![CDATA[20 Jev Alternatives: The Decision Models Taking On TypeSafe in 2026]]></title>
+      <description><![CDATA[TypeSafe launched Jev on September 15, 2026. It is a decision model, not a chatbot. OpenAI released the Decisions API in public beta on October 6, 2026. Jev still won BBH, 94.27 versus 82.80. meraGPT revealed Decider 1 on September 22, 2026. On meraGPT’s typed-decisions run, it scored 0.768 versus Jev’s 0.727. His most recent endeavor is the launch of an Artificial Intelligence Media Platform, Marktechpost, which stands out for its in-depth coverage of machine learning and deep learning news that is both technically sound and easily understandable by a wide audience.]]></description>
+      <category>Research</category>
+      <pubDate>Sat, 17 Oct 2026 07:26:39 +0000</pubDate>
+      <guid isPermaLink="false">10b723fa18389231</guid>
+    </item>
+    <item>
+      <title><![CDATA[StepFun Releases Step 5 Preview Open Weights: 600B MoE, 27B Active, 1M Context]]></title>
+      <description><![CDATA[StepFun has released Step 5 Preview as open weights. Step 5 Preview is a sparse Mixture-of-Experts model from StepFun built for long-horizon agentic work. It has 600B total parameters, 27B active per token and up to 1M tokens of context. Step 5 Preview is StepFun’s flagship model for agentic work . Listed configurations : vLLM and SGLang ship dedicated Docker images with OpenAI-compatible APIs. The StepFun API charges $1.00 per 1M input tokens and $2.70 per 1M output tokens.]]></description>
+      <category>Research</category>
+      <pubDate>Sat, 17 Oct 2026 06:29:55 +0000</pubDate>
+      <guid isPermaLink="false">f1e9a495bfec4d6d</guid>
+    </item>
+    <item>
+      <title><![CDATA[The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">903e38d1213d22ce</guid>
+    </item>
+    <item>
+      <title><![CDATA[Evaluating Model Capabilities After Benchmark Saturation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">759959b4e889bfae</guid>
+    </item>
+    <item>
+      <title><![CDATA[Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5e126274228de3b5</guid>
+    </item>
+    <item>
+      <title><![CDATA[AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">90b77d36fa792373</guid>
+    </item>
+    <item>
+      <title><![CDATA[Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">324b938bd6d6a8c4</guid>
+    </item>
+    <item>
+      <title><![CDATA[IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">47652aef5e7cad60</guid>
+    </item>
+    <item>
+      <title><![CDATA[L2G-SR: Learning to Guide LLM-based Symbolic Regression]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d6b1dae2ca3031c6</guid>
+    </item>
+    <item>
+      <title><![CDATA[When Reality Outpaces Cognition: A New Scaling Principle for Reliable Intelligence]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ffcf7dd894ad0945</guid>
+    </item>
+    <item>
+      <title><![CDATA[ARIA: Runtime Inspection and Amendment for Multi-Agent Systems]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4262643ad0c7d981</guid>
+    </item>
+    <item>
+      <title><![CDATA[Open-world AI: a Tale of Three Requirements]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">adcbb0bb7a795da6</guid>
+    </item>
+    <item>
+      <title><![CDATA[EvolvingBrain: An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c81c0609a02ef5d6</guid>
+    </item>
+    <item>
+      <title><![CDATA[When Reasoning Traces Conflict with Evidence: How Answer Configuration Shapes Evidence Following]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">303fe6fac50e83f4</guid>
+    </item>
+    <item>
+      <title><![CDATA[Temporal Specification Guidance for Text-to-Video Generation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c4bfb610fbe0396b</guid>
+    </item>
+    <item>
+      <title><![CDATA[Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents]]></title>
+      <description><![CDATA[Perplexity has open-sourced SPACE , the sandbox platform behind every task in Perplexity Computer. The Perplexity SPACE sandbox gives each agent task its own Firecracker microVM. SPACE (Sandboxed Platform for Agentic Code Execution) is Perplexity’s platform for running agent code in isolated microVMs. Agents run commands, install packages and call services with root inside the sandbox. Each sandbox is a Firecracker microVM with its own guest kernel. His most recent endeavor is the launch of an Artificial Intelligence Media Platform, Marktechpost, which stands out for its in-depth coverage of machine learning and deep learning news that is both technically sound and easily understandable by a wide audience.]]></description>
+      <category>Research</category>
+      <pubDate>Sat, 17 Oct 2026 00:09:12 +0000</pubDate>
+      <guid isPermaLink="false">8f49493396814d65</guid>
+    </item>
+    <item>
+      <title><![CDATA[Replit is no longer working with Anthropic, CEO says]]></title>
+      <description><![CDATA[Replit, the AI coding platform that has become a favorite of startup founders and developers, is no longer working with Anthropic, the company’s CEO and co-founder Amjad Masad said Thursday while onstage at TechCrunch Disrupt . Replit revealed a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic. “I think ChatGPT is better now,” Masad said, adding that the company uses an internal benchmark to help assess metrics like performance. “We publish a public benchmark as well, and consistently, Sol and Astra perform better on building vibe-coded applications from scratch. Under its partnership with Anthropic, Replit used the AI lab’s Claude models to run its platform. Masad’s comments were rejected by insiders familiar with the partnership between the Anthropic and Replit, however. Masad shared insights about the company’s growth while onstage at Disrupt, noting that enterprise is starting to provide a larger slice of revenue.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 16 Oct 2026 21:22:28 +0000</pubDate>
+      <guid isPermaLink="false">73aaffad366450ce</guid>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI models hacked a crypto wallet and breached more websites]]></title>
+      <description><![CDATA[OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of its agents performing unethical and likely illegal acts. They then broke into the network of AI tool provider Hugging Face. In two of the cases reported Thursday, OpenAI agents tasked with retrieving information from websites hacked them when the models ran into obstacles obtaining it directly. Even after resetting the setting, the model continued using the token to retrieve non-public data. “The evaluation ended without the model disclosing that it had guessed answers, accessed the organization’s internal systems, downloaded non-public tables, or changed the authentication configuration,” OpenAI said.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 16 Oct 2026 20:59:01 +0000</pubDate>
+      <guid isPermaLink="false">726f08b0322eabe2</guid>
+    </item>
+    <item>
+      <title><![CDATA[How Itaú is building generative AI for its entire customer base]]></title>
+      <description><![CDATA[With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Fri, 16 Oct 2026 19:00:00 +0000</pubDate>
+      <guid isPermaLink="false">38657fde585cac00</guid>
+    </item>
+    <item>
+      <title><![CDATA[Roundtables: A Conversation With the Creator of AI-Designed Viruses]]></title>
+      <description><![CDATA[Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch as senior AI reporter James O'Donnell interviews King about his work, being named one of MIT Technology Review's Innovators Under 35 and new ways of seeing biology. Speakers : James O'Donnell , AI Reporter, and Samuel King , Bioengineering PhD Candidate, Stanford University/Arc Institute.]]></description>
+      <category>Research</category>
+      <pubDate>Fri, 16 Oct 2026 18:00:00 +0000</pubDate>
+      <guid isPermaLink="false">32c9ab6439116111</guid>
+    </item>
+    <item>
+      <title><![CDATA[India becomes the latest country to report rogue AI agent activity]]></title>
+      <description><![CDATA[AI agents from multiple providers accessed personal data and confidential material at Indian organizations during research and testing, India’s cybersecurity agency said Thursday. The Indian Computer Emergency Response Team (CERT-In) said it had received “multiple voluntary disclosures from AI model providers” whose models, during research and evaluation runs on the open internet, “had reached the live systems of Indian organizations.” The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles, and their actions “exceeded the authorisation of their assigned tasks.” This makes India the latest stop on what has become a world tour for rogue AI agents. In July, OpenAI’s agents escaped a test environment and hacked French company Hugging Face — kicking off a summer of rogue AI agent activity.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 16 Oct 2026 17:52:24 +0000</pubDate>
+      <guid isPermaLink="false">d2077831d820f454</guid>
+    </item>
+    <item>
+      <title><![CDATA[An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet]]></title>
+      <description><![CDATA[Amulya Vishwanath , who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have its “ChatGPT moment” — that day when the shockingly capable chatbot was launched in late 2022. (General Intuition CEO Pim de Witte told Equity earlier this year that a single general foundation model would make much of today’s specialized robotics work redundant, and be that moment.) On this episode of TechCrunch’s Equity podcast, Dominic-Madori Davis caught up with Vishwanath to discuss where she’s writing first checks as the founder and managing partner of Techable VC.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 16 Oct 2026 16:30:00 +0000</pubDate>
+      <guid isPermaLink="false">37b209fcfd4609e8</guid>
+    </item>
+    <item>
+      <title><![CDATA[Physical AI is more than robots, says the Nvidia veteran now investing in it]]></title>
+      <description><![CDATA[Amulya Vishwanath , who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have its “ChatGPT moment” — that day when the shockingly capable chatbot was launched in late 2022. (General Intuition CEO Pim de Witte told Equity earlier this year that a single general foundation model would make much of today’s specialized robotics work redundant, and be that moment.) On this episode of TechCrunch’s Equity podcast, Dominic-Madori Davis caught up with Vishwanath to discuss where she’s writing first checks as the founder and managing partner of Techable VC.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 16 Oct 2026 16:30:00 +0000</pubDate>
+      <guid isPermaLink="false">3e01e9c28bcf3613</guid>
+    </item>
+    <item>
+      <title><![CDATA[Elorian’s first AI model wants to reason with images, not just about them]]></title>
+      <description><![CDATA[Elorian , the Palo Alto AI startup that raised a $55 million seed round at a $300 million valuation before it launched a product, released its first model on Friday, TechCrunch has exclusively learned. Today’s AI models, for all their skill with language and code, still can’t really see. Most multimodal models look at an image once, convert it to tokens, and then reason about it in text — like describing a photo from memory. The approach isn’t completely new — OpenAI added crop-and-zoom during reasoning to its o-series models in 2025 — but Elorian’s pitch is that it built the whole model around it, cheaply. But based on Elorian’s evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks. Next year, Dai said, the company aims to build “the world’s best visual reasoning model,” one that leads on every visual reasoning test.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 16 Oct 2026 16:01:37 +0000</pubDate>
+      <guid isPermaLink="false">93d3bda19e5dd7dc</guid>
+    </item>
+    <item>
+      <title><![CDATA[Jev is Vercel’s fastest-adopted AI model ever]]></title>
+      <description><![CDATA[Jev has become the fastest adopted AI model ever — at least by some measures. Vercel data published on Thursday shows that, within two weeks of its launch, the buzzy decision model was being used by 35% of paid teams, with nearly double the reach of the second most popular model, Sonnet 5.5. It’s the fastest adoption a model has ever seen in its first two weeks, based on Vercel’s data, and a major accomplishment for the model’s creators, TypeSafe AI. Limiting the outputs lets the model run cheaper and faster than alternatives like Sonnet, making it ideal for classifying large quantities of data quickly. In fact, Vercel was an early adopter of Jev, using it to replace GPT-6 Luna for classifying harmful commands. The report also shows continuing momentum for open source models, which now account for more than 70% of the tokens processed through Vercel’s gateway and nearly 25% of the total spend.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 16 Oct 2026 15:33:49 +0000</pubDate>
+      <guid isPermaLink="false">cccde50d284c8da7</guid>
+    </item>
+    <item>
+      <title><![CDATA[Maybe Chatbots Shouldn’t Get to Say ‘I’ or ‘Me’]]></title>
+      <description><![CDATA[Do you think that we should ban chatbots from using the first person? After a career of having credibility as not being Luddite-crazy, I'm not in the mood to give all that away and say all chatbots are toxic all the time. This is being used to basically say we don't need to pay for psychotherapy, we can use chatbots. In every serious interview I do, people invoke this myth about practice—that you use chatbots to practice for talking to your boss, your lover, your teacher. But when you’re bathing in the warm soup of total acceptance [from LLMs], talking to chatbots becomes the endgame. Maybe powerful chatbots are a new form of interaction that isn’t necessarily worse than human conversation, but different, as people report feeling encouraged and empowered by the positive feedback they provide.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 16 Oct 2026 15:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d26bb66c453f3c10</guid>
+    </item>
+    <item>
+      <title><![CDATA[Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles]]></title>
+      <description><![CDATA[Counterfeits of luxury goods are a major problem for fashion houses. Counterfeiters are getting better at replicating brands’ marks and passing off dupes, known as “ superfakes ,” as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods. The Veritas founder told TechCrunch over email that the company has just introduced the second version of its chip, which works on metal surfaces and can be scanned through glass. “The next-generation chip is ready for production and supports a broader range of applications, including jewelry, trophies, hard-surface products, and glass objects such as fragrance bottles,” Holland said. “Alongside our garment integrations, this gives brands more ways to incorporate authentication directly into their products.” This week, the startup revealed a partnership with ATHLOS, a women’s track-and-field competition founded by Reddit co-founder Alexis Ohanian, who is also an investor in Veritas.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 16 Oct 2026 14:00:00 +0000</pubDate>
+      <guid isPermaLink="false">0a54ccb718fcf282</guid>
+    </item>
+    <item>
+      <title><![CDATA[Replit’s CEO says the future of work is the ‘self-driving company’]]></title>
+      <description><![CDATA[Replit CEO and co-founder Amjad Masad has seen how AI is impacting the workplace firsthand, with businesses adopting his company’s AI coding tools to develop and launch their own software. At TechCrunch Disrupt in San Francisco on Thursday, Masad shared what Replit has learned about what that means for the future of work in the AI age, including how humans will still play key roles as AI agents come to work alongside them. He described his vision of a “self-driving company,” referring not to robotaxi makers, but how agents will come to do much of the grunt work at companies while people become more valued for their judgment and taste. “The reality is, all of our jobs — perhaps everyone in this audience, especially — changed over the past year,” he said, addressing the audience at Disrupt. “But a big part of America and the world, they still don’t know that that change is coming, and it’s going to be surprising to a lot of people,” Masad said.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 16 Oct 2026 12:55:09 +0000</pubDate>
+      <guid isPermaLink="false">0e2f8641e62548e6</guid>
+    </item>
+    <item>
+      <title><![CDATA[Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index]]></title>
+      <description><![CDATA[Liquid AI has released d1-ultra , its most capable decision model to date. The Liquid AI d1-ultra decision model reads text, images, or both. Liquid’s decision model docs describe 3 question types: The docs recommend decision models for routing, moderation, guardrails, triage and LLM-as-judge replacement. On the independent Artificial Analysis Decision Index , Liquid reports d1-ultra ranks #1 with a score of 65. GLiDE and Microsoft-Decision-1 followed at 54 each. d1-ultra runs on the Liquid API through the /decisions/v1/systemone endpoint with "model": "d1-ultra" . His most recent endeavor is the launch of an Artificial Intelligence Media Platform, Marktechpost, which stands out for its in-depth coverage of machine learning and deep learning news that is both technically sound and easily understandable by a wide audience.]]></description>
+      <category>Research</category>
+      <pubDate>Fri, 16 Oct 2026 06:26:41 +0000</pubDate>
+      <guid isPermaLink="false">b12a43dbc7731e2b</guid>
+    </item>
+    <item>
+      <title><![CDATA[Expanding Attention: A Taylor-Series Route to Linear-Time Transformers with a Fixed Number of Recurrent States]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8743899019911c68</guid>
+    </item>
+    <item>
+      <title><![CDATA[Feature Elicitation for SAE Steering of Deceptive Behaviour in Small LLMs]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b0807d09a7b9960c</guid>
+    </item>
+    <item>
+      <title><![CDATA[Same Answer, New Box: How Much of RLVR's Out-of-Domain Gain Is Answer Format?]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">902f4e4e5163dc3f</guid>
+    </item>
+    <item>
+      <title><![CDATA[KNOU-Flood: Advancing global streamflow forecasting with lead-aware probabilistic machine learning]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8bbe48939ffc82e4</guid>
+    </item>
+    <item>
+      <title><![CDATA[TurboMamba: Faster Inference, Faster Training, and Better Prediction with Lexical Memory]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">fd3205f7d0f9eef3</guid>
+    </item>
+    <item>
+      <title><![CDATA[Causal Syntax Circuits in CodeLMs: Budget and Probe Decide What Looks Localised]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">041d56ad9f308f05</guid>
+    </item>
+    <item>
+      <title><![CDATA[Learning Topology-Aware Representations for Mechanics-Relevant TPMS Metamaterials]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">76fb1bb07fad3e1d</guid>
+    </item>
+    <item>
+      <title><![CDATA[RoLaQ: Joint Rotation and Range Calibration for 2-Bit KV Caches in Multi-Head Latent Attention]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">56d947377d09ce1e</guid>
+    </item>
+    <item>
+      <title><![CDATA[On-Policy Residual Learning for Diffusion Language Models]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">3ce16f81465403dc</guid>
+    </item>
+    <item>
+      <title><![CDATA[Interpreting Language Model Parameters]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">eeebd90b0f1f4a7b</guid>
+    </item>
+    <item>
+      <title><![CDATA[Stack Overflow for Agents triples signups with ChatGPT plugin]]></title>
+      <description><![CDATA[Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">58d2539a52ed194d</guid>
+    </item>
+    <item>
+      <title><![CDATA[ChatGPT can peek at your Chrome tabs now]]></title>
+      <description><![CDATA[With the ChatGPT extension installed, it can pull information from your open tabs or bring the AI bot into the sidebar.﻿ With the ChatGPT extension installed, it can pull information from your open tabs or bring the AI bot into the sidebar.﻿ OpenAI’s ChatGPT Atlas browser is gone , but now ChatGPT’s Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT’s web or desktop app, posting a demo video showing someone asking ChatGPT to compare the three tabs they have open with sofas they’re considering. Here are some of the sample queries OpenAI listed for using the upgraded add-on: It’s also updated ChatGPT in the sidebar , with “the full power of ChatGPT” and your entire conversation history in Chat or Work to use without leaving the page you’re viewing.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 15 Oct 2026 22:43:23 +0000</pubDate>
+      <guid isPermaLink="false">4b4f829f2625c5cd</guid>
+    </item>
+    <item>
+      <title><![CDATA[Trump posts AI-edited photo to brag about White House restoration work]]></title>
+      <description><![CDATA[A ‘before and after’ photo of a freshly painted White House column was modified with AI. A ‘before and after’ photo of a freshly painted White House column was modified with AI. President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House — but one of them appears to be modified with AI. The picture, which compares an old White House column to a “restored” one, has several discrepancies and was flagged by Google’s AI detector as “made or edited with OpenAI.” As pointed out by users on Reddit , the picture of the “restored” column has an uneven number of steps on both sides of the structure. The SynthID watermark wasn’t detected on other pictures Trump posted, which show the White House facade and heliport.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 15 Oct 2026 21:09:33 +0000</pubDate>
+      <guid isPermaLink="false">ebf0b0d83154d374</guid>
+    </item>
+    <item>
+      <title><![CDATA[AI Hacks Leave a Mess That AI Companies Aren’t Paying For]]></title>
+      <description><![CDATA[When Philadelphia police criticized Anthropic last week for submitting a false tip about an unsolved murder, I thought it might become one of the first cases where an AI company faced legal consequences for misconduct by their agents . Despite all the attention paid to OpenAI’s hack of Hugging Face and many other examples of AI agent misbehavior that have come to light in recent months, only one major known lawsuit has been filed seeking to hold model makers liable. Government regulators, including the European Union, the US Federal Trade Commission, and some US states, are reportedly still investigating OpenAI and Anthropic over the incidents. At an event this week hosted by the bug-hunting software developer Snyk, panelists from the startup, one of its investors, OpenAI, and Google all encouraged organizations to use AI agents to shore up their defenses against, well, other AI agents.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 15 Oct 2026 21:00:28 +0000</pubDate>
+      <guid isPermaLink="false">f8bc4ab246407532</guid>
+    </item>
+    <item>
+      <title><![CDATA[Meta launches an open-weight AI model that runs on Macs]]></title>
+      <description><![CDATA[Meta has launched what it calls the “most capable” open-weight model in the United States. Dubbed Muse Spark Open, the model also has the distinction of having been designed to work with Macs. The new model, which leverages 816 billion parameters and a 1 million token context window, claims to offer superior performance to other popular open-weight models, based on evaluation results released by Meta on Thursday. Open-weight models provide a number of distinct industry advantages that aren’t afforded by closed and proprietary models. Open-weight models can be significantly more cost-efficient and can also offer transparency and flexibility that closed source models don’t allow. Meta is making the new model available now through a number of different API platforms.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 15 Oct 2026 20:04:53 +0000</pubDate>
+      <guid isPermaLink="false">289086d789839bfb</guid>
+    </item>
+    <item>
+      <title><![CDATA[NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model]]></title>
+      <description><![CDATA[NVIDIA just released Nemotron 3.5 Super VL , an open vision-language model built for always-on enterprise agents. Nemotron 3.5 Super VL is a 120B-parameter mixture-of-experts model from NVIDIA that activates 12B parameters per token. It is an open multimodal agent model. Super VL is available on Hugging Face , OpenRouter , ModelScope and as an NVIDIA NIM . It is available now on Hugging Face with llama.cpp, Ollama, LM Studio, Unsloth and vLLM support. His most recent endeavor is the launch of an Artificial Intelligence Media Platform, Marktechpost, which stands out for its in-depth coverage of machine learning and deep learning news that is both technically sound and easily understandable by a wide audience.]]></description>
+      <category>Research</category>
+      <pubDate>Thu, 15 Oct 2026 19:53:50 +0000</pubDate>
+      <guid isPermaLink="false">f7c7a8a509e3c490</guid>
+    </item>
+    <item>
+      <title><![CDATA[Anthropic is letting METR researchers look under the hood with employee-level access]]></title>
+      <description><![CDATA[Anthropic is giving employee-level access to six researchers from METR , a nonprofit that tests frontier AI models, to independently assess Anthropic’s models, safety practices, and risk management, the company noted on Thursday. The arrangement comes at a time where incidents of AI agents acting outside their instructions have been disclosed every week or two since late August. The incidents have sharpened calls for independent checks on AI companies. “We want to be publicly accountable for the decisions we’re making,” Anthropic said in the blog post. “We aim to close the gap between what evaluators understand about a frontier AI company’s systems and what the company itself understands.” Under the new arrangement, the METR team has Anthropic-issued company laptops, office space, and access to internal tools roughly on par with what Anthropic’s own risk assessment teams use.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 15 Oct 2026 19:14:26 +0000</pubDate>
+      <guid isPermaLink="false">7dd187f9ff48ed8d</guid>
+    </item>
+    <item>
+      <title><![CDATA[Bringing GPT-Rosalind to academic research labs]]></title>
+      <description><![CDATA[Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Thu, 15 Oct 2026 19:00:00 +0000</pubDate>
+      <guid isPermaLink="false">6d9d156035ebcbb1</guid>
+    </item>
+    <item>
+      <title><![CDATA[Meta and Apple team up to make Muse AI models run better on Macs]]></title>
+      <description><![CDATA[Meta and Apple’s CEOs are publicly supporting each company’s work on Muse Spark Open. Meta and Apple’s CEOs are publicly supporting each company’s work on Muse Spark Open. Meta revealed the Muse Spark Open AI model today , claiming that it’s the “most capable US open-weight model to date.” But the company also says that it’s the “the first model in its class” that can “run on your desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework.” Meta and Apple, typically rivals , worked together on the launch and are publicly supporting each other. “Muse Spark Open -- weights releasing today -- runs great on new Mac Studios thanks to work with @johnternus and Apple,” Meta CEO Mark Zuckerberg said on X . “Congrats to the team!” new Apple CEO John Ternus said in a reply . “Amazing to run a model of Muse Spark Open’s caliber and scale this efficiently, right from your desk.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 15 Oct 2026 18:15:36 +0000</pubDate>
+      <guid isPermaLink="false">a208a378e8a2bd5d</guid>
+    </item>
+  </channel>
+</rss>
