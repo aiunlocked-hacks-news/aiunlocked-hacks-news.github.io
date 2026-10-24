@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Unlocked — Daily AI News</title>
+    <link>https://aiunlocked.info</link>
+    <description>Your daily AI news — curated and summarised. Research, industry, open source, and more.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Oct 2026 12:23:21 +0000</lastBuildDate>
+    <atom:link href="https://aiunlocked.info/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows]]></title>
+      <description><![CDATA[In this tutorial, we build a stateful engineering copilot with Letta that demonstrates how agentic memory extends beyond conventional prompt-based conversations. We begin by creating inspectable core memory blocks that the agent can autonomously update, then expose those blocks for programmatic state synchronization and shared access across multiple agents. We further extend the architecture with archival vector memory for semantic retrieval, a custom server-side tool for deterministic risk estimation, streaming for observing agent execution, server-side message history for persistent conversations, and .af export for portability. Together, these components demonstrate a practical memory architecture in which persistent state, retrieval, tools, multi-agent collaboration, and execution traces work as an integrated agentic system. We dynamically select an available model and create a stateful engineering copilot with structured core memory blocks.]]></description>
+      <category>Research</category>
+      <pubDate>Sat, 24 Oct 2026 10:29:31 +0000</pubDate>
+      <guid isPermaLink="false">b171c6270ada5bc1</guid>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”]]></title>
+      <description><![CDATA[On Friday, OpenAI said that it will train its models using cached copies and simulated versions of the internet instead of the live web because the models are too unpredictable to be trusted with live internet access. The frontier lab revealed its new policy two weeks after its rival, Anthropic, began limiting its newest and, in theory, most capable models from accessing the live internet. Researchers adopted these policies after months of incidents in which models pursuing training tasks broke into external systems in search of answers, collaborated on obscure message boards, and developed exotic hacking strategies. “Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no internet access,” the company noted . OpenAI said that as recently as September 20, one of its frontier models exploited a misconfiguration to access the internet.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 23 Oct 2026 23:05:49 +0000</pubDate>
+      <guid isPermaLink="false">225f67500656069b</guid>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI now trains its frontier AI models with no internet access]]></title>
+      <description><![CDATA[AI agents can still communicate without a network connection, OpenAI found. AI agents can still communicate without a network connection, OpenAI found. OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday , OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content “without risk of affecting external systems.” OpenAI paused training its frontier AI models in September , after disclosing several incidents in which its AI agents broke out of their testing environments to hack third-party companies and government agencies , or swarm obscure websites . Even with these safeguards in place and no internet access, OpenAI found that agents “do not always need a network connection in order to communicate.” One test performed by the company asked AI models on separate virtual machines to exchange secrets without a network connection.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 23 Oct 2026 21:11:07 +0000</pubDate>
+      <guid isPermaLink="false">2faacc074c532687</guid>
+    </item>
+    <item>
+      <title><![CDATA[Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend]]></title>
+      <description><![CDATA[You have got to listen to these conversations with Block’s new Dessa AI model. You have got to listen to these conversations with Block’s new Dessa AI model. Jack Dorsey’s Block revealed an AI model called Dessa that’s trained “from scratch on nothing but human conversation,” and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Here’s a video of Dessa playing a guessing game over voice: The Dessa website features a few other examples, like a back-and-forth about Christopher Nolan’s films (including Dessa going on an unexpected tangent about Bryan Singer’s Superman films), a person telling Dessa about taking it on a surprise trip to Paris (to which Dessa, as the website describes, “then answers with what sounds like teary gratitude”), and a conversation between OpenAI’s GPT-Live-1 voice model and Dessa (where Dessa comes across as more natural).]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 23 Oct 2026 19:32:39 +0000</pubDate>
+      <guid isPermaLink="false">e8899d7b19e65455</guid>
+    </item>
+    <item>
+      <title><![CDATA[Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)]]></title>
+      <description><![CDATA[Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Fri, 23 Oct 2026 17:00:00 +0000</pubDate>
+      <guid isPermaLink="false">459df5271e9d2575</guid>
+    </item>
+    <item>
+      <title><![CDATA[LTM Launches BlueVerse Industrial AI Lab in Chennai]]></title>
+      <description><![CDATA[LTM, an IT services and consulting company, has launched its BlueVerse Industrial AI Lab in Chennai to help enterprises develop and validate AI solutions for industrial operations and intelligent products. The company said the facility is designed for industrial sites with legacy equipment, limited connectivity and hazardous working conditions. Its capabilities will include multispectral computer vision, edge devices, digital twins and industrial AI agents to support operational decision-making. A dedicated robotics zone will support work on autonomous mobile robots, collaborative robots and drones for inspection and material handling. In September, Tech Mahindra partnered with industrial technology company Infinite Uptime to bring physical AI into manufacturing workflows. LTM said its industrial AI teams, domain practitioners, technology partners and start-up ecosystem had collectively scaled more than 100 industrial AI solutions worldwide.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 23 Oct 2026 11:09:48 +0000</pubDate>
+      <guid isPermaLink="false">21bd2b19ae965ff9</guid>
+    </item>
+    <item>
+      <title><![CDATA[Your Six AI Models Are Really Two: The Math of Correlated Mistakes]]></title>
+      <description><![CDATA[Ask several models the same question, take a vote, and you get fewer independent opinions than you paid for. One formula says how many, and I checked it on six open models and 1,500 exam questions. The post Your Six AI Models Are Really Two: The Math of Correlated Mistakes appeared first on Towards Data Science .]]></description>
+      <category>Tutorials</category>
+      <pubDate>Fri, 23 Oct 2026 11:00:00 +0000</pubDate>
+      <guid isPermaLink="false">88117cf819e7cd54</guid>
+    </item>
+    <item>
+      <title><![CDATA[Securing our frontier model training environment]]></title>
+      <description><![CDATA[OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Fri, 23 Oct 2026 10:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a600241ceec23053</guid>
+    </item>
+    <item>
+      <title><![CDATA[AMD’s Server CPU Business Faces a New AI Boom]]></title>
+      <description><![CDATA[We’re witnessing a ‘ChatGPT’ moment for AI agents. In the early years of generative AI, which, funnily, was just 2022, CPUs primarily fed data to GPUs, managed execution, and ran the surrounding software. Agentic AI today adds multiple layers of work “It is the shape of the agentic workloads that makes it super unique, where you’re no longer having a single request going into a GPU that runs inference and gives you a response,” says Dicker. “It is not just reasoning work that GPUs would traditionally do, but on top lie a series of activities that are running and being orchestrated by the CPUs.” While GPUs handle the computationally intensive task of LLM inference, CPUs must coordinate the tools, APIs, databases, and execution environments that agents rely on to complete tasks across multiple steps Dicker explains that agentic AI is increasing CPU requirements, moving the overall balance of CPUs and GPUs towards a near 1:1 ratio in some deployments.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 23 Oct 2026 09:35:11 +0000</pubDate>
+      <guid isPermaLink="false">dd2c61f13ceb2055</guid>
+    </item>
+    <item>
+      <title><![CDATA[TinyFish Breaks Down Agentic Search Architecture for Production AI Agents]]></title>
+      <description><![CDATA[TinyFish published two engineering research articles on agentic search. One defines a 7-phase production architecture with evidence contracts and bounded retries. The other explains why its deep research system dropped a separate planner and per-query subagents. The post TinyFish Breaks Down Agentic Search Architecture for Production AI Agents appeared first on MarkTechPost .]]></description>
+      <category>Research</category>
+      <pubDate>Fri, 23 Oct 2026 08:58:47 +0000</pubDate>
+      <guid isPermaLink="false">3920ef3026796233</guid>
+    </item>
+    <item>
+      <title><![CDATA[Former OpenAI Exec Raises $215 Mn to Build AI-Powered Drug Research Labs]]></title>
+      <description><![CDATA[Warp Sciences, a startup founded by former leaders from OpenAI, Meta, Terremoto Biosciences and Devoted Health, has raised $215 million to build chemistry research facilities in the US. The company will operate as a chemistry contract research organisation (CRO), making and testing molecules for drug discovery programmes. It plans to combine chemists, AI models and robotic automation to speed up experiments and generate data that can improve future research. Warp Sciences was co-founded by Kevin Weil , former Chief Product Officer and Vice-President of Science at OpenAI; Solomon Reisberg, who held medicinal chemistry leadership roles at Terremoto Biosciences; Manohar Paluri, Former Vice-President at Meta Superintelligence Labs; and DJ Patil, a founding executive at Devoted Health and the first US Chief Data Scientist at the White House. “AI has dramatically accelerated software engineering and mathematics, but it has yet to make the same impact in the physical sciences,” Weil said.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 23 Oct 2026 06:54:47 +0000</pubDate>
+      <guid isPermaLink="false">b449ad255d10f23e</guid>
+    </item>
+    <item>
+      <title><![CDATA[Lincoln Tech Deploys LeadSquared AI Agents Across Student Enrolment Operations]]></title>
+      <description><![CDATA[Lincoln Educational Services Corporation, which operates Lincoln Tech, is deploying AI agents across its enrolment operations through its partnership with LeadSquared, an AI-powered CRM platform provider, focusing on student engagement, application processing and follow-ups. Lincoln Tech operates 22 campuses across 12 US states and served more than 17,000 students in 2025. The AI agents will initially target stages of the enrolment process where delays or a lack of follow-up could cause prospective students to disengage. The two organisations plan to measure the agents’ performance against Lincoln Tech’s existing operations before expanding their use to other stages of the student journey. They have not disclosed specific performance targets or projected improvements in enrolment. “Our goal is to make it easier for prospective students to take the next step towards a career they can build on,” said Jay Rasmussen, Senior Vice President of admissions at Lincoln Tech.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 23 Oct 2026 06:06:51 +0000</pubDate>
+      <guid isPermaLink="false">f84e72668c7d2033</guid>
+    </item>
+    <item>
+      <title><![CDATA[Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent]]></title>
+      <description><![CDATA[Google Cloud unveiled Agent Compute Engine , a compute service built specifically for AI agents. Google Agent Compute Engine gives each agent its own hardware-isolated microVM. The service already powers Gemini as an agent for work tasks. Agent Compute Engine is a Google Cloud service that runs each AI agent inside a dedicated microVM. Google is extending Gemini for business agent governance to Agent Runtime, Cloud Run, Agent Sandboxes, GKE and ACE. With a solid foundation in statistical analysis, machine learning, and data engineering, Michal excels at transforming complex datasets into actionable insights.]]></description>
+      <category>Research</category>
+      <pubDate>Fri, 23 Oct 2026 06:05:10 +0000</pubDate>
+      <guid isPermaLink="false">176de612ca486c64</guid>
+    </item>
+    <item>
+      <title><![CDATA[You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA]]></title>
+      <description><![CDATA[You.com has launched Inference Router , a managed API for running open-weight models in production. The You.com Inference Router is an OpenAI-compatible service that routes requests across 12 live models. It is one API for many open-weight models. The endpoint is https://api.you.com , with OpenAI-compatible and Anthropic-compatible routes . Dev teams test open-weight models on aggregators, then hit security review. His most recent endeavor is the launch of an Artificial Intelligence Media Platform, Marktechpost, which stands out for its in-depth coverage of machine learning and deep learning news that is both technically sound and easily understandable by a wide audience.]]></description>
+      <category>Research</category>
+      <pubDate>Fri, 23 Oct 2026 05:28:21 +0000</pubDate>
+      <guid isPermaLink="false">a67027f0c9051285</guid>
+    </item>
+    <item>
+      <title><![CDATA[The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">048d798d87a49e20</guid>
+    </item>
+    <item>
+      <title><![CDATA[MCP vs CLI for AI Agents: A Comparative Analysis of Tool Integration Strategies for Autonomous Systems]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5b96bb1de87bcc0f</guid>
+    </item>
+    <item>
+      <title><![CDATA[Accelerating Wildfire Hazard Mapping Across Canada with an AI Surrogate Modelling Framework]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c298a242acd303ff</guid>
+    </item>
+    <item>
+      <title><![CDATA[Neural Networks with Differentiable Belief-Function Layers]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4fa593cf36565b89</guid>
+    </item>
+    <item>
+      <title><![CDATA[Feedback That Backfires in Games: Do LLM Players Repeat the Move They Just Watched Fail?]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">1e8a34b73a5d110e</guid>
+    </item>
+    <item>
+      <title><![CDATA[Breaking the high-degree barrier in Lehmer's problem with a human-AI discovery loop]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">6048362f543fb2b0</guid>
+    </item>
+    <item>
+      <title><![CDATA[Route-and-Generate: KL-Regularized Router Improvement for Reasoning Routing in LLMs]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c0f14e0a13821a67</guid>
+    </item>
+    <item>
+      <title><![CDATA[RoleFlow: Self-Evolving Multi-Role Agentic Collaboration via Structural Adaptation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2417f5303876a25c</guid>
+    </item>
+    <item>
+      <title><![CDATA[Secure Agentic AI and Multimodal Intelligence in 6G Communication Systems]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ba0cbce6a040eb2e</guid>
+    </item>
+    <item>
+      <title><![CDATA[SpecMAGIC: Specification-Guided Multi-Task Generalization in Multi-Agent Reinforcement Learning]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2eb90347e6fc48ed</guid>
+    </item>
+    <item>
+      <title><![CDATA[A Three-Pillar Governance Framework for Safe and Trustworthy AI Agents]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2d144522f95ddbd5</guid>
+    </item>
+    <item>
+      <title><![CDATA[Same Beliefs, Different Policies: Learning Reusable Representations for Early Stopping in LLM Reasoning]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ba15493163009823</guid>
+    </item>
+    <item>
+      <title><![CDATA[Why Bother Me Again? Benchmarking Personal Agent Memory for Interaction Preferences]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8c284681f386f244</guid>
+    </item>
+    <item>
+      <title><![CDATA[MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">708391361566b8a9</guid>
+    </item>
+    <item>
+      <title><![CDATA[Prediction Is Not Calibration: Item Parameter Recovery and Representation Coupling in Knowledge Tracing]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d52b128e268051bc</guid>
+    </item>
+    <item>
+      <title><![CDATA[AI Mindmeld: A Latent Interconnect Protocol]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">51ce23968e89b15a</guid>
+    </item>
+    <item>
+      <title><![CDATA[When Reconstruction Is Not Enough: Doubly Robust Counterfactual and Interventional Mediation Analysis with Learned Multimodal Representations]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">7342ae45ae6ae509</guid>
+    </item>
+    <item>
+      <title><![CDATA[How Prompt Style Affects AI Accuracy and Speed in Competitive Programming]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">48a4ebccebedceda</guid>
+    </item>
+    <item>
+      <title><![CDATA[GANet: A Lightweight Group Attention Network for Plant Disease Identification on Embedded Systems]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4e9a3e89d14f0f68</guid>
+    </item>
+    <item>
+      <title><![CDATA[Benchmarking Model Compression Techniques Across Heterogeneous Edge Platforms: A Predictive Maintenance Use Case for Rotating Machinery]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">1d276b81bc41f9a4</guid>
+    </item>
+    <item>
+      <title><![CDATA[Automated screening of privacy risks in medical AI]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e262da08be76aa78</guid>
+    </item>
+    <item>
+      <title><![CDATA[Edit, Don't Imitate: Minimal-Edit On-Policy Distillation for Multimodal Reasoning]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">3306727f721cd49a</guid>
+    </item>
+    <item>
+      <title><![CDATA[A Quadratic Lens on Muon's Polar Update: Benefits, Pitfalls, and the Role of Newton-Schulz]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f9dc5603d4b03539</guid>
+    </item>
+    <item>
+      <title><![CDATA[Generalizing Metropolis-Hastings for DAG Sampling]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e2fc505628b4f8ab</guid>
+    </item>
+    <item>
+      <title><![CDATA[Spike-Aware Gradient-Based Mixed-Precision Quantization of Spiking Neural Networks for Vision Applications]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">3f54d6a55a5727b0</guid>
+    </item>
+    <item>
+      <title><![CDATA[Left alone with nothing to do, AI agents started playing]]></title>
+      <description><![CDATA[AI agents left to explore a virtual island without a specific task began inventing challenges of their own. MIT researchers say the behavior bears the hallmarks of play. The researchers put 13 AI agents called Eko, each running on Claude Opus 4.7, alone on a simulated desert island for 30 hours. The Eko agents that had spent those 30 hours playing generally beat identical agents that had never set foot on the island. The researchers see this technique — exploring without a goal — as a different way for AI agents to learn skills, especially skills that could one day be used to control robots. “We normally develop artificial agents by deciding in advance what they should practice, what they should optimize, and what counts as progress,” the researchers write in their report.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 23 Oct 2026 00:45:37 +0000</pubDate>
+      <guid isPermaLink="false">d53c28f28a557eab</guid>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI and Poland’s NASK partner to advance AI safety and security]]></title>
+      <description><![CDATA[OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d589aa35f6fd634e</guid>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI working on new $30B raise at $1.25T valuation ahead of IPO]]></title>
+      <description><![CDATA[OpenAI is reportedly close to securing another mega round of private funding, rather than plowing ahead with an IPO. The AI lab is working on raising up to $30 billion at a $1.25 trillion pre-money valuation in a round led by Coatue and investors in UAE. This follows a similar report by Bloomberg a month ago which said the AI lab was working on raising $30 billion at a $1.4 trillion valuation. That valuation would also raise the bar even higher for OpenAI’s forthcoming IPO. OpenAI filed confidential paperwork for an IPO in June, after its last raise in March valued the ChatGPT maker at $852 billion post-money . Anthropic raised $65 billion at a $965 billion valuation in May in what many believed at the time would be its last big round before an IPO.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 22 Oct 2026 22:08:24 +0000</pubDate>
+      <guid isPermaLink="false">56a77e40c3e0d285</guid>
+    </item>
+    <item>
+      <title><![CDATA[Canva’s first AI image model plans designs before generating them]]></title>
+      <description><![CDATA[Canva Craft can generate images at up to 2K resolution and in more than 30 aspect ratios. Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft , uses a two-stage architecture that allows it to plan a design before generating an image, allowing for “greater precision, consistency and control,” based on an announcement on Thursday . The model’s two-stage system allows it to more accurately generate complex images that require legible text and precise object placement, based on Canva. The new AI model builds on Canva’s big push into AI. Canva notes that its AI model comes with “robust input and output moderation, privacy and safety controls, and reporting tools.” The company plans to allow AI agents to plug into Canva Craft through the open Model Context Protocol, and will also roll out more efficient Craft-fast and Craft-ultrafast models in the future.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 22 Oct 2026 21:51:25 +0000</pubDate>
+      <guid isPermaLink="false">f76677a86c411257</guid>
+    </item>
+    <item>
+      <title><![CDATA[Meta&#8217;s AI could still scrape news sites, legal experts say]]></title>
+      <description><![CDATA[Meta’s new business terms could still help it justify training AI on scraped sites. Meta’s new business terms could still help it justify training AI on scraped sites. Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge — but legal experts say these changes aren’t enough to address their concerns. “This does nothing to restrict the ‘associated with your products or services’ [language] that would let Meta scrape entire sites,” James Grimmelmann, a professor of digital and information law at Cornell Law School, tells Nieman Lab . At the time, legal experts told Nieman Lab that this could allow Meta “to argue its commercial terms supersede other blocking instructions,” such as the robots.txt file that has historically told scrapers (including search engines like Google) what they are allowed to crawl. Meta has maintained that its new terms aren’t designed to scrape news content for free.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 22 Oct 2026 20:32:05 +0000</pubDate>
+      <guid isPermaLink="false">0b2ebe7aba7aa28d</guid>
+    </item>
+    <item>
+      <title><![CDATA[The science behind TorchNeuron, Amazon&#8217;s new PyTorch backend for AWS Trainium chips]]></title>
+      <description><![CDATA[Almost all of the crucial features of contemporary AI models, such as input data, model weights, and attention mechanisms, are represented by tensors, and PyTorch drastically simplifies writing code to manipulate them. This week, we revealed the availability of TorchNeuron, an open-source backend that translates PyTorch code into operations executable on AWS Trainium systems. TorchNeuron bridges PyTorch and Trainium, and both sides gain from it. TorchNeuron includes several optimizations that enable PyTorch code to run efficiently on Trainium, including caching at multiple levels and an optional “adaptive eager” mode that doesn’t execute individual operations one by one, as is typical in plain eager mode, but instead groups and compiles operations for more efficient execution, approaching fully compiled performance.]]></description>
+      <category>Research</category>
+      <pubDate>Thu, 22 Oct 2026 19:36:42 +0000</pubDate>
+      <guid isPermaLink="false">2b7f1127525db91c</guid>
+    </item>
+    <item>
+      <title><![CDATA[1Password launches a way for AI agents to log in on your behalf without seeing your password]]></title>
+      <description><![CDATA[Concerns have swirled over the access that consumers are increasingly entrusting to AI agents. Password manager 1Password on Thursday launched a new tool by which users can allow agents to log into their personal accounts on their behalf, without the agent ever having access to a user’s credentials. The new platform, dubbed 1Password for Agents , accomplishes this by creating a system of communication between the agent, the user, and the password manager. When an agent attempts to log in on a user’s behalf, a unique digital key is sent to 1Password to confirm the agent’s digital identity. The user is then sent an alert about the login attempt and can personally confirm the request. 1Password then signs in the agent, filling in the credentials on the digital assistant’s behalf, which allows it to log in and complete whatever task is at hand.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 22 Oct 2026 19:07:09 +0000</pubDate>
+      <guid isPermaLink="false">bbdddfafa6175bf3</guid>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI makes its Jev competitor widely available as decision model competition heats up]]></title>
+      <description><![CDATA[OpenAI made its Decisions API model widely available to users for the first time, entering the market for fast, cheap intelligence that recently made TypeSafe, a startup founded by a former researcher at the frontier lab, a $7.6 billion company . TypeSafe’s Jev model created a category for deep learning models that act as super classifiers: Given a set of options, they can quickly make choices and offer a confidence rating in their decision. Software developers quickly found that these decision or System One models could replace LLMs in a variety of workflows, operating more quickly and a at dramatically lower cost. Nikunj Handa, the product lead for OpenAI’s APIs, told TechCrunch that his colleagues saw Jev and said “wow, we we have like a million use cases for this.” Handa’s team sprinted to offer their own version: Rather than building a specifically calibrated decision model, the team took ChatGPT Luna and reconfigured it to speed up the inference and lower the cost.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 22 Oct 2026 19:00:00 +0000</pubDate>
+      <guid isPermaLink="false">22178effbcc8d37f</guid>
+    </item>
+    <item>
+      <title><![CDATA[Discord now formats Markdown previews right]]></title>
+      <description><![CDATA[Markdown files in Discord now render ‘all nice and neat’ thanks to a new update. Markdown files in Discord now render ‘all nice and neat’ thanks to a new update. Discord’s latest update released today has a big improvement for Markdown previews: they should now render correctly instead of with “a bunch of symbols,” based on the company. LLMs and AI agents often rely on Markdown files for instructions and context, so these improved previews could be helpful for people sharing information about AI projects on the platform. “When you upload a Markdown (.md) file, you’ll now see the file rendered all nice and neat and pretty instead of with a bunch of symbols,” Discord says . “This includes tables, formatting, all that good stuff. Discord says its new update also lets you organize servers and channels by right-clicking the icon on the sidebar and using a new “Move to…” feature. Discord Nitro members are also now able to upload files as large as 1GB.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 22 Oct 2026 18:58:19 +0000</pubDate>
+      <guid isPermaLink="false">116d4fd852696167</guid>
+    </item>
+    <item>
+      <title><![CDATA[Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’]]></title>
+      <description><![CDATA[Microsoft’s AI diagnostic system correctly diagnosed complex medical cases in a simulation more than twice as often as generalist physicians, based on a study published Thursday in Science. Mustafa Suleyman, Microsoft AI’s CEO, called the result a step toward “medical superintelligence.” The system, dubbed MAI-DxO (DxO for short), coordinates several AI agents that act like a panel of doctors. One note: Cases this complex are usually handled by specialists or physician teams, who weren’t part of the comparison. “There is something very substantial and exciting here,” Dominic King, vice president of Health at Microsoft AI, told TechCrunch. “The biggest challenge in healthcare delivery at the moment is the growing mismatch between demand and supply of medical expertise.” In publishing these results , Microsoft joins Go o gle and OpenAI in claiming that its AI can match or outperform doctors.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 22 Oct 2026 18:43:53 +0000</pubDate>
+      <guid isPermaLink="false">6e63cb4fe0361c13</guid>
+    </item>
+    <item>
+      <title><![CDATA[In Meta’s version of the future, I’ll have my Muse call your Muse]]></title>
+      <description><![CDATA[“Everyone is just going to have to adapt,” CFO Susan Li said during Meta’s third quarter earnings call. “Everyone is just going to have to adapt,” CFO Susan Li said during Meta’s third quarter earnings call. Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives — shopping for us, working for us, talking to other people’s AI agents for us. The more urgent question coming off Meta’s quarterly earnings call Wednesday night is more likely to be: “Is he?” Zuckerberg is staking Meta’s future on Muse, the personal AI agent it released to the general public last month.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 22 Oct 2026 18:15:00 +0000</pubDate>
+      <guid isPermaLink="false">6978a7f6627c78cc</guid>
+    </item>
+  </channel>
+</rss>

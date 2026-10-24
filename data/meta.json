@@ -1,0 +1,90 @@
+{
+  "total_articles": 252,
+  "today": 1,
+  "categories": 6,
+  "category_list": [
+    {
+      "category": "Research Papers",
+      "cnt": 99
+    },
+    {
+      "category": "Industry",
+      "cnt": 87
+    },
+    {
+      "category": "Research",
+      "cnt": 28
+    },
+    {
+      "category": "Company Updates",
+      "cnt": 25
+    },
+    {
+      "category": "Tutorials",
+      "cnt": 9
+    },
+    {
+      "category": "Open Source",
+      "cnt": 4
+    }
+  ],
+  "colours": {
+    "Research": "#6C5CE7",
+    "Industry": "#00B894",
+    "Company Updates": "#0984E3",
+    "Open Source": "#E17055",
+    "Research Papers": "#A29BFE",
+    "Tutorials": "#FDCB6E"
+  },
+  "trending": [
+    {
+      "keyword": "ai agent",
+      "count": 25
+    },
+    {
+      "keyword": "OpenAI",
+      "count": 19
+    },
+    {
+      "keyword": "LLM",
+      "count": 18
+    },
+    {
+      "keyword": "RAG",
+      "count": 9
+    },
+    {
+      "keyword": "GPT",
+      "count": 8
+    },
+    {
+      "keyword": "ChatGPT",
+      "count": 7
+    },
+    {
+      "keyword": "Anthropic",
+      "count": 6
+    },
+    {
+      "keyword": "GPU",
+      "count": 6
+    },
+    {
+      "keyword": "Meta",
+      "count": 6
+    },
+    {
+      "keyword": "machine learning",
+      "count": 6
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 6
+    },
+    {
+      "keyword": "NVIDIA",
+      "count": 6
+    }
+  ],
+  "built_at": "2026-10-24T12:23:21.576356"
+}

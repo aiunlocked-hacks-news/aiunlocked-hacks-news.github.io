@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5Z3TJDSQ9E"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5Z3TJDSQ9E');
+    </script>
+
+    <title>Linux Terminal — AI Unlocked</title>
+    <meta name="description" content="Practice Linux commands right in your browser — no setup required. A fully interactive terminal simulator by AI Unlocked." />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- xterm.js from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xterm/xterm@5.5.0/css/xterm.min.css" />
+
+    <!-- Site styles + terminal styles -->
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/terminal.css" />
+</head>
+<body>
+
+    <!-- ═══════════════════  HEADER  ═══════════════════ -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="./" class="logo">
+                <img class="logo-icon" src="assets/favicon.svg" alt="AI Unlocked" width="36" height="36" />
+                <span class="logo-text">AI <span class="accent">Unlocked</span></span>
+            </a>
+            <p class="tagline">Interactive Linux Terminal — practice commands in your browser</p>
+            <div class="header-actions">
+                <a href="./" class="btn btn-outline">← Back to News</a>
+                <button id="themeToggle" class="btn btn-icon" title="Toggle dark / light mode">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ═══════════════════  TOOLBAR  ═══════════════════ -->
+    <section class="terminal-toolbar">
+        <div class="container toolbar-inner">
+            <div class="toolbar-left">
+                <span class="toolbar-dot red"></span>
+                <span class="toolbar-dot yellow"></span>
+                <span class="toolbar-dot green"></span>
+                <span class="toolbar-title">user@aiunlocked:~</span>
+            </div>
+            <div class="toolbar-right">
+                <button id="btnReset" class="toolbar-btn" title="Reset terminal">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+                    Reset
+                </button>
+                <button id="btnFullscreen" class="toolbar-btn" title="Fullscreen">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+                    Fullscreen
+                </button>
+                <button id="btnHelp" class="toolbar-btn" title="Show help">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    Help
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  TERMINAL  ═══════════════════ -->
+    <main class="terminal-wrapper" id="terminalWrapper">
+        <div id="terminal" class="terminal-container"></div>
+    </main>
+
+    <!-- ═══════════════════  CHEATSHEET  ═══════════════════ -->
+    <section class="cheatsheet-section">
+        <div class="container">
+            <h2 class="cheatsheet-title">📋 Quick Command Reference</h2>
+            <div class="cheatsheet-grid">
+                <div class="cheat-group">
+                    <h3>📁 Files & Directories</h3>
+                    <div class="cheat-item"><code>ls</code> <span>List files</span></div>
+                    <div class="cheat-item"><code>ls -la</code> <span>Detailed list with hidden</span></div>
+                    <div class="cheat-item"><code>cd dir</code> <span>Change directory</span></div>
+                    <div class="cheat-item"><code>pwd</code> <span>Print working directory</span></div>
+                    <div class="cheat-item"><code>mkdir dir</code> <span>Create directory</span></div>
+                    <div class="cheat-item"><code>touch file</code> <span>Create empty file</span></div>
+                    <div class="cheat-item"><code>cp src dest</code> <span>Copy file</span></div>
+                    <div class="cheat-item"><code>mv src dest</code> <span>Move / rename</span></div>
+                    <div class="cheat-item"><code>rm file</code> <span>Remove file</span></div>
+                    <div class="cheat-item"><code>find . -name "*.txt"</code> <span>Find files</span></div>
+                </div>
+                <div class="cheat-group">
+                    <h3>📄 Text & Content</h3>
+                    <div class="cheat-item"><code>cat file</code> <span>Show file contents</span></div>
+                    <div class="cheat-item"><code>head -n 5 file</code> <span>First N lines</span></div>
+                    <div class="cheat-item"><code>tail -n 5 file</code> <span>Last N lines</span></div>
+                    <div class="cheat-item"><code>echo "text"</code> <span>Print text</span></div>
+                    <div class="cheat-item"><code>echo "text" > file</code> <span>Write to file</span></div>
+                    <div class="cheat-item"><code>echo "text" >> file</code> <span>Append to file</span></div>
+                    <div class="cheat-item"><code>grep word file</code> <span>Search in file</span></div>
+                    <div class="cheat-item"><code>wc file</code> <span>Count lines/words</span></div>
+                    <div class="cheat-item"><code>sort file</code> <span>Sort lines</span></div>
+                    <div class="cheat-item"><code>uniq file</code> <span>Remove duplicates</span></div>
+                </div>
+                <div class="cheat-group">
+                    <h3>⚙️ System & Utils</h3>
+                    <div class="cheat-item"><code>whoami</code> <span>Current user</span></div>
+                    <div class="cheat-item"><code>hostname</code> <span>Machine name</span></div>
+                    <div class="cheat-item"><code>date</code> <span>Current date/time</span></div>
+                    <div class="cheat-item"><code>uname -a</code> <span>System info</span></div>
+                    <div class="cheat-item"><code>uptime</code> <span>System uptime</span></div>
+                    <div class="cheat-item"><code>history</code> <span>Command history</span></div>
+                    <div class="cheat-item"><code>clear</code> <span>Clear screen</span></div>
+                    <div class="cheat-item"><code>export VAR=val</code> <span>Set env variable</span></div>
+                    <div class="cheat-item"><code>env</code> <span>Show environment</span></div>
+                    <div class="cheat-item"><code>alias ll="ls -la"</code> <span>Create alias</span></div>
+                </div>
+                <div class="cheat-group">
+                    <h3>🔗 Piping & Redirection</h3>
+                    <div class="cheat-item"><code>cmd1 | cmd2</code> <span>Pipe output</span></div>
+                    <div class="cheat-item"><code>cmd > file</code> <span>Redirect output</span></div>
+                    <div class="cheat-item"><code>cmd >> file</code> <span>Append output</span></div>
+                    <div class="cheat-item"><code>Tab</code> <span>Auto-complete</span></div>
+                    <div class="cheat-item"><code>↑ / ↓</code> <span>Command history</span></div>
+                    <div class="cheat-item"><code>Ctrl+C</code> <span>Cancel command</span></div>
+                    <div class="cheat-item"><code>Ctrl+L</code> <span>Clear screen</span></div>
+                    <div class="cheat-item"><code>chmod 755 file</code> <span>Change permissions</span></div>
+                    <div class="cheat-item"><code>du</code> <span>Disk usage</span></div>
+                    <div class="cheat-item"><code>df</code> <span>Disk free space</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════  FOOTER  ═══════════════════ -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <img src="assets/favicon.svg" alt="AI Unlocked" width="32" height="32" style="margin: 0 auto 10px; display: block; opacity: 0.6;" />
+            <p>
+                <strong>AI Unlocked</strong> — your daily dose of AI news, curated and summarised.<br/>
+                Built with ❤️ for the AI community.
+            </p>
+            <p class="footer-small">Updated daily&ensp;·&ensp;Powered by AI Unlocked&ensp;·&ensp;<a href="rss.xml" style="color:var(--accent)">RSS Feed</a></p>
+        </div>
+    </footer>
+
+    <!-- xterm.js + fit addon from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@xterm/xterm@5.5.0/lib/xterm.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@xterm/addon-fit@0.10.0/lib/addon-fit.min.js"></script>
+
+    <!-- Theme toggle (reuse from main site) -->
+    <script>
+        const $t = document.getElementById("themeToggle");
+        function initTheme() {
+            const saved = localStorage.getItem("aiunlocked-theme");
+            const prefer = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            const theme = saved || (prefer ? "dark" : "light");
+            document.documentElement.setAttribute("data-theme", theme);
+            $t.textContent = theme === "dark" ? "☀️" : "🌙";
+        }
+        $t.addEventListener("click", () => {
+            const c = document.documentElement.getAttribute("data-theme");
+            const n = c === "dark" ? "light" : "dark";
+            document.documentElement.setAttribute("data-theme", n);
+            localStorage.setItem("aiunlocked-theme", n);
+            $t.textContent = n === "dark" ? "☀️" : "🌙";
+            // Update xterm theme
+            if (window.updateTermTheme) window.updateTermTheme(n);
+        });
+        initTheme();
+    </script>
+
+    <!-- Terminal simulator -->
+    <script src="assets/terminal.js"></script>
+</body>
+</html>
