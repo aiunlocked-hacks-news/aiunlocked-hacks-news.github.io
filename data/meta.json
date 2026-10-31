@@ -1,0 +1,50 @@
+{
+  "total_articles": 224,
+  "today": 15,
+  "categories": 6,
+  "category_list": [
+    {
+      "category": "Industry",
+      "cnt": 93
+    },
+    {
+      "category": "Research Papers",
+      "cnt": 72
+    },
+    {
+      "category": "Company Updates",
+      "cnt": 23
+    },
+    {
+      "category": "Research",
+      "cnt": 22
+    },
+    {
+      "category": "Tutorials",
+      "cnt": 11
+    },
+    {
+      "category": "Open Source",
+      "cnt": 3
+    }
+  ],
+  "colours": {
+    "Research": "#6C5CE7",
+    "Industry": "#00B894",
+    "Company Updates": "#0984E3",
+    "Open Source": "#E17055",
+    "Research Papers": "#A29BFE",
+    "Tutorials": "#FDCB6E"
+  },
+  "trending": [
+    {
+      "keyword": "ai agent",
+      "count": 6
+    },
+    {
+      "keyword": "LLM",
+      "count": 2
+    }
+  ],
+  "built_at": "2026-10-31T14:11:12.952836"
+}
