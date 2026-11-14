@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Unlocked — Daily AI News</title>
+    <link>https://aiunlocked.info</link>
+    <description>Your daily AI news — curated and summarised. Research, industry, open source, and more.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Nov 2026 14:41:54 +0000</lastBuildDate>
+    <atom:link href="https://aiunlocked.info/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[Data From 100+ AI Agents Shows They Fail by Silent Drift, Not Errors]]></title>
+      <description><![CDATA[Quality and token alerts were early signals for 38% of agents and errors for about 1%, so monitoring should start with quality, cost, and latency. The post Data From 100+ AI Agents Shows They Fail by Silent Drift, Not Errors appeared first on Towards Data Science .]]></description>
+      <category>Tutorials</category>
+      <pubDate>Sat, 14 Nov 2026 13:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d2181a8c4843e4cc</guid>
+    </item>
+    <item>
+      <title><![CDATA[Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs]]></title>
+      <description><![CDATA[Stanford researchers have released Memorilla , an open-source memory system for LLMs. The Memorilla memory system reads a whole document collection and hands a frozen LLM just 16 memory tokens. On FactKG, a frozen Qwen3-8B scored 84.33% with Memorilla, against 80.43% with every document in context . Memorilla is a memory module that turns a document collection into 16 vectors for a frozen LLM. A frozen LLM can only use what sits in its context window. His most recent endeavor is the launch of an Artificial Intelligence Media Platform, Marktechpost, which stands out for its in-depth coverage of machine learning and deep learning news that is both technically sound and easily understandable by a wide audience.]]></description>
+      <category>Research</category>
+      <pubDate>Sat, 14 Nov 2026 10:21:21 +0000</pubDate>
+      <guid isPermaLink="false">e2f1f6848678c3c4</guid>
+    </item>
+    <item>
+      <title><![CDATA[OpenAI Introduces ChatGPT Wallet for Agent-Led Payments]]></title>
+      <description><![CDATA[OpenAI has introduced ChatGPT Wallet, a payment feature that allows AI agents to make purchases on behalf of users without accessing their actual card details. The move expands ChatGPT’s role in online shopping, allowing users to move from researching and comparing products to completing purchases through AI agents. With ChatGPT Wallet, users add a payment card once and authorise individual purchases without repeatedly entering their payment details. Users will continue to transact directly with merchants, which retain control over pricing, fulfilment, returns, and customer service. “ChatGPT Wallet marks our first American Express Agentic Commerce Experiences integration, enabling eligible Card Members to use their Amex Card while reviewing and approving each purchase,” said Luke Gebb, EVP and Head of Global Innovation at American Express.]]></description>
+      <category>Industry</category>
+      <pubDate>Sat, 14 Nov 2026 05:25:04 +0000</pubDate>
+      <guid isPermaLink="false">e989e1954a0ecc14</guid>
+    </item>
+    <item>
+      <title><![CDATA[AI Chatbots and Children: Should India Regulate What Bots Say?]]></title>
+      <description><![CDATA[It captures something governments around the world are beginning to grapple with: children are not just using AI chatbots to complete homework; they are turning to them for companionship, emotional support, and conversations they might hesitate to have with people. It does not ban children from using all AI chatbots. While chatbots can offer children a convenient space to ask questions and express themselves, their ability to simulate empathy also raises concerns about emotional dependency, mental health and the boundaries between human relationships and machine interactions. A 2025 clinical report in the Journal of Psychosexual Health described a 14-year-old Indian boy who survived a suicide attempt after growing dependent on chatbots, including ChatGPT, Gemini and DeepSeek. Research by Aanya Lakhanpal and Dr Shalini Duggal, published in the International Journal of Indian Psychology on April 26, 2026, surveyed 101 adolescents aged 13 to 18 about using chatbots for therapy.]]></description>
+      <category>Industry</category>
+      <pubDate>Sat, 14 Nov 2026 04:37:52 +0000</pubDate>
+      <guid isPermaLink="false">fdfb634a0c2db5cc</guid>
+    </item>
+    <item>
+      <title><![CDATA[Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say]]></title>
+      <description><![CDATA[Jensen Huang, Nvidia’s embattled CEO who co-founded and led the company for 33 years, had officially stepped down . “It’s like a bomb went off,” one neocloud founder told TechCrunch when he first heard the news. Huang’s absence leaves the startup ecosystem without one of its biggest champions and with far less capital for now, investors say, which could have a massive impact on dealmaking, valuations, funding, and even competition. “Nvidia is carrying almost every AI-native startup from application to neocloud,” Dawn Capital’s Shamillah Bankiya told TechCrunch. Nvidia’s interim CEO, Colette Kress, is likely to institute some changes , especially when it comes to Nvidia’s investments into AI startups at the crux of the billion-dollar data center build-out . It bought Hugging Face this year for $13 billion (expected to close in 2027) and holds investments in Mistral AI, Lambda, and Black Forest Labs.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 13 Nov 2026 22:43:00 +0000</pubDate>
+      <guid isPermaLink="false">34bbe63c1965d94a</guid>
+    </item>
+    <item>
+      <title><![CDATA[ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you]]></title>
+      <description><![CDATA[OpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents.﻿ OpenAI says ChatGPT Wallet won’t share your actual credit card info with its AI agents.﻿ After adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they’ll check in with you each time before checking out. OpenAI’s support page says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan. After you review the AI agent’s purchase and sign off on it, OpenAI says that, similar to using tap to pay , Apple Pay , or Google Wallet , it substitutes your credit card details with a payment token, so your actual card info isn’t shared with your Dots agent or the business you’re buying from.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 13 Nov 2026 20:45:10 +0000</pubDate>
+      <guid isPermaLink="false">7cc9669d13a86229</guid>
+    </item>
+    <item>
+      <title><![CDATA[AI agent startup LangChain hits $3B valuation]]></title>
+      <description><![CDATA[Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company revealed on Friday. That’s more than double its $1.25 billion valuation when it raised $125 million about a year ago , led by IVP. LangChain began in 2022 as a popular open source project that handled the kinds of tasks that early-stage LLMs found difficult, like searching the web, calling APIs, and interacting with databases. As the frontier AI labs delivered harnesses that now competently do those tasks, LangChain turned its focus toward managing AI agents. With its open source roots, the startup says its agent creation and management software, LangSmith, is not trying to lock users into any particular model, cloud, or ecosystem, unlike the major clouds or frontier AI labs.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 13 Nov 2026 19:37:57 +0000</pubDate>
+      <guid isPermaLink="false">91d2c664a5eea2b8</guid>
+    </item>
+    <item>
+      <title><![CDATA[Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!]]></title>
+      <description><![CDATA[The leading open-weight models developed by Chinese companies were trained on Nvidia chips that the U.S. government restricted from shipping to its largest geopolitical rival, a new research effort claims. Nvidia CEO Jensen Huang left the company this week after admitting to his affair with Alice Huang, executive of Megaspeed, a company implicated in smuggling Nvidia chips into China. While Jensen Huang’s relationships with a customer and two employees have drawn the most public interest, Nvidia’s potential corporate liability for export control violations likely factored into its decision to part ways with Huang. Blackwell GPUs are banned from export to China or Chinese-owned firms, while the Trump administration allows Nvidia to export the H200, a less powerful chip, provided shipments take a circuitous shipping route that allows the U.S. to claim a 25% tariff.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 13 Nov 2026 18:40:30 +0000</pubDate>
+      <guid isPermaLink="false">dc1bf73a55ac2728</guid>
+    </item>
+    <item>
+      <title><![CDATA[ChatGPT’s new Wallet lets AI agents shop and check out for you]]></title>
+      <description><![CDATA[OpenAI says that users are fully in control of the purchases, as they’re able to review the items, the total, and the payment card that will be used to complete the transaction before the checkout occurs. While companies like DoorDash and Uber have so far reported low numbers of orders placed by AI agents, Meta’s Muse, which now has over 10 million users, has seen AI-assisted shopping become a top activity on its app. Other personal AI agents, like Instinct, also support making purchases on users’ behalf. It’s no surprise, then, that OpenAI would want to enter this space more with an agentic shopping feature of its own. This could be a challenge in some areas, where retailers are blocking AI agents from using their site ; on the shopping front, the largest retailer to ban AI agents is Amazon, as it aims to steer users to its own AI agent, Alexa, instead.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 13 Nov 2026 16:00:12 +0000</pubDate>
+      <guid isPermaLink="false">828eaa19ea7402f3</guid>
+    </item>
+    <item>
+      <title><![CDATA[Introducing ChatGPT Wallet]]></title>
+      <description><![CDATA[Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Fri, 13 Nov 2026 15:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8c23c72f8d6120b3</guid>
+    </item>
+    <item>
+      <title><![CDATA[llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem]]></title>
+      <description><![CDATA[llama.cpp makes it possible to run multi-modal LLMs across a wide range of hardware - from consumer-grade local machines to high-end enterprise servers. We expect this trend to continue as local AI and privacy become increasingly important in our everyday lives. Moving forward, both llama.cpp and ggml will reflect API and ABI incompatibilities with major-version bumps. The underlying machine learning engine of llama.cpp - ggml is designed to run on virtually any hardware in existence. The llama.cpp team at Hugging Face is thankful for the incredible support from the community. I am not connected. llama.cpp is nice but still needs improvement on huge prompt processing or aka prefill.]]></description>
+      <category>Open Source</category>
+      <pubDate>Fri, 13 Nov 2026 14:05:22 +0000</pubDate>
+      <guid isPermaLink="false">812aed6d608874a4</guid>
+    </item>
+    <item>
+      <title><![CDATA[Claude’s Duet agent is a little neurotic and surprisingly helpful]]></title>
+      <description><![CDATA[Duet is a decent helper, if a little jumpy at times. Claude Duet is Anthropic’s AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don’t write code. Claude Duet is even more focused on work than those. This sometimes felt like interacting with a slightly neurotic personal assistant In other cases, it was surprisingly helpful. I don’t think Duet or any other AI agent is quite ready to make us feel like we’re all the CEOs of our own little worlds. Anthropic’s blog post mentions that the company is continuing to “test its judgment about when to message you,” so it’s possible Duet will calibrate a little better over time.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 13 Nov 2026 14:00:00 +0000</pubDate>
+      <guid isPermaLink="false">70b4db913052564d</guid>
+    </item>
+    <item>
+      <title><![CDATA[What AI Agents Speed Up in PhD Research, and What They Can't]]></title>
+      <description><![CDATA[A PhD student in ML and ecology on why faster code, experiments, and drafts don't fix data with a backstory, and three predictions for how labs will change. The post What AI Agents Speed Up in PhD Research, and What They Can't appeared first on Towards Data Science .]]></description>
+      <category>Tutorials</category>
+      <pubDate>Fri, 13 Nov 2026 13:30:00 +0000</pubDate>
+      <guid isPermaLink="false">5e881a775278d9d3</guid>
+    </item>
+    <item>
+      <title><![CDATA[SoftBank's AI Empire Rests on a Single Asset—And It's Over-Leveraged]]></title>
+      <description><![CDATA[Last year, SoftBank Group Chairman and CEO Masayoshi Son declared his vision of turning the Japanese technology investment group into the biggest platform provider for “artificial super intelligence”. SoftBank is ramping up AI infrastructure commitments, ramping up capital across chips, AI models and data centres, while relying on its existing assets and borrowing capacity to fund that expansion. The chip designer is SoftBank's strongest AI asset, but it also serves as collateral for borrowing that supports its wider investment strategy, including its nearly $65 billion investment in OpenAI , where returns are slower and less certain. SoftBank groups its AI investments into four pillars: chips (Arm), models (OpenAI), infrastructure (data centres and power), and physical AI (robotics).]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 13 Nov 2026 13:30:00 +0000</pubDate>
+      <guid isPermaLink="false">952aa499eb2b2cf5</guid>
+    </item>
+    <item>
+      <title><![CDATA[How to Check Local LLM Output with Ollama, Gemma 4, and Nimble]]></title>
+      <description><![CDATA[Gemma 4 E2B drafts the replies, Bespoke Labs' Nimble 9B picks accept, revise, or human review, and only flagged questions get a focused retry. The post How to Check Local LLM Output with Ollama, Gemma 4, and Nimble appeared first on Towards Data Science .]]></description>
+      <category>Tutorials</category>
+      <pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+      <guid isPermaLink="false">fee59a6f8079a177</guid>
+    </item>
+    <item>
+      <title><![CDATA[Adobe, Google Expand AI Partnership Across Creative and Productivity Tools]]></title>
+      <description><![CDATA[Adobe and Google have expanded their strategic partnership to integrate Google's artificial intelligence models into Adobe's creative software and extend Adobe's tools across Google's products, including Workspace, Gemini, and Google Search. The collaboration will bring Google's latest image and video models to Adobe Firefly, Photoshop, Premiere, and Express, while integrating Gemini models into Acrobat's AI-powered document capabilities. Adobe will further expand its integrations with Gemini and Gemini Enterprise, bringing Acrobat and additional creative tools into these platforms. Adobe's creative tools will also become accessible through AI Mode in Google Search. Meanwhile, Google’s image and video models will be available across Adobe's creative applications . The integration builds on Adobe's multi-model strategy, which allows users to work with different AI models alongside its professional editing tools.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 13 Nov 2026 10:51:59 +0000</pubDate>
+      <guid isPermaLink="false">e7429167d3aeed3b</guid>
+    </item>
+    <item>
+      <title><![CDATA[Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs]]></title>
+      <description><![CDATA[Google Cloud has released TPU Sync , an open-source C++ library for moving KV caches and model weights on Cloud TPUs. The Google TPU Sync KV cache transfer library treats TPU HBM, host DRAM, shared storage and the data center network as one memory hierarchy. TPU Sync is an open-source C++ library from Google that moves TPU-tiled tensors across memory tiers with asynchronous DMA. Google lists 4 design choices: Above this sit a global KV store for prefix lookups, a transfer controller and a KV cache manager. TPU Sync integrates with PyTorch through TorchTPU and with JAX natively. In SGLang-TorchTPU , it is the P/D transfer backend and hierarchical cache I/O backend.]]></description>
+      <category>Research</category>
+      <pubDate>Fri, 13 Nov 2026 10:32:26 +0000</pubDate>
+      <guid isPermaLink="false">814f2acddcbe820d</guid>
+    </item>
+    <item>
+      <title><![CDATA[Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash]]></title>
+      <description><![CDATA[Google has released Gemini 4 Hydrogen , a fast model for coding and agentic work. Gemini 4 Hydrogen is a proprietary model from Google DeepMind built for everyday agent loops. Google calls it its “daily driver for agentic workflows.” Hydrogen is a closed-weights model served through the Gemini API and Google products. Hydrogen finishes tasks 2.5x faster than 3.8 Flash at the default high level. Google also reports more than 5x fewer fabricated claims than 3.8 Flash. It is live in the Gemini API, Google AI Studio on all tiers, and Android Studio.]]></description>
+      <category>Research</category>
+      <pubDate>Fri, 13 Nov 2026 09:45:48 +0000</pubDate>
+      <guid isPermaLink="false">80ea6c34f64903a6</guid>
+    </item>
+    <item>
+      <title><![CDATA[Google Launches Gemini 4 Hydrogen for Faster Coding and AI Workflows]]></title>
+      <description><![CDATA[Google has launched Gemini 4 Hydrogen, targeting coding, research, and everyday business tasks. On Terminal-Bench 4.0, Orchestrator achieved task success rates close to Carbon while consuming 24% less quota on average and completing tasks 19% faster, Google said. Google said Gemini 4 Hydrogen scored 51 on the Artificial Analysis Intelligence Index at its default high thinking level, compared with 50 for Gemini 4 Argon. Compared with Gemini 3.8 Flash , Google said that Hydrogen completes tasks 2.5 times faster at its default high thinking level. Google said Gemini 4 Hydrogen is rolling out globally across its developer, enterprise, and consumer products. Google has priced Hydrogen at $1.50 per million input tokens and $7.50 per million output tokens across its 1-million-token context window.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 13 Nov 2026 09:24:56 +0000</pubDate>
+      <guid isPermaLink="false">90a7327ae0f92744</guid>
+    </item>
+    <item>
+      <title><![CDATA[Shield helps technicians hand off legacy portal work with OpenAI]]></title>
+      <description><![CDATA[Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.]]></description>
+      <category>Company Updates</category>
+      <pubDate>Fri, 13 Nov 2026 08:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b1d639a251b9b815</guid>
+    </item>
+    <item>
+      <title><![CDATA[Microsoft Outage: Fix Fails to Restore Outlook, Teams, Copilot Across 74 Countries]]></title>
+      <description><![CDATA[Microsoft is struggling to restore services following a global outage that disrupted Outlook, Teams, Copilot, and several other Microsoft 365 applications. Other affected services included Microsoft Word, Excel, PowerPoint, OneDrive, and SharePoint, although the extent of disruption varied across applications. The disruption primarily originated in Exchange Online, Microsoft's cloud-based email infrastructure that powers Outlook. Microsoft initially attributed the connectivity problems to elevated loads across its infrastructure after a large number of servers became unexpectedly unavailable. OpenAI reported problems with its Microsoft 365 connectors, warning that new connections could fail and connected tools might not work as expected. Anthropic separately reported failures involving mail, calendar, and search functions in its Microsoft 365 connector, along with disruptions to Claude for Outlook.]]></description>
+      <category>Industry</category>
+      <pubDate>Fri, 13 Nov 2026 06:55:13 +0000</pubDate>
+      <guid isPermaLink="false">30dba2222ca56c9e</guid>
+    </item>
+    <item>
+      <title><![CDATA[Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">0fdb0dc023b53ac3</guid>
+    </item>
+    <item>
+      <title><![CDATA[Together Compiler: Continual Compilation for AI Inference]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4a932980640f3b04</guid>
+    </item>
+    <item>
+      <title><![CDATA[When Should Semantic Priors Enter Partially-Identified Causal Discovery?]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">60ee9322aa9e555f</guid>
+    </item>
+    <item>
+      <title><![CDATA[SynthCorp: A Platform for Creating Benchmarks for Data Agents]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">900d1eb195e6bcaf</guid>
+    </item>
+    <item>
+      <title><![CDATA[Rational Use of Time for Social Coordination in Humans and AI]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">386d40fc0a85a1d3</guid>
+    </item>
+    <item>
+      <title><![CDATA[Robust Task-Aware State Estimation from Pre-trained Perception]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">02f92f50ad2ac862</guid>
+    </item>
+    <item>
+      <title><![CDATA[When Is Proof-Step Verification Worth Its Cost? Operating Requirements of Certify-or-Decline Verification for Open-Weight Mathematical Reasoning]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c7ff179f8811458f</guid>
+    </item>
+    <item>
+      <title><![CDATA[GenPFN: An In-Context Tabular Foundation Model Approach for Augmenting Small Datasets in Engineering]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9e0157266d1445ad</guid>
+    </item>
+    <item>
+      <title><![CDATA[AutoAssumption: Searching over Assumptions Discovers ML-Systems Algorithms]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">6cd534f4a3158e8e</guid>
+    </item>
+    <item>
+      <title><![CDATA[Open Challenges and Opportunities in Human-Agent Systems]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ed0da8e762d9ecba</guid>
+    </item>
+    <item>
+      <title><![CDATA[Effective Teacher Support for Reasoning Distillation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cc77e2d3b90bf860</guid>
+    </item>
+    <item>
+      <title><![CDATA[Can an AI Agent Be Epistemically Akratic? Higher-Order Evidence & the Limits of Self-Correction]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">6f8b9570cfa58f30</guid>
+    </item>
+    <item>
+      <title><![CDATA[MuEdit: An efficient multi-task editing method towards inter-domain knowledge conflicts]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5694cdf1f6883cd6</guid>
+    </item>
+    <item>
+      <title><![CDATA[CAFIN: CUDA-accelerated Adaptive Fisher Information Matrix Network Optimization via GPU-Native Kernel Fusion]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">be33849c5d590847</guid>
+    </item>
+    <item>
+      <title><![CDATA[An Asynchronous Federated Learning Platform for Lung Adenocarcinoma Grading via Foundation Models and Structural Pruning]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5e85e6e4bb462736</guid>
+    </item>
+    <item>
+      <title><![CDATA[Adversarial Risk in the Generative AI Era Necessitates Dropping the Small Epsilon Ball]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5780e9a25ff9b32e</guid>
+    </item>
+    <item>
+      <title><![CDATA[StructRL: Model-Free Reinforcement Learning with Replay Graphs]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ef160e80a5345270</guid>
+    </item>
+    <item>
+      <title><![CDATA[KernelMosaic: An Open Dataset and Agentic Framework for CUDA Kernel Generation]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f6de7d9131a46e0d</guid>
+    </item>
+    <item>
+      <title><![CDATA[Thompson Sampling using Prior-fitted Diffusion Transformers]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">0b5d24decdf14f51</guid>
+    </item>
+    <item>
+      <title><![CDATA[Closing the Loop: Co-Evolving EM for Irregular Time Series Generation in Lifted Representations]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">71fb257823e73530</guid>
+    </item>
+    <item>
+      <title><![CDATA[Trait Hitchhiking in LLM Post-Training]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d35dc4ee5eeaf52d</guid>
+    </item>
+    <item>
+      <title><![CDATA[Beyond Row-Level Prediction: Evaluating and Learning Composition for Reusable Table Representations]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">3130280f58e8faed</guid>
+    </item>
+    <item>
+      <title><![CDATA[Code as Explanations: Executable and Verifiable LLM Explanations]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">bd165470d4150b59</guid>
+    </item>
+    <item>
+      <title><![CDATA[UniPipe: Unified Inference Serving and Fine-Tuning for Deadline-Constrained DNN Surrogate Workflows]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b0a122a27cd6016e</guid>
+    </item>
+    <item>
+      <title><![CDATA[From Nodes to Pixels: Topological and Structural Two-View Graph Imaging]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e0aa93735bedcb63</guid>
+    </item>
+    <item>
+      <title><![CDATA[Graph Label Alignment: A Diagnostic Atlas for Graph Classification]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4d85d9a730539692</guid>
+    </item>
+    <item>
+      <title><![CDATA[SPIRE: Task-agnostic embodied continual learning through autonomous situation inference and causal motor-primitive reuse]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a4e61b8e15019b70</guid>
+    </item>
+    <item>
+      <title><![CDATA[Generalize Then Personalize: Wearable-Based Heart Rate Forecasting Under Scarce Ruck-March Data]]></title>
+      <description><![CDATA[arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .]]></description>
+      <category>Research Papers</category>
+      <pubDate>Fri, 13 Nov 2026 05:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e1662e2a58651b57</guid>
+    </item>
+    <item>
+      <title><![CDATA[Google’s new Gemini model is better at understanding complicated questions]]></title>
+      <description><![CDATA[Google’s Robby Stein says Gemini 4 Hydrogen is ‘the biggest model upgrade to Search yet.’﻿ Google’s Robby Stein says Gemini 4 Hydrogen is ‘the biggest model upgrade to Search yet.’﻿ Google says Gemini 4 Hydrogen also gives users a wider range of links in its responses by “conducting simultaneous queries across all the relevant subtopics.” Its responses have more visuals, too, like images, comparison tables, graphs, and maps. One of Stein’s examples shows the AI generating an interactive animated driving simulation in response to a user’s question about how phones locate which lane of a highway a car is on in areas without cell service. Google says the new model also has improved language understanding “across all supported AI Mode languages.” Users have more thinking level options with Gemini 4 Hydrogen, as well, including low, medium, high, and a new “xhigh” mode.]]></description>
+      <category>Industry</category>
+      <pubDate>Thu, 12 Nov 2026 21:55:32 +0000</pubDate>
+      <guid isPermaLink="false">11f5bbf7a4c901f5</guid>
+    </item>
+  </channel>
+</rss>

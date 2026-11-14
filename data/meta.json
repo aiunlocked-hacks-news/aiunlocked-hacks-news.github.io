@@ -1,0 +1,54 @@
+{
+  "total_articles": 251,
+  "today": 4,
+  "categories": 6,
+  "category_list": [
+    {
+      "category": "Research Papers",
+      "cnt": 108
+    },
+    {
+      "category": "Industry",
+      "cnt": 76
+    },
+    {
+      "category": "Company Updates",
+      "cnt": 28
+    },
+    {
+      "category": "Research",
+      "cnt": 21
+    },
+    {
+      "category": "Tutorials",
+      "cnt": 13
+    },
+    {
+      "category": "Open Source",
+      "cnt": 5
+    }
+  ],
+  "colours": {
+    "Research": "#6C5CE7",
+    "Industry": "#00B894",
+    "Company Updates": "#0984E3",
+    "Open Source": "#E17055",
+    "Research Papers": "#A29BFE",
+    "Tutorials": "#FDCB6E"
+  },
+  "trending": [
+    {
+      "keyword": "ai agent",
+      "count": 2
+    },
+    {
+      "keyword": "GPT",
+      "count": 2
+    },
+    {
+      "keyword": "ChatGPT",
+      "count": 2
+    }
+  ],
+  "built_at": "2026-11-14T14:41:54.828513"
+}
