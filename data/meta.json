@@ -1,0 +1,50 @@
+{
+  "total_articles": 274,
+  "today": 13,
+  "categories": 6,
+  "category_list": [
+    {
+      "category": "Research Papers",
+      "cnt": 131
+    },
+    {
+      "category": "Industry",
+      "cnt": 70
+    },
+    {
+      "category": "Company Updates",
+      "cnt": 36
+    },
+    {
+      "category": "Research",
+      "cnt": 22
+    },
+    {
+      "category": "Tutorials",
+      "cnt": 12
+    },
+    {
+      "category": "Open Source",
+      "cnt": 3
+    }
+  ],
+  "colours": {
+    "Research": "#6C5CE7",
+    "Industry": "#00B894",
+    "Company Updates": "#0984E3",
+    "Open Source": "#E17055",
+    "Research Papers": "#A29BFE",
+    "Tutorials": "#FDCB6E"
+  },
+  "trending": [
+    {
+      "keyword": "OpenAI",
+      "count": 2
+    },
+    {
+      "keyword": "LLM",
+      "count": 2
+    }
+  ],
+  "built_at": "2026-11-21T15:51:11.986079"
+}
